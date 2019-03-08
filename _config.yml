@@ -1,0 +1,15 @@
+# Site settings
+title: Aurora User Docs
+baseurl:
+
+collections:
+  docs:
+    output: true
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock

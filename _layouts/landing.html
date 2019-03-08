@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div>
+	<h1>Landing</h1>
+	<h2>Available Docs:</h2>
+	<ul>
+		{% for doc in site.docs %}
+			<li><a href="{{doc.url}}">{{ doc.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
