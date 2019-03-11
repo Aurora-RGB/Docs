@@ -1,0 +1,17 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+	background: $background-primary;
+	color: $text-primary;
+
+	font-family: $font-face;
+	font-weight: $font-weight;
+	font-size: $font-size;
+}
+
+body {
+	margin-top: $header-height;
+}
+
+* { box-sizing: border-box; }

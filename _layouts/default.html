@@ -5,17 +5,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>{{ page.title | escape }} • {{ site.title | escape }}</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 	</head>
 	<body>
 		{%- include header.html -%}
 
-		<main class="page-content" aria-label="Content">
-			<div class="wrapper">
-				{{ content }}
-			</div>
+		<main>
+			{%- include nav.html -%}
+			<article>
+				<section>{{ content }}</section>
+				{%- include footer.html -%}
+			</article>
 		</main>
-
-		{%- include footer.html -%}
 	</body>
 </html>

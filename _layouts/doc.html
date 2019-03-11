@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul>
+{% for author in page.authors %}
+	<li>{% avatar user=author %}</li>
+{% endfor %}
+</ul>
+
+{{ content }}

@@ -9,6 +9,10 @@ collections:
 # Build settings
 markdown: kramdown
 
+# Plugins
+plugins:
+  - jekyll-avatar
+
 # Exclude from processing
 exclude:
   - Gemfile

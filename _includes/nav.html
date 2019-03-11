@@ -1,0 +1,13 @@
+<div class="nav-background"></div> <!-- Extends the secondary background from the nav menu to the left of the page -->
+<nav>
+	{% assign categories = site.docs | group_by: 'category' %}
+	{% for category in categories %}
+		<span class="nav-title">{{ category.name }}</span>
+		<ul class="nav-list">
+			{% assign items = category.items | sort: 'order' %}
+			{% for item in items %}
+				<li class="{% if page.url == item.url %}active{% endif %}"><a href="{{item.url}}">{{item.title}}</a></li>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+</nav>
