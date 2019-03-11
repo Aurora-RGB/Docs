@@ -1,0 +1,48 @@
+.author-list {
+	list-style: none;
+	padding: 0;
+
+	li {
+		display: inline;
+		position: relative;
+
+		.avatar {
+			border-radius: 50%;
+		}
+
+		&::after {
+			display: block;
+			position: absolute;
+			content: attr(data-username);
+			bottom: -24px;
+			background: black;
+			z-index: 99;
+			padding: 4px;
+			font-size: .8rem;
+			border-radius: 6px;
+			opacity: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			transition: opacity 300ms ease-in-out;
+		}
+
+		&:hover::after {
+			opacity: .8;
+		}
+	}
+}
+
+.toc, .toc ul {
+	list-style: none;
+	padding-left: 12px;
+
+	a {
+		text-decoration: none;
+		color: rgba($text-primary, .9);
+		font-size: .85rem;
+		font-weight: 500;
+		line-height: 2;
+
+		&:hover { color: $accent-primary; }
+	}
+}
