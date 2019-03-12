@@ -2,15 +2,18 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<!-- Title -->
+<span class="document-title">{{ page.title }}</span>
 
-<!-- https://github.com/allejo/jekyll-toc -->
+<!-- Table of Contents -->
 {% include toc.html html=content class="toc" %}
 
+<!-- Author List -->
 <ul class="author-list">
 {% for author in page.authors %}
 	<li data-username="{{ author }}"><a href="https://github.com/{{ author }}" target="_blank">{% avatar user=author size=32 %}</a></li>
 {% endfor %}
 </ul>
 
+<!-- Actual page content -->
 {{ content }}

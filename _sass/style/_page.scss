@@ -1,29 +1,41 @@
+main {
+	position: relative;
+	max-width: 1380px;
+	margin: auto;
+}
+
+article {
+	width: calc(100% - #{$nav-size});
+	margin-left: $nav-size;
+	padding: 12px 56px;
+}
+
 .author-list {
-	list-style: none;
 	padding: 0;
+	list-style: none;
 
 	li {
-		display: inline;
 		position: relative;
+		display: inline;
 
 		.avatar {
 			border-radius: 50%;
 		}
 
 		&::after {
-			display: block;
 			position: absolute;
-			content: attr(data-username);
-			bottom: -24px;
-			background: black;
 			z-index: 99;
-			padding: 4px;
-			font-size: .8rem;
-			border-radius: 6px;
-			opacity: 0;
+			bottom: -24px;
 			left: 50%;
-			transform: translateX(-50%);
+			display: block;
+			padding: 4px;
+			content: attr(data-username);
 			transition: opacity 300ms ease-in-out;
+			transform: translateX(-50%);
+			opacity: 0;
+			border-radius: 6px;
+			background: black;
+			font-size: .8rem;
 		}
 
 		&:hover::after {
@@ -33,8 +45,8 @@
 }
 
 .toc, .toc ul {
-	list-style: none;
 	padding-left: 12px;
+	list-style: none;
 
 	a {
 		text-decoration: none;
@@ -43,6 +55,8 @@
 		font-weight: 500;
 		line-height: 2;
 
-		&:hover { color: $accent-primary; }
+		&:hover {
+			color: $accent-primary;
+		}
 	}
 }

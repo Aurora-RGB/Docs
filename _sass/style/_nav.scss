@@ -1,27 +1,32 @@
 nav {
-	font-weight: 700;
-	padding: 40px 0;
-	background: $background-secondary;
+	position: fixed;
+	top: $header-height;
+	bottom: 0;
+	overflow-y: auto;
+	width: $nav-size;
+	padding: 40px 0 40px 8px;
 	border-right: 1px solid rgba($text-primary, .15);
+	background: $background-secondary;
+	font-weight: 700;
 
 	.nav-title {
-		opacity: .4;
 		text-transform: uppercase;
+		opacity: .4;
 		font-size: .9rem;
 	}
 
 	.nav-list {
-		padding: 0;
+		padding: 0 0 0 8px;
 		list-style: none;
 		font-size: .85rem;
 
 		a {
 			display: block;
 			padding: 6px;
+			text-decoration: none;
 			color: $text-primary;
 			border: 1px solid transparent;
 			border-right: none;
-			text-decoration: none;
 		}
 
 		:not(.active) a:hover {
@@ -30,17 +35,22 @@ nav {
 
 		.active a {
 			color: $accent-primary;
-			background: $background-primary;
 			border: 1px solid rgba($text-primary, .15);
 			border-right: none;
+			background: $background-primary;
 		}
+	}
+
+	&::before {
+		display: block;
+		content: " ";
 	}
 }
 
 .nav-background {
 	position: absolute;
+	right: 100%;
 	width: 9999px;
 	height: 9999px;
 	background: $background-secondary;
-	right: 100%;
 }
