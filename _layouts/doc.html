@@ -3,10 +3,12 @@ layout: default
 ---
 
 <!-- Title -->
-<span class="document-title">{{ page.title }}</span>
+<span class="page-title">{{ page.title }}</span>
 
 <!-- Table of Contents -->
-{% include toc.html html=content class="toc" %}
+<aside class="toc">
+	{% include toc.html html=content %}
+</aside>
 
 <!-- Author List -->
 <ul class="author-list">

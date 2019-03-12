@@ -6,6 +6,8 @@ html, body {
 	font-family: $font-face;
 	font-size: $font-size;
 	font-weight: $font-weight;
+
+	scroll-behavior: smooth;
 }
 
 body {

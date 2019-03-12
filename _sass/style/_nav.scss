@@ -1,10 +1,14 @@
 nav {
 	position: fixed;
-	top: $header-height;
+	top: $header-height;/* By only providing a top value and not a left value, the nav will stay at x=0 relative to the parent (position:relative?)
+	parent. This means that regardless of the x position of the main article (and regardless of it's automatic x margin) the nav will always appear
+	at the left of it. With the article's margin, this means that it will always be next to the article. */
 	bottom: 0;
 	overflow-y: auto;
-	width: $nav-size;
-	padding: 40px 0 40px 8px;
+	box-sizing: content-box; /* For all elements this is set to box-sizing since it's usually preferred but we want to set the widht of the content only */
+	width: $nav-width;
+	margin-left: -1999px; /* Add a large margin offset and an equal padding amount so that the background color stretches off to the left of the window */
+	padding: 40px 0 40px 2007px; /* The left padding should be the absolute left margin + 8px */
 	border-right: 1px solid rgba($text-primary, .15);
 	background: $background-secondary;
 	font-weight: 700;
@@ -39,11 +43,6 @@ nav {
 			border-right: none;
 			background: $background-primary;
 		}
-	}
-
-	&::before {
-		display: block;
-		content: " ";
 	}
 }
 

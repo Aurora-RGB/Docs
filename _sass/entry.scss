@@ -3,6 +3,10 @@
 // ----------------- //
 // Define variables //
 // --------------- //
+// Layout
+$container-max-width: 1380px;
+$article-padding-x: 56px;
+
 // Colors
 //$background-primary: #F9F9F9;
 $background-primary: #282C34;
@@ -12,13 +16,14 @@ $text-primary: #EEE;
 $accent-primary: #923BBB;
 
 // Font
-$font-face: 'Open Sans', sans-serif;
+$font-face: "Open Sans", sans-serif;
 $font-weight: 300;
 $font-size: 16px;
 
 // Layout
 $header-height: 60px;
-$nav-size: 260px;
+$nav-width: 260px;
+$toc-width: 130px;
 
 
 // ------------------------ //

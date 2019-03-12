@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Another Nested Hello
+title: Another Item Inside a Folder
 category: Basic Topics
 order: 2
 authors:

@@ -1,13 +1,13 @@
 main {
 	position: relative;
-	max-width: 1380px;
+	max-width: $container-max-width;
 	margin: auto;
 }
 
 article {
-	width: calc(100% - #{$nav-size});
-	margin-left: $nav-size;
-	padding: 12px 56px;
+	width: calc(100% - #{$nav-width + $toc-width});
+	margin-left: $nav-width;
+	padding: 12px $article-padding-x;
 }
 
 .author-list {
@@ -19,6 +19,10 @@ article {
 		display: inline;
 
 		.avatar {
+			// Set the heights here (as well as in the jekyll plugin so that when the image is loading, it
+			// still takes up the right amount of space so the page doesn't jump as they images load.
+			width: 32px;
+			height: 32px;
 			border-radius: 50%;
 		}
 
@@ -44,19 +48,34 @@ article {
 	}
 }
 
-.toc, .toc ul {
-	padding-left: 12px;
-	list-style: none;
+.toc {
+	position: fixed;
+	top: $header-height;
+	width: $toc-width;
 
-	a {
-		text-decoration: none;
-		color: rgba($text-primary, .9);
-		font-size: .85rem;
-		font-weight: 500;
-		line-height: 2;
+/*To position the table of contents to the left of the article while still retaining it's `fixed` behaviour (stays on screen even when the user scrolls down)
+	is to place the TOC inside the article. When the `fixed` position is applied, it will be fixed at 0,0 of the nearest `relative` parent. By setting a margin
+	that is equal to the main article's width, we can offset this position without needing to know the size of the window or anything else. */
+	margin-left: $container-max-width - $nav-width - $toc-width - $article-padding-x;
 
-		&:hover {
-			color: $accent-primary;
+	ul {
+		padding-left: 12px;
+		list-style: none;
+
+		a {
+			text-decoration: none;
+			color: rgba($text-primary, .9);
+			font-size: .85rem;
+			font-weight: 500;
+			line-height: 2;
+
+			&:hover {
+				color: $accent-primary;
+			}
 		}
 	}
+}
+
+.page-title {
+	font-size: 3rem;
 }
