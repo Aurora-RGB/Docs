@@ -1,0 +1,20 @@
+table {
+	width: 100%;
+	margin-bottom: 12px;
+	border-spacing: 0;
+	border: 1px solid rgba($text-primary, .15);
+	border-radius: 2px;
+
+	thead {
+		text-align: left;
+		background: rgba($text-primary, .15);
+	}
+
+	tbody tr:not(:last-child) td {
+		border-bottom: 1px solid rgba($text-primary, .07);
+	}
+
+	td, th {
+		padding: 8px;
+	}
+}

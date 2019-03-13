@@ -1,0 +1,27 @@
+.toc {
+	position: fixed;
+	top: $header-height;
+	width: $toc-width;
+
+/*To position the table of contents to the left of the article while still retaining it's `fixed` behaviour (stays on screen even when the user scrolls down)
+	is to place the TOC inside the article. When the `fixed` position is applied, it will be fixed at 0,0 of the nearest `relative` parent. By setting a margin
+	that is equal to the main article's width, we can offset this position without needing to know the size of the window or anything else. */
+	margin-left: $container-max-width - $nav-width - $toc-width - $article-padding-x;
+
+	ul {
+		padding-left: 12px;
+		list-style: none;
+
+		a {
+			text-decoration: none;
+			color: rgba($text-primary, .9);
+			font-size: .85rem;
+			font-weight: 500;
+			line-height: 2;
+
+			&:hover {
+				color: $accent-primary;
+			}
+		}
+	}
+}
