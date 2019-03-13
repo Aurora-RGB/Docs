@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: Various Elements Test
-category: Basic Topics
 order: 3
 authors:
   - Wibble199

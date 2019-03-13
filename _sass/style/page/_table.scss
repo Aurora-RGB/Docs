@@ -1,9 +1,11 @@
 table {
 	width: 100%;
+	margin: 16px 0;
 	margin-bottom: 12px;
 	border-spacing: 0;
 	border: 1px solid rgba($text-primary, .15);
 	border-radius: 2px;
+	font-size: 92%;
 
 	thead {
 		text-align: left;
@@ -16,5 +18,11 @@ table {
 
 	td, th {
 		padding: 8px;
+	}
+
+	// Modification to margins/padding for lists inside table
+	ul, ol {
+		margin: 0;
+		padding: 0 0 0 20px;
 	}
 }

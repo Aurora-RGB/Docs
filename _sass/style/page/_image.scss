@@ -1,6 +1,6 @@
 $lightbox-transition: 400ms ease-in-out;
 
-article img {
+article img:not(.avatar):not(.emoji) {
 	display: block;
 	max-width: 100%;
 	margin: auto;

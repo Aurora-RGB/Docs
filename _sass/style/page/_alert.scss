@@ -1,0 +1,15 @@
+.alert {
+	display: block;
+
+	&.danger {
+		border: 1px solid red;
+	}
+
+	&.warning {
+		border: 1px solid yellow;
+	}
+
+	&.info {
+		border: 1px solid cyan;
+	}
+}

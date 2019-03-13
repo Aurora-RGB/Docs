@@ -8,11 +8,17 @@ article {
 	width: calc(100% - #{$nav-width + $toc-width});
 	margin-left: $nav-width;
 	padding: 12px $article-padding-x;
+	text-rendering: optimizeLegibility;
+	line-height: 1.7rem;
 }
 
 hr {
 	margin: 0 100px;
 	opacity: .4;
+}
+
+strong {
+	font-weight: bold;
 }
 
 article a {
@@ -26,6 +32,7 @@ article a {
 
 // Since the page related CSS is quite large, it's split up into individual components
 @import
+	"page/alert",
 	"page/author-list",
 	"page/code",
 	"page/headings",

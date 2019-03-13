@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: Headings Test
-category: Advanced Topics
 order: 1
 authors:
   - Wibble199

@@ -1,0 +1,261 @@
+﻿{
+  "$type": "Aurora.Profiles.Desktop.DesktopProfile, Aurora",
+  "ProfileName": "Overrides Demo",
+  "TriggerKeybind": {
+    "$type": "Aurora.Settings.Keybind, Aurora",
+    "_AssignedKeys": {
+      "$type": "System.Collections.Generic.Queue`1[[System.Windows.Forms.Keys, System.Windows.Forms]], System",
+      "$values": []
+    }
+  },
+  "ScriptSettings": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Aurora.Settings.ScriptSettings, Aurora]], mscorlib",
+    "AwayEffectsLayer": {
+      "$type": "Aurora.Settings.ScriptSettings, Aurora",
+      "Keys": {
+        "$type": "Aurora.Settings.KeySequence, Aurora",
+        "keys": {
+          "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+          "$values": []
+        },
+        "type": 0,
+        "freeform": {
+          "$type": "Aurora.Settings.FreeFormObject, Aurora",
+          "Type": 1,
+          "X": 0.0,
+          "Y": 0.0,
+          "Width": 30.0,
+          "Height": 30.0,
+          "Angle": 0.0
+        }
+      },
+      "Enabled": false
+    },
+    "ShiftFlashLayer": {
+      "$type": "Aurora.Settings.ScriptSettings, Aurora",
+      "Keys": {
+        "$type": "Aurora.Settings.KeySequence, Aurora",
+        "keys": {
+          "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+          "$values": []
+        },
+        "type": 0,
+        "freeform": {
+          "$type": "Aurora.Settings.FreeFormObject, Aurora",
+          "Type": 1,
+          "X": 0.0,
+          "Y": 0.0,
+          "Width": 30.0,
+          "Height": 30.0,
+          "Angle": 0.0
+        }
+      },
+      "Enabled": false
+    },
+    "StarFallLayer": {
+      "$type": "Aurora.Settings.ScriptSettings, Aurora",
+      "Keys": {
+        "$type": "Aurora.Settings.KeySequence, Aurora",
+        "keys": {
+          "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+          "$values": []
+        },
+        "type": 0,
+        "freeform": {
+          "$type": "Aurora.Settings.FreeFormObject, Aurora",
+          "Type": 1,
+          "X": 0.0,
+          "Y": 0.0,
+          "Width": 30.0,
+          "Height": 30.0,
+          "Angle": 0.0
+        }
+      },
+      "Enabled": false
+    }
+  },
+  "Layers": {
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.Layer, Aurora]], System",
+    "$values": [
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Flashing RGB Layer",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidFillLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.SolidFillLayerHandlerProperties, Aurora",
+            "_PrimaryColor": "White",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": []
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            },
+            "_Opacity": null,
+            "_Enabled": null
+          },
+          "EnableSmoothing": false,
+          "EnableExclusionMask": false,
+          "ExclusionMask": {
+            "$type": "Aurora.Settings.KeySequence, Aurora",
+            "keys": {
+              "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+              "$values": []
+            },
+            "type": 0,
+            "freeform": {
+              "$type": "Aurora.Settings.FreeFormObject, Aurora",
+              "Type": 1,
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "Opacity": 0.851325,
+          "_Opacity": null
+        },
+        "Enabled": true,
+        "OverrideLogic": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Aurora.Settings.Overrides.Logic.IOverrideLogic, Aurora]], mscorlib",
+          "_Opacity": {
+            "$type": "Aurora.Settings.Overrides.Logic.OverrideDynamicValue, Aurora",
+            "VarType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "ConstructorParameters": {
+              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Aurora.Settings.Overrides.Logic.IEvaluatable, Aurora]], mscorlib",
+              "Value": {
+                "$type": "Aurora.Settings.Overrides.Logic.NumberWaveFunction, Aurora",
+                "Operand": {
+                  "$type": "Aurora.Settings.Overrides.Logic.NumberMap, Aurora",
+                  "Value": {
+                    "$type": "Aurora.Settings.Overrides.Logic.NumberGSINumeric, Aurora",
+                    "VariablePath": "LocalPCInfo/CurrentMillisecond"
+                  },
+                  "FromMin": {
+                    "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                    "Value": 1000.0
+                  },
+                  "FromMax": {
+                    "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                    "Value": 0.0
+                  },
+                  "ToMin": {
+                    "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                    "Value": 0.0
+                  },
+                  "ToMax": {
+                    "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                    "Value": 1.0
+                  }
+                },
+                "WaveFunc": 0
+              }
+            }
+          },
+          "_PrimaryColor": {
+            "$type": "Aurora.Settings.Overrides.Logic.OverrideLookupTable, Aurora",
+            "VarType": "System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+            "LookupTable": {
+              "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Overrides.Logic.OverrideLookupTable+LookupTableEntry, Aurora]], System",
+              "$values": [
+                {
+                  "$type": "Aurora.Settings.Overrides.Logic.OverrideLookupTable+LookupTableEntry, Aurora",
+                  "Value": {
+                    "$type": "System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+                    "$value": "\"Red\""
+                  },
+                  "Condition": {
+                    "$type": "Aurora.Settings.Overrides.Logic.BooleanMathsComparison, Aurora",
+                    "Operand1": {
+                      "$type": "Aurora.Settings.Overrides.Logic.NumberMathsOperation, Aurora",
+                      "Operand1": {
+                        "$type": "Aurora.Settings.Overrides.Logic.NumberGSINumeric, Aurora",
+                        "VariablePath": "LocalPCInfo/CurrentSecond"
+                      },
+                      "Operand2": {
+                        "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                        "Value": 3.0
+                      },
+                      "Operator": 4
+                    },
+                    "Operand2": {
+                      "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                      "Value": 0.0
+                    },
+                    "Operator": 0
+                  }
+                },
+                {
+                  "$type": "Aurora.Settings.Overrides.Logic.OverrideLookupTable+LookupTableEntry, Aurora",
+                  "Value": {
+                    "$type": "System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+                    "$value": "\"Lime\""
+                  },
+                  "Condition": {
+                    "$type": "Aurora.Settings.Overrides.Logic.BooleanMathsComparison, Aurora",
+                    "Operand1": {
+                      "$type": "Aurora.Settings.Overrides.Logic.NumberMathsOperation, Aurora",
+                      "Operand1": {
+                        "$type": "Aurora.Settings.Overrides.Logic.NumberGSINumeric, Aurora",
+                        "VariablePath": "LocalPCInfo/CurrentSecond"
+                      },
+                      "Operand2": {
+                        "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                        "Value": 3.0
+                      },
+                      "Operator": 4
+                    },
+                    "Operand2": {
+                      "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                      "Value": 1.0
+                    },
+                    "Operator": 0
+                  }
+                },
+                {
+                  "$type": "Aurora.Settings.Overrides.Logic.OverrideLookupTable+LookupTableEntry, Aurora",
+                  "Value": {
+                    "$type": "System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+                    "$value": "\"Blue\""
+                  },
+                  "Condition": {
+                    "$type": "Aurora.Settings.Overrides.Logic.BooleanMathsComparison, Aurora",
+                    "Operand1": {
+                      "$type": "Aurora.Settings.Overrides.Logic.NumberMathsOperation, Aurora",
+                      "Operand1": {
+                        "$type": "Aurora.Settings.Overrides.Logic.NumberGSINumeric, Aurora",
+                        "VariablePath": "LocalPCInfo/CurrentSecond"
+                      },
+                      "Operand2": {
+                        "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                        "Value": 3.0
+                      },
+                      "Operator": 4
+                    },
+                    "Operand2": {
+                      "$type": "Aurora.Settings.Overrides.Logic.NumberConstant, Aurora",
+                      "Value": 2.0
+                    },
+                    "Operator": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

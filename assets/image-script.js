@@ -2,7 +2,7 @@
 // Also adds captions to images.
 // Will Bennion 2019.
 
-const targetImages = 'section img:not(.avatar)';
+const targetImages = 'section img:not(.avatar):not(.emoji)';
 const [lightboxImageBackdrop, lightboxImage] = createLightboxElements();
 const lightboxMargin = 24; // Size around the edge of the lightbox
 let lightboxTargetImage;

@@ -1,10 +1,17 @@
 # Site settings
 title: Aurora User Docs
-baseurl:
+baseurl: /documentation
 
 collections:
   docs:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: doc
 
 # Build settings
 markdown: kramdown
@@ -13,6 +20,12 @@ highlighter: rouge
 # Plugins
 plugins:
   - jekyll-avatar
+  - jekyll-relative-links
+  - jemoji
+
+relative_links:
+  enabled: true
+  collections: true
 
 # Exclude from processing
 exclude:

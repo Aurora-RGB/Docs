@@ -1,11 +1,29 @@
 <nav>
-	{% assign categories = site.docs | group_by: 'category' %}
-	{% for category in categories %}
+	{% comment %}
+	This works by:
+	 1. Loop over all categories
+	 2. Store the length of the category's defined "path" property
+	 3. Loop over all documents.
+	 4. Get a substring of the document's path from pos 6 to length of category's path.
+	 	(e.g. with category path "getting-started/", the document's path "/docs/getting-started/mydoc.html" will give substr "getting-started/")
+		By checking only first x characters, rather than using "contains" is so that we can ensure the string appears at the start of the document path.
+	 5. Check if this substring is equal to the document's path. If so, show it in the list as a child of this category.
+
+	The reason for not simply iterating over the documents and grouping by a category property is so that:
+	 a. The category is automatically assigned to the document and it doesn't need to be provided in the front matter
+	 b. The sorting of the categories can be moved from front matter to a separate _data/categories.yaml file.
+	{% endcomment %}
+
+	{% assign sorted_docs = site.docs | sort: 'order' %}
+	{% for category in site.data.categories %}
+		{% assign category_path_size = category.path | size %}
 		<span class="nav-title">{{ category.name }}</span>
 		<ul class="nav-list">
-			{% assign items = category.items | sort: 'order' %}
-			{% for item in items %}
-				<li class="{% if page.url == item.url %}active{% endif %}"><a href="{{item.url}}">{{item.title}}</a></li>
+			{% for doc in sorted_docs %}
+				{% assign substr = doc.url | slice: 6, category_path_size %}
+				{% if substr == category.path %}
+					<li class="{% if page.url == item.url %}active{% endif %}"><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+				{% endif %}
 			{% endfor %}
 		</ul>
 	{% endfor %}

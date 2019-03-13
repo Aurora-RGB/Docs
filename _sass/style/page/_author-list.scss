@@ -25,6 +25,7 @@
 			content: attr(data-username);
 			transition: opacity 300ms ease-in-out;
 			transform: translateX(-50%);
+			pointer-events: none;
 			opacity: 0;
 			border-radius: 6px;
 			background: black;
