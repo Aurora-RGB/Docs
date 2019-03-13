@@ -15,10 +15,20 @@ hr {
 	opacity: .4;
 }
 
+article a {
+	color: mix($text-primary, $accent-primary, 20%);
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 // Since the page related CSS is quite large, it's split up into individual components
 @import
 	"page/author-list",
 	"page/code",
 	"page/headings",
+	"page/image",
 	"page/table",
 	"page/toc";
