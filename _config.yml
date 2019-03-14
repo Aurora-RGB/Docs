@@ -1,6 +1,7 @@
 # Site settings
 title: Aurora User Docs
-baseurl: /documentation
+url: http://wibble199.github.io/Aurora-Docs/
+baseurl: /Aurora-Docs
 
 collections:
   docs:
