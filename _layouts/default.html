@@ -11,17 +11,6 @@
 		<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 	</head>
 	<body>
-		{%- include header.html -%}
-
-		<main>
-			{%- include nav.html -%}
-			<article>
-				<section>{{ content }}</section>
-				{%- include footer.html -%}
-			</article>
-		</main>
-
-		<script src="{{ "assets/scroll-offset.js" | relative_url }}"></script>
-		<script src="{{ "assets/image-script.js" | relative_url }}"></script>
+		{{ content }}
 	</body>
 </html>
