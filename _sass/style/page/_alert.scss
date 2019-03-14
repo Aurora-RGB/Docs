@@ -1,15 +1,48 @@
 .alert {
+	position: relative;
 	display: block;
+	padding: 12px;
+	border: 1px solid transparent;
+	border-left-width: 36px;
+	border-radius: 6px;
+	background: $background-secondary;
+	font-size: 95%;
+
+	&::after {
+		position: absolute;
+		top: 50%;
+		left: -30px;
+		display: block;
+		width: 24px;
+		height: 24px;
+		content: " ";
+		transform: translateY(-50%);
+		background: url("img/alert-icons.png");
+		background-size: 48px;
+	}
 
 	&.danger {
-		border: 1px solid red;
+		border-color: #D04;
+		&::after {
+			background-position: 0 24px;
+		}
 	}
 
 	&.warning {
-		border: 1px solid yellow;
+		border-color: #B40;
 	}
 
 	&.info {
-		border: 1px solid cyan;
+		border-color: #07C;
+		&::after {
+			background-position: 24px 0;
+		}
+	}
+
+	&.success {
+		border-color: #0B3;
+		&::after {
+			background-position: 24px 24px;
+		}
 	}
 }
