@@ -5,7 +5,7 @@ authors:
   - Wibble199
 ---
 
-The [Animation Layer](../reference-layers/animation-layer.html) allows you to add your own custom animated effects to your peripheral lights. To edit this animation, the Animation Editor used. This is a powerful tool, and fairly easy to use once you understand how it works. As with all unfamiliar things however, it may be daunting at first.
+The [Animation Layer](../reference-layers/animation.html) allows you to add your own custom animated effects to your peripheral lights. To edit this animation, the Animation Editor used. This is a powerful tool, and fairly easy to use once you understand how it works. As with all unfamiliar things however, it may be daunting at first.
 
 
 # Concepts and Definitions

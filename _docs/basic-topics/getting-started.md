@@ -31,7 +31,7 @@ To view the profiles for the currently selected application, click on the "Profi
 
 
 # Layers
-A **Layer** is an instruction for Aurora to set the color of some specific keys on your keyboard. Each layer has different functionality which is detailed in a [later section of this guide](../reference-layers/solid-color-layer.html). The layers are drawn from bottom-to-top, therefore anything higher up the list will take priority over the colors of anything lower down.
+A **Layer** is an instruction for Aurora to set the color of some specific keys on your keyboard. Each layer has different functionality which is detailed in a [later section of this guide](../reference-layers/solid-color.html). The layers are drawn from bottom-to-top, therefore anything higher up the list will take priority over the colors of anything lower down.
 
 ![Annoted picture of the Layer controls](../../assets/img/layer-overview.png)
 
