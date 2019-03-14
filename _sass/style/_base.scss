@@ -10,6 +10,12 @@ html, body {
 	scroll-behavior: smooth;
 }
 
+html {
+	/* Force a scrollbar to appear, otherwise the auto margin of the container makes pages with scrollbars'
+	navigation menus look out of line with the ones from pages without scrollbars*/
+	overflow-y: scroll;
+}
+
 body {
 	margin-top: $header-height;
 }
