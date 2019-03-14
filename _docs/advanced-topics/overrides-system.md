@@ -30,11 +30,11 @@ A simple example for this could be assigning to opacity of a layer to be the hea
 
 ![Basic example of a dynamic value being used with opacity to make the layer flash in and then fade out](../../assets/img/overrides-dynamic-value-example.png)
 
-Depending on the type of property being edited, you will be asked to provide one or more expressions of different types. Descriptions of these expressions are available in the "Reference: Expression Types" section of the guide. For example, the "Enabled" property will require a [boolean expression](../reference-expressions/boolean-expressions) and "Opacity" will require a [numeric expression](../reference-expressions/numeric-expressions).
+Depending on the type of property being edited, you will be asked to provide one or more expressions of different types. Descriptions of these expressions are available in the "Reference: Expression Types" section of the guide. For example, the "Enabled" property will require a [boolean expression](../reference-expressions/boolean-expressions.html) and "Opacity" will require a [numeric expression](../reference-expressions/numeric-expressions.html).
 
 ## Lookup Table
 
-The lookup table is a list of condition-value pairs. When using this override technique, Aurora will evaluate the [boolean condition expression](../reference-expressions/boolean-expressions) of each item in the list until it finds one that is true. When it does so, it will override the requested property with the value of the pair.
+The lookup table is a list of condition-value pairs. When using this override technique, Aurora will evaluate the [boolean condition expression](../reference-expressions/boolean-expressions.html) of each item in the list until it finds one that is true. When it does so, it will override the requested property with the value of the pair.
 
 ![Example lookup table that sets the color to red every once every three seconds](../../assets/img/overrides-lookup-table-example.png)
 

@@ -20,8 +20,8 @@ This page lists and explains the types of boolean expressions (sometimes called 
 
 |Name|Description|
 |-|-|
-|Boolean State Variable|Fetches a boolean [state variable](../advanced-topics/state-variables) from the current application's game state and returns it's value.|
-|Numeric State Variable|Fetches up to two numeric [state variable](../advanced-topics/state-variables) (or uses a static value if you type a number instead) from the current application's game state, compares the two numbers (either by checking if they are equal, not equal, less than or greater than) and returns whether the comparison is `true` or `false`.|
+|Boolean State Variable|Fetches a boolean [state variable](../advanced-topics/state-variables.html) from the current application's game state and returns it's value.|
+|Numeric State Variable|Fetches up to two numeric [state variable](../advanced-topics/state-variables.html) (or uses a static value if you type a number instead) from the current application's game state, compares the two numbers (either by checking if they are equal, not equal, less than or greater than) and returns whether the comparison is `true` or `false`.|
 
 # Input
 
@@ -35,10 +35,10 @@ This page lists and explains the types of boolean expressions (sometimes called 
 
 |Name|Description|
 -|-
-|Arithmetic Comparison|Requires two [numeric evaluatables](./numeric-expressions) and returns the result of a comparison between the two. Comparisons include equals, not equal, less than, greater than, etc.|
+|Arithmetic Comparison|Requires two [numeric evaluatables](./numeric-expressions.html) and returns the result of a comparison between the two. Comparisons include equals, not equal, less than, greater than, etc.|
 
 # String
 
 |Name|Description|
 -|-
-|String Comparison|Requires two [string evaluatables](./string-expressions) and returns the result of a comparison between the two. Comparisons include equals, alphabetically before, length comparison, whether string 1 contains string 2, etc.|
+|String Comparison|Requires two [string evaluatables](./string-expressions.html) and returns the result of a comparison between the two. Comparisons include equals, alphabetically before, length comparison, whether string 1 contains string 2, etc.|

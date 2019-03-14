@@ -11,7 +11,7 @@ This page lists and explains the types of numeric expressions (sometimes called 
 
 |Name|Description|
 |-|-|
-|Numeric State Variable|Fetches a numeric [state variable](../advanced-topics/state-variables) from the current application's game state and returns it.|
+|Numeric State Variable|Fetches a numeric [state variable](../advanced-topics/state-variables.html) from the current application's game state and returns it.|
 
 # Maths
 <table>
