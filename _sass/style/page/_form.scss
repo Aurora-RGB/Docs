@@ -1,0 +1,71 @@
+.form-input {
+	margin: 12px 0;
+	position: relative;
+}
+
+input {
+	background: $background-secondary;
+	border: 1px solid rgba($text-primary, 0.1);
+	color: #fff;
+	font-size: 1rem;
+	color: $text-primary;
+	padding: 8px 16px;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+
+	transition: border 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+	&:focus {
+		border-color: $accent-primary;
+		box-shadow: 0 0 4px -1px rgba($accent-primary, .7);
+	}
+}
+
+button {
+	padding: 8px 28px;
+	background: linear-gradient(to right, lighten(adjust_hue($accent-primary, 5), 5), adjust_hue($accent-primary, -5));
+	border: none;
+	border-radius: 3px;
+	color: $text-primary;
+	font-size: .9rem;
+	box-shadow: 0 0 6px 0 #0008;
+	margin: 0 12px;
+	cursor: pointer;
+
+	&:hover {
+		background: linear-gradient(to right, lighten(adjust_hue($accent-primary, 5), 15), lighten(adjust_hue($accent-primary, -5), 10));
+	}
+
+	&:active {
+		background: linear-gradient(to right, darken(adjust_hue($accent-primary, 5), 5), darken(adjust_hue($accent-primary, -5), 10));
+		box-shadow: none;
+	}
+}
+
+input, button {
+	font-family: $font-face;
+}
+
+.search {
+	padding-left: 34px;
+	
+	& + div {
+		width: 18px;
+		height: 18px;
+		background: url("img/search-icon.png");
+		background-size: 18px;
+		position: absolute;
+		top: 11px;
+		left: 9px;
+	}
+}
+
+form.inline-form {
+	display: flex;
+	align-items: center;
+
+	& > *:not(:last-child) {
+		flex: 1 1 0;
+	}
+}

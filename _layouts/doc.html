@@ -9,23 +9,24 @@ layout: default
 	{%- include nav.html -%}
 	<article>
 		<section><!-- Title -->
-		<span class="page-title">{{ page.title }}</span>
-		
-		<!-- Table of Contents -->
-		<aside class="toc">
-			{% include toc.html html=content %}
-		</aside>
-		
-		<!-- Author List -->
-		<ul class="author-list">
-			{% for author in page.authors %}
-			<li data-username="{{ author }}"><a href="https://github.com/{{ author }}"
-					target="_blank">{% avatar user=author size=32 %}</a></li>
-			{% endfor %}
-		</ul>
-		
-		<!-- Actual page content -->
-		{{ content }}</section>
+			<span class="page-title">{{ page.title }}</span>
+			
+			<!-- Table of Contents -->
+			<aside class="toc">
+				{% include toc.html html=content %}
+			</aside>
+			
+			<!-- Author List -->
+			<ul class="author-list">
+				{% for author in page.authors %}
+				<li data-username="{{ author }}"><a href="https://github.com/{{ author }}"
+						target="_blank">{% avatar user=author size=32 %}</a></li>
+				{% endfor %}
+			</ul>
+			
+			<!-- Actual page content -->
+			{{ content }}
+		</section>
 		{%- include docs-footer.html -%}
 	</article>
 </main>

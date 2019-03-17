@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<!-- Documentation header -->
+{%- include docs-header.html -%}
+
+<main>
+	{%- include nav.html -%}
+	<article>
+		<section>
+			<span class="page-title">{{ page.title }}</span>
+
+			<form id="search-form" class="inline-form">
+				<div class="form-input">
+					<input type="search" class="search" id="search-term">
+					<div></div>
+				</div>
+				<button type="submit">Search</button>
+			</form>
+
+			<!-- Search results -->
+			<ol id="results" class="search-results"></ol>
+		
+			<!-- Elements that can be read by JS to build the index -->
+			<div id="index" style="display:none">
+				{% for doc in site.docs %}
+					<div class="item" data-title="{{ doc.title }}" data-link="{{ doc.url | relative_url }}">{{ doc.content }}</div>
+				{% endfor %}
+			</div>
+		</section>
+		{%- include docs-footer.html -%}
+	</article>
+</main>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ "assets/scroll-offset.js" | relative_url }}"></script>
+<script src="{{ "assets/image-script.js" | relative_url }}"></script>
+<script src="{{ "assets/search-script.js" | relative_url }}"></script>
