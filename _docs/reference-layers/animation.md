@@ -9,7 +9,7 @@ The animation layer is another very powerful but very complex and hard-to-use la
 
 This layer can also be triggered when certain events happen. You can select it for when a game-state value changes or when you press/release a key. When in a key-mode, the animation can optionally be translated to the location of the pressed key. This basically provides a means of creating a custom interactive layer if you don’t like that layer’s default effects.
 
-![An very basic example animation that has a rectangle that grows in width, then in height](../../assets/img/layer-animation.gif)
+![An very basic example animation that has a rectangle that grows in width, then in height](../../assets/img/docs/layer-animation.gif)
 
 ## Properties
 

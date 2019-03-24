@@ -7,7 +7,7 @@ authors:
 
 The blinking layer sets the colors of the specified keys to flash between two alternatives, with no fading between the colors. Like to the breathing layer, it allows either or both of these colors to be randomized if you wish.
 
-![A blinking layer with cyan and a random secondary color](../../assets/img/layer-blinking.gif)
+![A blinking layer with cyan and a random secondary color](../../assets/img/docs/layer-blinking.gif)
 
 ## Properties
 

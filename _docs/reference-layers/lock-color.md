@@ -9,9 +9,9 @@ The lock layer allows you to have keys light up (or pulse) in a color when one o
 
 <span class="alert info">This layer functionality can be incorporated using the Overrides System. That said, it is simpler to use this layer for the pulse feature than to use the Override System alternative.</span>
 
-![Lock layer flashing alphabetical key when the caps lock is on](../../assets/img/layer-lock.gif)
+![Lock layer flashing alphabetical key when the caps lock is on](../../assets/img/docs/layer-lock.gif)
 
-![Lock layer turning off the numpad lights when the numlock is off](../../assets/img/layer-lock-2.gif)
+![Lock layer turning off the numpad lights when the numlock is off](../../assets/img/docs/layer-lock-2.gif)
 
 ## Properties
 

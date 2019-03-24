@@ -7,7 +7,7 @@ authors:
 
 This layer takes in audio data from your computer and visualizes the volume at various frequencies. There are many different customization options for this layer including which frequencies should be detected. Which frequencies are best depends on the type of audio you expect to be playing (rock will be different from classical) but the default frequencies provide a good starting point.
 
-![An equalizer layer in gradient mode while playing a music track](../../assets/img/layer-equalizer.gif)
+![An equalizer layer in gradient mode while playing a music track](../../assets/img/docs/layer-equalizer.gif)
 
 ## Properties
 
@@ -22,9 +22,9 @@ This layer takes in audio data from your computer and visualizes the volume at v
     <tr>
       <td>Equalizer Effect Type</td>
       <td><ul>
-        <li><strong>Power Bars</strong><img src="../../assets/img/visualizer-power-bars.png"></li>
-        <li><strong>Waveform</strong><img src="../../assets/img/visualizer-waveform.png"></li>
-        <li><strong>Waveform (From bottom)</strong><img src="../../assets/img/visualizer-waveform-bottom.png"></li>
+        <li><strong>Power Bars</strong><img src="../../assets/img/docs/visualizer-power-bars.png"></li>
+        <li><strong>Waveform</strong><img src="../../assets/img/docs/visualizer-waveform.png"></li>
+        <li><strong>Waveform (From bottom)</strong><img src="../../assets/img/docs/visualizer-waveform-bottom.png"></li>
       </ul></td>
     </tr>
     <tr>

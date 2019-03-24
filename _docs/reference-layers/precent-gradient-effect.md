@@ -7,7 +7,7 @@ authors:
 
 This layer is very similar to the Percent Effect Layer, but makes use of a gradient instead of a progress/background color. This layer does not have a background.
 
-![A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond](../../assets/img/layer-percent-gradient-effect.gif)
+![A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond](../../assets/img/docs/layer-percent-gradient-effect.gif)
 
 ## Properties
 

@@ -7,7 +7,7 @@ authors:
 
 The Solid Color Layer is for setting static colors for specific keys. The keys will constantly be lit in the given color (providing they aren’t overridden by a higher-up layer). This is one of the most simple layers in Aurora, but can be useful for things such as highlighting controls such as WASD in video games.
 
-![A Solid Color Layer lighting common video game control keys](../../assets/img/layer-solid-color.png)
+![A Solid Color Layer lighting common video game control keys](../../assets/img/docs/layer-solid-color.png)
 
 If you want to set the color of the entire (or most) of the keyboard, consider using the [Solid Fill Color](./solid-fill-color.html) Layer instead.
 

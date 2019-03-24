@@ -7,7 +7,7 @@ authors:
 
 The timer layer waits for one or more keys to be pressed (do not have to be the keys displaying the lights) and sets the color of the keys to be something else for a set duration, after which they return to their original color. This layer can be used for things such as ability timers for games that have no game state integration.
 
-![A timer layer on the alphabetical keys](../../assets/img/layer-timer.gif)
+![A timer layer on the alphabetical keys](../../assets/img/docs/layer-timer.gif)
 
 ## Properties
 

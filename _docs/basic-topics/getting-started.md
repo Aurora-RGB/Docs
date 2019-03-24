@@ -6,14 +6,14 @@ authors:
 ---
 
 When you first open Aurora, you will be presented with a window that looks like the following.
-![Annotated picture of the main Aurora UI](../../assets/img/overview.png)
+![Annotated picture of the main Aurora UI](../../assets/img/docs/overview.png)
 
 
 # Applications
 On the far left is the **application** list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe. You can disable applications if you don’t want your lighting changing when you open that app by going onto the overview and unchecking the “Enable Aurora to provide lighting effects…” box. You can also right-click on the application icons to hide them if you do not have that game and don’t want it cluttering up the list.
 
 Aurora works by detecting the application that is currently focused and checking if it has an application entry for that application. If it does, it will render the active profile (we'll see what a profile is in the next section) to your peripherals. If it does not, it will render the "Desktop" application's selected profile.
-![Each application can have one or more profiles, and each profile can have as many layers as you wish](../../assets/img/application-relationship-diagram.png)
+![Each application can have one or more profiles, and each profile can have as many layers as you wish](../../assets/img/docs/application-relationship-diagram.png)
 
 
 # Profiles
@@ -33,7 +33,7 @@ To view the profiles for the currently selected application, click on the "Profi
 # Layers
 A **Layer** is an instruction for Aurora to set the color of some specific keys on your keyboard. Each layer has different functionality which is detailed in a [later section of this guide](../reference-layers/solid-color.html). The layers are drawn from bottom-to-top, therefore anything higher up the list will take priority over the colors of anything lower down.
 
-![Annoted picture of the Layer controls](../../assets/img/layer-overview.png)
+![Annoted picture of the Layer controls](../../assets/img/docs/layer-overview.png)
 
 To show the layers list, click the "Layers" list view button that will be at the top left or bottom left of the window (depending on whether the profile list is open or not). A list will appear below this button showing you all your layers. From here you can:
 - Add new layers by clicking on the "Add" button above the layer list.

@@ -7,7 +7,7 @@ authors:
 
 The glitch layer simply randomizes each key’s color every time it updates. The frequency of the update is configurable.
 
-![](../../assets/img/layer-glitch.gif)
+![](../../assets/img/docs/layer-glitch.gif)
 
 ## Properties
 
