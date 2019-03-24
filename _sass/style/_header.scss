@@ -14,11 +14,30 @@ header {
 		max-width: $container-max-width;
 		margin: auto;
 	}
+
+	// Link list
+	ul {
+		list-style: none;
+		padding: 0 16px;
+
+		li {
+			display: inline-block;
+		}
+
+		a {
+			text-decoration: none;
+			color: $text-primary;
+			font-size: 1.2rem;
+			font-weight: 400;
+			padding: 0 4px;
+		}
+	}
 }
 
 .site-title {
 	font-size: 1.4rem;
 	font-weight: 700;
+	width: 240px; // Set a width so that when navigating to pages with different titles, the links don't "jump" left/right
 }
 
 .site-logo {
