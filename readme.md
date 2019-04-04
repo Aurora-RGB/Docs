@@ -8,6 +8,7 @@ This is the Jekyll documentation for the Aurora RGB lighting software.
 	- [Navigation](#navigation)
 	- [Images](#images)
 	- [Alerts](#alerts)
+- [Setting up a local Jekyll environment](#setting-up-a-local-jekyll-environment)
 - [Contributing](#contributing)
 
 ## About
