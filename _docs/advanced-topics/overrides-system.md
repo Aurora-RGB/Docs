@@ -46,4 +46,4 @@ This profile contains a *single solid fill layer* that fades in and out every se
 
 ![The demo layer running](../../assets/img/docs/overrides-demo-rgb-flash.gif)
 
-[You can download the demo profile here.](../../assets/overrides-rgb-flash-demo.json)
+[You can download the demo profile here.](../../assets/files/overrides-rgb-flash-demo.json)
