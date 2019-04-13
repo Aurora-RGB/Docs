@@ -11,7 +11,7 @@ To patch a game, navigate to "Settings" -> "Devices & Wrappers" -> "Install Wrap
 
 <span class="alert warning">Note that some more recent and multiplayer titles have been shipping with anti-cheat or signature checking on the lighting DLL file. In these cases, the game will not load our modified wrapper. Unfortunately there's nothing we are able to do about this. Examples of these games include Apex Legends, Fortnite and Division 2.</span>
 
-<span class="alert info">We are not able to directly control the affects these games apply, since this is handled by the game itself. We are unable to get values from the game (such as health/ammo/etc.) since the lighting engine does not expose these details.</info>
+<span class="alert info">Aurora is not able to directly control the affects these games apply, since Aurora is unable to get values from the game (such as health/ammo/etc.). The only data the lighting engine sends is which keys should be which color.</span>
 
 ## Key Cloning
 
