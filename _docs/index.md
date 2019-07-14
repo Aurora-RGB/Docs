@@ -1,5 +1,9 @@
 ---
 title: Documentation
+authors:
+  - Wibble199
 ---
 
-Landing page of the Aurora user documentation.
+Welcome to the Aurora documentation.
+
+Choose a topic on the left to get started.
