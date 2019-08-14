@@ -1,0 +1,26 @@
+.toc {
+	flex: 1 1 $toc-width;
+
+	ul {
+		padding-left: 12px;
+		list-style: none;
+
+		a {
+			text-decoration: none;
+			color: rgba($text-primary, .9);
+			font-size: .85rem;
+			font-weight: 500;
+			line-height: 2;
+
+			&:hover {
+				color: $accent-primary;
+			}
+		}
+	}
+}
+
+@include tablet-mobile() {
+	.toc {
+		display: none;
+	}
+}

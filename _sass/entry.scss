@@ -2,7 +2,6 @@
 // Define variables //
 // --------------- //
 // Layout
-$container-max-width: 1380px;
 $article-padding-x: 56px;
 
 // Colors
@@ -20,6 +19,7 @@ $font-size: 16px;
 
 // Layout
 $header-height: 60px;
+$content-width: 780px;
 $nav-width: 260px;
 $toc-width: 220px;
 
@@ -28,6 +28,7 @@ $toc-width: 220px;
 // Import other SASS files //
 // ---------------------- //
 @import
+  "style/util/breakpoints",
   "style/base",
   "style/header",
   "style/nav",

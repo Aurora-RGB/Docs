@@ -1,15 +1,18 @@
 main {
-	position: relative;
-	max-width: $container-max-width;
-	margin: auto;
+	display: flex;
 }
 
 article {
-	width: calc(100% - #{$nav-width + $toc-width});
-	margin-left: $nav-width;
 	padding: 12px $article-padding-x;
 	text-rendering: optimizeLegibility;
 	line-height: 1.7rem;
+	flex: 0 1 $content-width;
+}
+
+@include tablet-mobile() {
+	article {
+		flex-grow: 1;
+	}
 }
 
 hr {
@@ -30,15 +33,15 @@ article a {
 	}
 }
 
-// Since the page related CSS is quite large, it's split up into individual components
+// Since the page-related CSS is quite large, it's split up into individual components
 @import
-	"page/alert",
-	"page/author-list",
-	"page/code",
-	"page/feature-list",
-	"page/form",
-	"page/headings",
-	"page/image",
-	"page/search-list",
-	"page/table",
-	"page/toc";
+	"elements/alert",
+	"elements/author-list",
+	"elements/code",
+	"elements/feature-list",
+	"elements/form",
+	"elements/headings",
+	"elements/image",
+	"elements/search-list",
+	"elements/table",
+	"elements/toc";

@@ -17,7 +17,7 @@
 		<div style="flex: 1 1 0"></div>
 
 		{% if include.search %}
-		<form action="{{ "/docs/search.html" | relative_url }}" style="width:380px;position:relative;top:2px;">
+		<form action="{{ "/docs/search.html" | relative_url }}" class="site-search">
 			<input name="q" type="search" placeholder="Search documentation..." />
 		</form>
 		{% endif %}

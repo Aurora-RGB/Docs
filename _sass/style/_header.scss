@@ -11,7 +11,6 @@ header {
 	.container {
 		display: flex;
 		align-items: center;
-		max-width: $container-max-width;
 		margin: auto;
 	}
 
@@ -44,4 +43,16 @@ header {
 	width: 40px;
 	height: 40px;
 	margin: 8px;
+}
+
+.site-search {
+	width: 380px;
+	position: relative;
+	top: 2px;
+}
+
+@include tablet-mobile() {
+	.site-search {
+		display: none;
+	}
 }
