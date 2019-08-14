@@ -19,13 +19,12 @@ layout: default
 
 			<!-- Author List -->
 			<hr style="margin:28px 100px"/>
-			<span class="author-text-label">Page authored by</span>
 			<ul class="author-list">
 				{% for author in page.authors %}
-				<li data-username="{{ author }}"><a href="https://github.com/{{ author }}"
-						target="_blank">{% avatar user=author size=32 %}</a></li>
+					<li data-username="{{ author }}"><a href="https://github.com/{{ author }}" target="_blank">{% avatar user=author size=32 %}</a></li>
 				{% endfor %}
 			</ul>
+			<span class="author-text-label">Page authored by</span>
 		</section>
 		{%- include docs-footer.html -%}
 	</article>
