@@ -6,56 +6,10 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Aurora • Unified RGB Lighting</title>
 		<link rel="icon" type="img/ico" href="{{ "/assets/favicon.ico" | relative_url }}">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-		<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 	</head>
-	<body style="background:url('assets/img/aurora-background.jpg') #000;background-repeat:no-repeat;background-size:auto;background-size:contain;">
-		{%- include header.html title="Aurora" -%}
-
-		<main style="display:flex;flex-direction:column;align-items:center;padding-top:96px">
-			<span class="page-title">Aurora</span>
-
-			<p style="text-align:center">Aurora is a unified RGB lighting software, aimed at allowing you to sync a wide range of brands and hardware with each other.</p>
-
-			<a href="https://github.com/antonpup/Aurora/releases/latest" class="button" style="margin-top:48px;margin-bottom:8px">Download Aurora</a>
-			<span style="font-size:.8rem;opacity:.7;margin-bottom:48px">Aurora is currently only available for Windows</span>
-
-			<img src="assets/img/ui.png">
-
-			<img src="assets/img/icons/icons8-todo-list-64.png">
-			<h1>Features</h1>
-			<ul class="feature-list">
-				<li>
-					<img src="assets/img/icons/icons8-source-code-32.png">
-					<span>Feature Title</span>
-					<p>Fetaure description. Lorem Ipsum Dolor Sit Amet.</p>
-				</li>
-				<li>
-					<img src="assets/img/icons/icons8-source-code-32.png">
-					<span>Feature Title</span>
-					<p>Fetaure description. Lorem Ipsum Dolor Sit Amet.</p>
-				</li>
-				<li>
-					<img src="assets/img/icons/icons8-source-code-32.png">
-					<span>Feature Title</span>
-					<p>Fetaure description. Lorem Ipsum Dolor Sit Amet.</p>
-				</li>
-				<li>
-					<img src="assets/img/icons/icons8-source-code-32.png">
-					<span>Feature Title</span>
-					<p>Fetaure description. Lorem Ipsum Dolor Sit Amet.</p>
-				</li>
-				<li>
-					<img src="assets/img/icons/icons8-source-code-32.png">
-					<span>Feature Title</span>
-					<p>Fetaure description. Lorem Ipsum Dolor Sit Amet.</p>
-				</li>
-				<li>
-					<img src="assets/img/icons/icons8-source-code-32.png">
-					<span>Scripts & Plugins</span>
-					<p>Aurora has the ability to read scripts in C# or Python and exposes a powerful API to allow you to create your own custom layers or support custom devices.</p>
-				</li>
-			</ul>
-		</main>
+	<body>
+		<script>
+			location.replace("{{ "/docs" | relative_url }}");
+		</script>
 	</body>
 </html>
