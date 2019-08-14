@@ -9,6 +9,12 @@ article {
 	flex: 0 1 $content-width;
 }
 
+@include mobile-only() {
+	article {
+		padding: 12px;
+	}
+}
+
 @include tablet-mobile() {
 	article {
 		flex-grow: 1;
