@@ -13,7 +13,7 @@ The Audio Visualizer layer allows you to display a representation of whatever yo
 ### Why
 One of the things that annoys me about the layer is that every single sound your computer emits will be shown on the keyboard, which isn't very useful or appealing if you're talking to someone on Discord for example. So I found a way to isolate a single application (in my case, spotify) in the same audio output as Aurora.
 
-This makes it so only sound emmited by Spotify is processed and displayed on the keyboard, and does make the visualization change if you change the volume of the music.
+This makes it so only sound emitted by Spotify is processed and displayed on the keyboard, and does make the visualization change if you change the volume of the music.
 
 ### Prerequisites
 * Windows 19 build 1809 or above
@@ -38,5 +38,5 @@ This makes it so only sound emmited by Spotify is processed and displayed on the
   ![Cable Output Properties](../../assets/img/docs/cable-properties.png)
 
 
-(*Optional*) Install Ear Trumpet from the Windows Store to more easily change the volume of spotify. This method works best if you leave Spotify's volume at 100% and adjust using the windows mixer instead. This way, Aurora sees every song at the same volume at all times, producing a more consistent effect.
+(*Optional*) Install Ear Trumpet from the Windows Store to more easily change the volume of Spotify. This method works best if you leave Spotify's volume at 100% and adjust using the windows mixer instead. This way, Aurora sees every song at the same volume at all times, producing a more consistent effect.
   ![Ear Trumpet](../../assets/img/docs/ear-trumpet.png)
