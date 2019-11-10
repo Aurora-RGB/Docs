@@ -30,11 +30,16 @@ layout: default
 	</article>
 
 	<!-- Table of Contents -->
-	<aside class="toc">
+	<aside class="toc collapsed">
+		<div class="toc-header">Table of Contents</div>
 		{% include toc.html html=content %}
 	</aside>
+
+	<!-- Mobile scroll-to-top button -->
+	<button class="scroll-to-top hidden"></button>
 </main>
 
 <script src="{{ "assets/simplebar.min.js" | relative_url }}"></script>
+<script src="{{ "assets/mobile.js" | relative_url }}"></script>
 <script src="{{ "assets/scroll-offset.js" | relative_url }}"></script>
 <script src="{{ "assets/image-script.js" | relative_url }}"></script>

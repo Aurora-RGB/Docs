@@ -16,6 +16,10 @@ article {
 }
 
 @include tablet-mobile() {
+	main {
+		flex-direction: column;
+	}
+
 	article {
 		flex-grow: 1;
 	}
@@ -48,6 +52,7 @@ article a {
 	"elements/form",
 	"elements/headings",
 	"elements/image",
+	"elements/scrolltotop",
 	"elements/search-list",
 	"elements/table",
 	"elements/toc";

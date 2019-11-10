@@ -38,23 +38,30 @@ header {
 }
 
 @include mobile-only {
-	body {
-		margin-top: 106px;
+	header .site-links {
+		display: none;
 	}
-	header {
-		height: 106px;
 
-		.container::before {
-			content: '';
-			width: 100%;
-			order: 1;
-			justify-content: center;
-			font-size: 0.7rem;
-		}
+	.site-title {
+		width: auto;
+		flex-grow: 1;
+		text-align: center;
+	}
 
-		.site-links {
-			order: 2;
-		}
+	.site-logo {
+		order: 1;
+	}
+}
+
+@include tablet-mobile() {
+	.site-search {
+		display: none;
+	}
+}
+
+@include desktop-only() {
+	.header-spacer {
+		flex: 1 1 0;
 	}
 }
 
@@ -74,10 +81,4 @@ header {
 	width: 380px;
 	position: relative;
 	top: 2px;
-}
-
-@include tablet-mobile() {
-	.site-search {
-		display: none;
-	}
 }

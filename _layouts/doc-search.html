@@ -31,9 +31,13 @@ layout: default
 		</section>
 		{%- include docs-footer.html -%}
 	</article>
+
+	<!-- Mobile scroll-to-top button -->
+	<button class="scroll-to-top hidden"></button>
 </main>
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ "assets/mobile.js" | relative_url }}"></script>
 <script src="{{ "assets/scroll-offset.js" | relative_url }}"></script>
 <script src="{{ "assets/image-script.js" | relative_url }}"></script>
 <script src="{{ "assets/search-script.js" | relative_url }}"></script>

@@ -59,21 +59,20 @@ nav {
 
 .nav-burger {
 	display: none;
-	background: rgba($text-primary, 0.05);
-	position: absolute;
-	top: 11px;
-	right: 6px;
+	background: rgba($text-primary, 0.02);
+	position: relative;
 	width: 38px;
 	height: 38px;
 	min-width: 0;
 	padding: 0;
+	box-shadow: 0 0 2px 1px #00000012;
 
 	div, div::after, div::before {
 		content: '';
 		display: block;
 		position: absolute;
 		background: rgba($text-primary, 0.8);
-		height: 3px;
+		height: 2px;
 		width: 20px;
 	}
 
@@ -98,16 +97,19 @@ nav {
 }
 
 @include mobile-only() {
+	$mobile-nav-width: 268px;
+
 	header > div {
 		z-index: 0;
 	}
 
 	nav {
-		display: none;
 		position: fixed;
 		z-index: 100;
 		top: 0;
 		bottom: 0;
+		width: $mobile-nav-width;
+		transform: translateX(-100%);
 	}
 
 	nav .inner-nav > div {
@@ -116,5 +118,14 @@ nav {
 
 	.nav-burger {
 		display: block;
+	}
+
+	body {
+		position: relative;
+		transition: left 200ms ease-out;
+		left: 0;
+	}
+	body.nav-open {
+		left: $mobile-nav-width;
 	}
 }

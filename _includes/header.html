@@ -1,5 +1,10 @@
 <header>
 	<div class="container">
+		<!-- Mobile-only burger button -->
+		<button class="nav-burger">
+			<div></div>
+		</button>
+
 		<!-- Image and title -->
 		<img class="site-logo" src="{{ "/assets/img/site-logo.png" | relative_url }}">
 		<span class="site-title">{{ include.title }}</span>
@@ -13,16 +18,12 @@
 		</ul>
 
 		<!-- Spacer element -->
-		<div style="flex: 1 1 0"></div>
+		<div class="header-spacer"></div>
 
 		{% if include.search %}
 		<form action="{{ "/docs/search.html" | relative_url }}" class="site-search">
 			<input name="q" type="search" placeholder="Search documentation..." />
 		</form>
 		{% endif %}
-
-		<button class="nav-burger">
-			<div></div>
-		</button>
 	</div>
 </header>
