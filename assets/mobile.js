@@ -23,29 +23,4 @@
 	(tocHead == void 0) || tocHead.addEventListener('click', function() {
 		document.querySelector('.toc').classList.toggle('collapsed');
 	});
-
-
-	// SCROLL TO TOP BUTTON VISIBILITY
-	let lastScroll = document.documentElement.scrollTop;
-	let totalUpScroll = 0;
-	let sttButton = document.querySelector('.scroll-to-top');
-	let scrollLimit = document.body.scrollHeight - window.innerHeight;
-	if (sttButton) {
-		document.addEventListener('scroll', function(e) {
-			let curScroll = document.documentElement.scrollTop;
-			let scrollAmount = curScroll - lastScroll;
-			if (scrollAmount > 0)
-				totalUpScroll = 0;
-			else
-				totalUpScroll -= scrollAmount;
-			
-			// If we've reached (almost) to the bottom OR we've scrolled atleast 100px up and we're not already at the top, show the to-top button
-			sttButton.classList[curScroll >= scrollLimit - 50 || (totalUpScroll > 100 && curScroll > 20) ? "remove" : "add"]('hidden');
-
-			lastScroll = curScroll;
-		});
-		sttButton.addEventListener('click', function() {
-			window.scroll({ top: 0, behavior: 'smooth' });
-		});
-	}
 })();
