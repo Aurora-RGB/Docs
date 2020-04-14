@@ -1,6 +1,6 @@
 ---
 title: Gradient Fill Layer
-order: 4
+order: 8
 authors:
   - Wibble199
 ---

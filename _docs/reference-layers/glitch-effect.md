@@ -1,6 +1,6 @@
 ---
 title: Glitch Effect Layer
-order: 17
+order: 7
 authors:
   - Wibble199
 ---

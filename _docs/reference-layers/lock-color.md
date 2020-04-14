@@ -1,6 +1,6 @@
 ---
 title: Lock Color Layer
-order: 16
+order: 12
 authors:
   - Wibble199
 ---

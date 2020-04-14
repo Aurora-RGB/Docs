@@ -1,6 +1,6 @@
 ---
 title: Gradient Layer
-order: 3
+order: 9
 authors:
   - Wibble199
 ---

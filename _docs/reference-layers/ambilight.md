@@ -1,6 +1,6 @@
 ---
 title: Ambilight Layer
-order: 15
+order: 1
 authors:
   - Wibble199
 ---

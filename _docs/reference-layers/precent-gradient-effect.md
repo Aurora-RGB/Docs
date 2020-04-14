@@ -1,6 +1,6 @@
 ---
 title: Percent (Gradient) Effect Layer
-order: 10
+order: 14
 authors:
   - Wibble199
 ---

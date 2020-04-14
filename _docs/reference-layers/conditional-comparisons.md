@@ -1,6 +1,6 @@
 ---
 title: Conditional & Comparison Layers
-order: 11
+order: 6
 authors:
   - Wibble199
 ---
