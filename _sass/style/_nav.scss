@@ -91,12 +91,7 @@ nav {
 }
 
 @include tablet-mobile() {
-	nav {
-		flex-grow: 0;
-	}
-}
 
-@include mobile-only() {
 	$mobile-nav-width: 268px;
 
 	header > div {
@@ -104,6 +99,7 @@ nav {
 	}
 
 	nav {
+		flex-grow: 0;
 		position: fixed;
 		z-index: 100;
 		top: 0;
