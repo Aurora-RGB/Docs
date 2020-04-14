@@ -1,17 +1,15 @@
 nav {
-	position: fixed;
-	top: $header-height;/* By only providing a top value and not a left value, the nav will stay at x=0 relative to the parent (position:relative?)
-	parent. This means that regardless of the x position of the main article (and regardless of it's automatic x margin) the nav will always appear
-	at the left of it. With the article's margin, this means that it will always be next to the article. */
-	bottom: 0;
+	flex: 1 1 $nav-width;
 	overflow-y: auto;
-	box-sizing: content-box; /* For all elements this is set to box-sizing since it's usually preferred but we want to set the widht of the content only */
-	width: $nav-width;
-	margin-left: -1999px; /* Add a large margin offset and an equal padding amount so that the background color stretches off to the left of the window */
-	padding: 0 0 0 2007px; /* The left padding should be the absolute left margin + 8px */
 	border-right: 1px solid rgba($text-primary, .15);
 	background: $background-secondary;
 	font-weight: 700;
+
+	.inner-nav {
+		width: $nav-width;
+		margin-left: auto;
+		padding-left: 9px;
+	}
 
 	.nav-title {
 		text-transform: uppercase;
@@ -45,7 +43,7 @@ nav {
 		}
 	}
 
-	& > div {
+	.inner-nav > div {
 		height: 100%;
 		padding: 40px 0;
 	}
@@ -57,4 +55,73 @@ nav {
 	width: 9999px;
 	height: 9999px;
 	background: $background-secondary;
+}
+
+.nav-burger {
+	display: none;
+	background: rgba($text-primary, 0.02);
+	position: relative;
+	width: 38px;
+	height: 38px;
+	min-width: 0;
+	padding: 0;
+	box-shadow: 0 0 2px 1px #00000012;
+
+	div, div::after, div::before {
+		content: '';
+		display: block;
+		position: absolute;
+		background: rgba($text-primary, 0.8);
+		height: 2px;
+		width: 20px;
+	}
+
+	div {
+		margin: 9px;
+		top: 1px;
+	}
+
+	div::after {
+		top: 8px;
+	}
+	
+	div::before {
+		top: 16px;
+	}
+}
+
+@include tablet-mobile() {
+
+	$mobile-nav-width: 268px;
+
+	header > div {
+		z-index: 0;
+	}
+
+	nav {
+		flex-grow: 0;
+		position: fixed;
+		z-index: 100;
+		top: 0;
+		bottom: 0;
+		width: $mobile-nav-width;
+		transform: translateX(-100%);
+	}
+
+	nav .inner-nav > div {
+		padding: 0;
+	}
+
+	.nav-burger {
+		display: block;
+	}
+
+	body {
+		position: relative;
+		transition: left 200ms ease-out;
+		left: 0;
+	}
+	body.nav-open {
+		left: $mobile-nav-width;
+	}
 }

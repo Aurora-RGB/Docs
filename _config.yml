@@ -2,6 +2,7 @@
 title: Aurora User Docs
 url: http://wibble199.github.io/Aurora-Docs/
 baseurl: /Aurora-Docs
+host: 0.0.0.0
 
 collections:
   docs:

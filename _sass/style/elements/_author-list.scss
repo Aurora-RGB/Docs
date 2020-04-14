@@ -1,0 +1,50 @@
+.author-list {
+	padding: 0;
+	list-style: none;
+
+	li {
+		position: relative;
+		display: inline;
+
+		.avatar {
+			display: inline-block;
+			// Set the heights here (as well as in the jekyll plugin so that when the image is loading, it
+			// still takes up the right amount of space so the page doesn't jump as they images load.
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+		}
+
+		a:hover {
+			border: none; // Disable the underline appearing under user's images
+		}
+
+		&::after {
+			position: absolute;
+			z-index: 99;
+			bottom: 38px;
+			left: 50%;
+			display: block;
+			padding: 4px;
+			content: attr(data-username);
+			transition: opacity 300ms ease-in-out;
+			transform: translateX(-50%);
+			pointer-events: none;
+			opacity: 0;
+			border-radius: 6px;
+			background: black;
+			font-size: .8rem;
+		}
+
+		&:hover::after {
+			opacity: .8;
+		}
+	}
+}
+
+.author-text-label {
+	position: relative;
+	top: -24px;
+	opacity: 0.2;
+	font-size: 90%;
+}

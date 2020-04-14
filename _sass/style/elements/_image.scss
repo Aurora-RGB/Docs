@@ -1,0 +1,40 @@
+$lightbox-transition: 400ms ease-in-out;
+
+article img:not(.avatar):not(.emoji) {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+	cursor: zoom-in;
+}
+
+.img-caption {
+	display: block;
+	text-align: center;
+	color: rgba($text-primary, .7);
+	font-size: 90%;
+	font-style: italic;
+}
+
+.lightbox-image {
+	position: fixed;
+	z-index: 100;
+	transition: width $lightbox-transition, height $lightbox-transition, top $lightbox-transition, left $lightbox-transition;
+	pointer-events: none;
+}
+
+.lightbox-image-backdrop {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	cursor: zoom-out;
+	transition: opacity $lightbox-transition;
+	background: rgba($background-primary, .9);
+
+	&.out {
+		pointer-events: none;
+		opacity: 0;
+	}
+}

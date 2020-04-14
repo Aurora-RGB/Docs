@@ -6,15 +6,13 @@ layout: default
 {%- include header.html title=site.title search=true -%}
 
 <main>
+	<!-- Navigation sidebar -->
 	{%- include nav.html -%}
+
 	<article>
-		<section><!-- Title -->
-			<span class="page-title">{{ page.title }}</span>
-			
-			<!-- Table of Contents -->
-			<aside class="toc">
-				{% include toc.html html=content %}
-			</aside>
+		<section>
+			<!-- Title -->
+			<span class="page-title">{{ page.title }}</span>			
 			
 			<!-- Actual page content -->
 			{{ content }}
@@ -23,16 +21,22 @@ layout: default
 			<hr style="margin:28px 100px"/>
 			<ul class="author-list">
 				{% for author in page.authors %}
-				<li data-username="{{ author }}"><a href="https://github.com/{{ author }}"
-						target="_blank">{% avatar user=author size=32 %}</a></li>
+					<li data-username="{{ author }}"><a href="https://github.com/{{ author }}" target="_blank">{% avatar user=author size=32 %}</a></li>
 				{% endfor %}
 			</ul>
 			<span class="author-text-label">Page authored by</span>
 		</section>
 		{%- include docs-footer.html -%}
 	</article>
+
+	<!-- Table of Contents -->
+	<aside class="toc collapsed">
+		<div class="toc-header">Table of Contents</div>
+		{% include toc.html html=content %}
+	</aside>
 </main>
 
 <script src="{{ "assets/simplebar.min.js" | relative_url }}"></script>
+<script src="{{ "assets/mobile.js" | relative_url }}"></script>
 <script src="{{ "assets/scroll-offset.js" | relative_url }}"></script>
 <script src="{{ "assets/image-script.js" | relative_url }}"></script>

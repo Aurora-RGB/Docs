@@ -10,15 +10,18 @@ header {
 
 	.container {
 		display: flex;
+		flex-flow: row wrap;
 		align-items: center;
-		max-width: $container-max-width;
 		margin: auto;
+		max-width: $content-width + $nav-width + $toc-width;
 	}
 
 	// Link list
-	ul {
+	.site-links {
 		list-style: none;
 		padding: 0 16px;
+		white-space: nowrap;
+		overflow-y: auto;
 
 		li {
 			display: inline-block;
@@ -34,6 +37,34 @@ header {
 	}
 }
 
+@include mobile-only {
+	header .site-links {
+		display: none;
+	}
+
+	.site-title {
+		width: auto;
+		flex-grow: 1;
+		text-align: center;
+	}
+
+	.site-logo {
+		order: 1;
+	}
+}
+
+@include tablet-mobile() {
+	.site-search {
+		display: none;
+	}
+}
+
+@include desktop-only() {
+	.header-spacer {
+		flex: 1 1 0;
+	}
+}
+
 .site-title {
 	font-size: 1.4rem;
 	font-weight: 700;
@@ -44,4 +75,10 @@ header {
 	width: 40px;
 	height: 40px;
 	margin: 8px;
+}
+
+.site-search {
+	width: 380px;
+	position: relative;
+	top: 2px;
 }
