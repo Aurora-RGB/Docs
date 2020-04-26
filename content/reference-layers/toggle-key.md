@@ -6,7 +6,7 @@ authors:
 
 The toggle key layer allows for the turning on or off some lights based on the key press of another specific key. This layer can be useful for things such as indicators for whether something is toggled on/off in a game.
 
-<span class="alert info">If you are using caps lock, num lock or scroll lock as a trigger key it is probably better to use the Lock Layer to ensure the key light state stays synced with the lock state properly.</span>
+{{% alert "If you are using caps lock, num lock or scroll lock as a trigger key it is probably better to use the Lock Layer to ensure the key light state stays synced with the lock state properly." "info" %}}
 
 Note: Currently there is no way of syncing the toggle status across profiles, so you cannot have persistent states between different games or applications.
 

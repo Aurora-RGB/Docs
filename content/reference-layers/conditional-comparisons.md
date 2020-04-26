@@ -4,7 +4,7 @@ authors:
   - Wibble199
 ---
 
-<span class="alert danger">These layers are no longer necessary and the Overrides System should be used instead as it has more functionality than these layers. They will remain in Aurora so as not to break existing profiles.</span>
+{{% alert "These layers are no longer necessary and the Overrides System should be used instead as it has more functionality than these layers. They will remain in Aurora so as not to break existing profiles." "danger" %}}
 
 # Conditional Layer
 The conditional layer sets the color of the given keys to one of two colors, based on whether the a boolean value (a yes/no) from the game or system or is true or false. Not all games have boolean properties available. Like the percent layers, a drop down is provided allowing you to select from a list the variable you want to reference.

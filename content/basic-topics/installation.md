@@ -15,9 +15,9 @@ The Aurora software is constantly evolving thanks to submissions from various co
 
 If you would like to, it is possible to download the dev version to access some new additional features and bug fixes.
 
-<span class="alert warning">The dev version may be more unstable than the main release, and so you may encounter some bugs.</span>
+{{% alert "The dev version may be more unstable than the main release, and so you may encounter some bugs." "warning" %}}
 
-<span class="alert warning">The dev version's settings may also be incompatible with the main release's. It is **highly** recommended that you [back up your profiles](../basic-topics/user-data.html#taking-a-backup) and settings before changing Aurora versions.</span>
+{{% alert "The dev version's settings may also be incompatible with the main release's. It is **highly** recommended that you [back up your profiles](../basic-topics/user-data.html#taking-a-backup) and settings before changing Aurora versions." "warning" %}}
 
 The dev version is automatically built whenever a new change happens to the dev branch and you can find the artefacts on the relevant [AppVeyor page](https://ci.appveyor.com/project/antonpup/aurora/branch/dev/artifacts).
 

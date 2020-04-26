@@ -8,9 +8,9 @@ The wrapper layer is a special layer that is able to display lighting received f
 
 To patch a game, navigate to "Settings" -> "Devices & Wrappers" -> "Install Wrapper Patch for xxx", where xxx is the name of the **native lighting** provided by that game. Do not patch the game with their own device's brand (unless that is also the provider of the in game lighting). For example, if I am using a Logitech keyboard, and I wish to get the lights from Killing Floor 2, I need to patch using the LightFX wrapper, since Killing Floor uses LightFX library to provide it's lighting.
 
-<span class="alert warning">Note that some more recent and multiplayer titles have been shipping with anti-cheat or signature checking on the lighting DLL file. In these cases, the game will not load our modified wrapper. Unfortunately there's nothing we are able to do about this. Examples of these games include Apex Legends, Fortnite and Division 2.</span>
+{{% alert "Note that some more recent and multiplayer titles have been shipping with anti-cheat or signature checking on the lighting DLL file. In these cases, the game will not load our modified wrapper. Unfortunately there's nothing we are able to do about this. Examples of these games include Apex Legends, Fortnite and Division 2." "warning" %}}
 
-<span class="alert info">Aurora is not able to directly control the affects these games apply, since Aurora is unable to get values from the game (such as health/ammo/etc.). The only data the lighting engine sends is which keys should be which color.</span>
+{{% alert "Aurora is not able to directly control the affects these games apply, since Aurora is unable to get values from the game (such as health/ammo/etc.). The only data the lighting engine sends is which keys should be which color." "info" %}}
 
 ## Key Cloning
 
