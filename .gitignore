@@ -1,4 +1,25 @@
-.vscode
-_site
-.sass-cache
-.jekyll-metadata
+# Created by https://www.gitignore.io/api/hugo,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=hugo,visualstudiocode
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/hugo,visualstudiocode

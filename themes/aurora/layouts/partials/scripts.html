@@ -1,0 +1,6 @@
+{{ $mobile := resources.Get "js/mobile.js" }}
+{{ $image := resources.Get "js/image-script.js" }}
+{{ $scroll := resources.Get "js/scroll-offset.js" }}
+{{ $simplebar := resources.Get "js/simplebar.min.js" }}
+{{ $scripts := slice $mobile $image $scroll $simplebar | resources.Concat "app.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>

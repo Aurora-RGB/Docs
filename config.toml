@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "en-US"
+title = "Aurora User Docs"
+theme = "aurora"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe= true

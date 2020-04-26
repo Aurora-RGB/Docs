@@ -1,0 +1,16 @@
+<nav id="main-nav">
+    <div class="inner-nav">
+        <div data-simplebar>
+            {{ range $.Site.Sections.ByParam "order" }}
+            <span class="nav-title">{{ .Title }}</span>
+            <ul class="nav-list">
+                {{ range .Pages.ByParam "order" }}
+                    <li class="">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</nav>
