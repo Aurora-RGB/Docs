@@ -21,9 +21,9 @@ This layer takes in audio data from your computer and visualizes the volume at v
     <tr>
       <td>Equalizer Effect Type</td>
       <td><ul>
-        <li><strong>Power Bars</strong><img src="../../assets/img/docs/visualizer-power-bars.png"></li>
-        <li><strong>Waveform</strong><img src="../../assets/img/docs/visualizer-waveform.png"></li>
-        <li><strong>Waveform (From bottom)</strong><img src="../../assets/img/docs/visualizer-waveform-bottom.png"></li>
+        <li><strong>Power Bars</strong><img src="../../img/docs/visualizer-power-bars.png"></li>
+        <li><strong>Waveform</strong><img src="../../img/docs/visualizer-waveform.png"></li>
+        <li><strong>Waveform (From bottom)</strong><img src="../../img/docs/visualizer-waveform-bottom.png"></li>
       </ul></td>
     </tr>
     <tr>

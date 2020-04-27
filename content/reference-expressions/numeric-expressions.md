@@ -37,14 +37,14 @@ This page lists and explains the types of numeric expressions (sometimes called 
     <tr>
       <td>Numeric Map</td>
       <td>Maps a value that is within one range onto another range. For example, consider we have the number 75 within the range 50 to 100. If we map that onto range 0 to 1, the result will be 0.5. This is because 75 is half way between 50 and 100, so it becomes half way between 0 and 1. It will also accept ranges that are inverse. For example, if we map the value 7 from the range 10 to 0 onto 0 to 100, the result is 30. This is because 7 is 30% of the way from 10 to 0.
-      For the mathematically inclined, the exact equation is this: <img src="../../assets/img/docs/evaluatable-number-map-equation.png">
+      For the mathematically inclined, the exact equation is this: <img src="../../img/docs/evaluatable-number-map-equation.png">
       Note that the output from this is clamped so that it will never go out of the "from" range of the function.</td>
     </tr>
     <tr>
       <td>Wave Function</td>
       <td>Performs a wave function with a period of 1 on the given input. The output will always be between 0 and 1.<br/>
-        <strong>Sine:</strong><img src="../../assets/img/docs/evaluatable-number-waves-sine.png" style="max-width:400px">  
-        <strong>Triangle:</strong><img src="../../assets/img/docs/evaluatable-number-waves-triangle.png" style="max-width:400px">
+        <strong>Sine:</strong><img src="../../img/docs/evaluatable-number-waves-sine.png" style="max-width:400px">  
+        <strong>Triangle:</strong><img src="../../img/docs/evaluatable-number-waves-triangle.png" style="max-width:400px">
         For an example of how to use the wave functions, the RGB fade overrides demo makes use of the sine wave to gradually fade in and out the opacity of the layer.
       </td>
     </tr>
