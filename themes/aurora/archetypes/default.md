@@ -5,4 +5,10 @@ authors:
   - github_usernames
 ---
 
-# Page Content
+Page Content
+
+# Some header
+
+[Link to another section]{{% ref "basic-topics/installation" %}}
+
+![Some image (images go in `static/img/docs`)](/img/docs/my-image.png)
