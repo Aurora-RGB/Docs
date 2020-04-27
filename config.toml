@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/Aurora-Docs-Hugo-Test/"
 languageCode = "en-US"
 title = "Aurora User Docs"
 theme = "aurora"
