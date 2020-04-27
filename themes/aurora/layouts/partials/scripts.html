@@ -1,6 +1,7 @@
-{{ $mobile := resources.Get "js/mobile.js" }}
+{{ $externalLink := resources.Get "js/external-link-fix.js" }}
 {{ $image := resources.Get "js/image-script.js" }}
+{{ $mobile := resources.Get "js/mobile.js" }}
 {{ $scroll := resources.Get "js/scroll-offset.js" }}
 {{ $simplebar := resources.Get "js/simplebar.min.js" }}
-{{ $scripts := slice $mobile $image $scroll $simplebar | resources.Concat "app.js" | minify | fingerprint }}
+{{ $scripts := slice $externalLink $image $mobile $scroll $simplebar | resources.Concat "app.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>

@@ -11,7 +11,7 @@ This page lists and explains the types of string expressions that you can use to
 
 |Name|Description|
 |-|-|
-|String State Variable|Gets a string [state variable](../../advanced-topics/state-variables) from the current profile's application's game state and returns it.|
+|String State Variable|Gets a string [state variable]({{% ref "advanced-topics/state-variables" %}}) from the current profile's application's game state and returns it.|
 
 # String
 

@@ -1,8 +1,9 @@
-baseURL = "/Aurora-Docs-Hugo-Test/"
+baseURL = "//wibble199.github.io//Aurora-Docs-Hugo-Test/"
 languageCode = "en-US"
 title = "Aurora User Docs"
 theme = "aurora"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+canonifyURLs = true
 
 [markup]
   [markup.tableOfContents]

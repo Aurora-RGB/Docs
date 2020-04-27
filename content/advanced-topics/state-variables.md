@@ -20,4 +20,4 @@ Any layers that support the use of State Variables will present you with a drop 
 
 Note that in most circumstances, the drop down list is editable you are able to type a number into the field to use that instead of referencing a State Variable.
 
-Another use for State Variables is in the [Overrides System](../../advanced-topics/overrides-system). This system allows you to override property values of the layers when certain conditions are met. These conditions can be based on State Variables, such as showing a layer when your health is less than 25%.
+Another use for State Variables is in the [Overrides System]({{% ref "advanced-topics/overrides-system" %}}). This system allows you to override property values of the layers when certain conditions are met. These conditions can be based on State Variables, such as showing a layer when your health is less than 25%.

@@ -4,7 +4,7 @@ authors:
   - Wibble199
 ---
 
-The animation layer is another very powerful but very complex and hard-to-use layer. It allows for you to create custom animations using shapes and by creating key-frames in the animation editor. There is a basic guide on how to create animations [here](../../advanced-topics/animation-editor).
+The animation layer is another very powerful but very complex and hard-to-use layer. It allows for you to create custom animations using shapes and by creating key-frames in the animation editor. There is a basic guide on how to create animations [here]({{% ref "advanced-topics/animation-editor" %}}).
 
 This layer can also be triggered when certain events happen. You can select it for when a game-state value changes or when you press/release a key. When in a key-mode, the animation can optionally be translated to the location of the pressed key. This basically provides a means of creating a custom interactive layer if you don’t like that layer’s default effects.
 

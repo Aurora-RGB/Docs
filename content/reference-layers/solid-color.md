@@ -8,7 +8,7 @@ The Solid Color Layer is for setting static colors for specific keys. The keys w
 
 ![A Solid Color Layer lighting common video game control keys](/img/docs/layer-solid-color.png)
 
-If you want to set the color of the entire (or most) of the keyboard, consider using the [Solid Fill Color](../solid-fill-color) Layer instead.
+If you want to set the color of the entire (or most) of the keyboard, consider using the [Solid Fill Color]({{% ref "reference-layers/solid-fill-color" %}}) Layer instead.
 
 ## Properties
 

@@ -9,7 +9,7 @@ Aurora stores all user data in a directory in the roaming application data folde
 
 # Importing Profiles
 
-Profiles that others have made can be imported easily into Aurora using the import button on the "Profiles" section. Pressing this button will open a dialog asking you to choose a file to import. JSON files that have been exported from Aurora (see [exporting profiles](#exporting-profiles)) are fully supported through import. In addition, Aurora has partial support for implementing iCUE profiles, however due to the nature of it being a different program with different layers and formats, imported profiles may not look identical.
+Profiles that others have made can be imported easily into Aurora using the import button on the "Profiles" section. Pressing this button will open a dialog asking you to choose a file to import. JSON files that have been exported from Aurora (see [exporting profiles]({{% ref "#exporting-profiles" %}})) are fully supported through import. In addition, Aurora has partial support for implementing iCUE profiles, however due to the nature of it being a different program with different layers and formats, imported profiles may not look identical.
 
 When importing a profile, a new profile will appear in the profile list - you do not need to worry about it overwriting the profile you currently have selected. If you wish to merge the imported profile with an existing one you have, you can select the layers from one profile and copy and paste them using the relevant buttons or by pressing the Ctrl + C and Ctrl + V keys on the keyboard.
 
