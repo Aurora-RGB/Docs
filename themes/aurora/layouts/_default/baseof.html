@@ -5,7 +5,9 @@
     {{ partial "header.html" . }}
     <main>
         {{ partial "nav.html" . }}
-        {{ partial "content.html" . }}
+        {{ block "main" . }}
+            {{ partial "content.html" . }}
+        {{ end }}
     </main>
     {{ partial "scripts.html" . }}
 </body>

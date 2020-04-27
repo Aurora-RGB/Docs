@@ -1,0 +1,107 @@
+{{ define "main" }}
+<article>
+    <section>
+        <span class="page-title">{{ .Title }}</span><br/>
+
+        <!-- Search box -->
+        <form id="search-form" class="inline-form">
+            <div class="form-input">
+                <input type="search" class="search" id="search-term">
+                <div></div>
+            </div>
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Result list -->
+        <ol id="results" class="search-results"></ol>
+    </section>
+</article>
+<aside class="toc collapsed">&nbsp;</aside>
+
+<!-- Search script -->
+<script src="//unpkg.com/lunr/lunr.js"></script>
+<script>
+// Generate an index from all hugo pages
+{{ $docs := slice }}
+{{ range $.Site.RegularPages }}
+    {{ $docs = $docs | append (dict "title" .Title "content" .Plain "link" .Permalink) }}
+{{ end }}
+const index = JSON.parse({{ $docs | jsonify }});
+
+// Lunr search
+const lunrIndex = lunr(function() {
+    this.ref('index');
+    this.field('title');
+    this.field('content');
+    this.metadataWhitelist = ['position'];
+    index.forEach((page, i) => this.add({ index: i, ...page }));
+});
+
+// Ask lunr to search and displays results
+function performSearch(str) {
+    if (!str)
+        document.getElementById('results').innerHTML = '<p>Please enter a search term.</p>';
+    else {
+        let results = lunrIndex.search(str);
+        document.getElementById('results').innerHTML = results.length ? results.map(createResultHtml).join('') : '<p>No results found for this search term.</p>';
+    }
+}
+
+function createResultHtml(result) {
+    const roughTargetContentLength = 200; // Approximately how many characters maximum for the search content preview
+    let match = Object.values(result.matchData.metadata)[0];
+
+    let title = index[result.ref].title
+    let content = index[result.ref].content;
+
+    // If the title is the source of the match, embolden the relevant part of the title
+    if (match.title)
+        title = markSegment(title, match.title.position[0]);
+
+    // If the body is a match, highlight the first relevant part of the body.
+    if (match.content) {
+        content = markSegment(index[result.ref].content, match.content.position[0]);
+        let p = match.content.position[0], r = roughTargetContentLength / 2; // aliases
+        let s = p[0] < r ? 0 : content.indexOf(" ", p[0] - r); // start point of the preview substring. Find a word break approximately half the target length to the left of the start of the matched word
+        let e = content.indexOf(" ", p[0] + p[1] + (s == 0 ? roughTargetContentLength - s : r)); // End point of preview. Find a word break approximately half the target length to the right of the end of the matched word. Note that if the start is at 0, we instead aim for the total target length - start, so that the OVERALL string is approx target length
+        content = (s == 0 ? "" : "...") + content.substring(s, e == -1 ? undefined : e) + (e == -1 ? "" : "...");
+        
+    // If no match in the body (e.g. it was only in title), show the first part of the document
+    } else if (content.length > roughTargetContentLength + 50)
+        content = content.substr(0, content.indexOf(" ", roughTargetContentLength)) + "...";
+
+    return `<li><a class="title" href="${index[result.ref].link}">${title}</a><p>${content}</p></li>`;
+}
+
+// Adds a span.highlight element to the text at the given lunr match position
+function markSegment(text, position) {
+    let start = text.substr(0, position[0]);
+    let mid = text.substr(position[0], position[1]);
+    let end = text.substr(position[0] + position[1]);
+    return `${start}<span class="highlight">${mid}</span>${end}`;
+}
+
+// Search form handler
+document.getElementById('search-form').addEventListener('submit', e => {
+    e.preventDefault();
+    let term = document.getElementById('search-term').value;
+    performSearch(term);
+    window.history.pushState('', '', '?q=' + encodeURIComponent(term));
+});
+
+// Perform an initial scan of the query URL and see if it has a 'q' param. If so, initially search for that term
+setFromQueryString();
+
+// Also re-peform a search when the user navigates back/forwards (and thus changes the 'q' param in the url)
+window.addEventListener('popstate', setFromQueryString);
+
+// URL helpers
+function setFromQueryString() {
+    let searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.has("q")) {
+        performSearch(searchParams.get("q"));
+        document.getElementById('search-term').value = searchParams.get("q");
+    }
+}
+</script>
+{{ end }}
