@@ -29,17 +29,28 @@ button, .button {
 	color: $text-primary;
 	border: none;
 	border-radius: 3px;
-	background: linear-gradient(to right, lighten(adjust_hue($accent-primary, 5), 5), adjust_hue($accent-primary, -5));
 	box-shadow: 0 0 6px 0 #0008;
 	font-size: .9rem;
-
+	
+	/* Default */
+	background: linear-gradient(to right, lighten(adjust_hue($background-primary, 5), 3), lighten(adjust_hue($background-primary, -5), 1));
 	&:hover {
-		background: linear-gradient(to right, lighten(adjust_hue($accent-primary, 5), 15), lighten(adjust_hue($accent-primary, -5), 10));
+		background: linear-gradient(to right, lighten(adjust_hue($background-primary, 5), 9), lighten(adjust_hue($background-primary, -5), 4));
+	}
+	&:active {
+		background: linear-gradient(to right, darken(adjust_hue($background-primary, 5), 3), darken(adjust_hue($background-primary, -5), 5));
+		box-shadow: none;
 	}
 
-	&:active {
-		background: linear-gradient(to right, darken(adjust_hue($accent-primary, 5), 5), darken(adjust_hue($accent-primary, -5), 10));
-		box-shadow: none;
+	/* Primary */
+	&.primary {
+		background: linear-gradient(to right, lighten(adjust_hue($accent-primary, 5), 5), adjust_hue($accent-primary, -5));
+		&:hover {
+			background: linear-gradient(to right, lighten(adjust_hue($accent-primary, 5), 15), lighten(adjust_hue($accent-primary, -5), 10));
+		}
+		&:active {
+			background: linear-gradient(to right, darken(adjust_hue($accent-primary, 5), 5), darken(adjust_hue($accent-primary, -5), 10));
+		}
 	}
 }
 

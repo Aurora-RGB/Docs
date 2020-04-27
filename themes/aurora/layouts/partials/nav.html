@@ -1,6 +1,13 @@
 <nav id="main-nav">
     <div class="inner-nav">
         <div data-simplebar>
+            <!-- Home link-->
+            <ul class="nav-list">
+                <li class="">
+                    <a href="/">Introduction</a>
+                </li>
+            </ul>
+
             {{ range $.Site.Sections.ByParam "order" }}
             <span class="nav-title">{{ .Title }}</span>
             <ul class="nav-list">

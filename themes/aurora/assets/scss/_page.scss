@@ -9,6 +9,10 @@ article {
 	flex: 0 1 $content-width;
 }
 
+article.wide {
+	flex: 0 1 $content-width + $toc-width;
+}
+
 @include mobile-only() {
 	article {
 		padding: 12px;
@@ -34,7 +38,7 @@ strong {
 	font-weight: bold;
 }
 
-article a {
+article a:not(.button) {
 	color: mix($text-primary, $accent-primary, 20%);
 	text-decoration: none;
 
@@ -48,10 +52,10 @@ article a {
 	"elements/alert",
 	"elements/author-list",
 	"elements/code",
-	"elements/feature-list",
 	"elements/form",
 	"elements/headings",
 	"elements/image",
+	"elements/index-list",
 	"elements/search-list",
 	"elements/table",
 	"elements/toc";

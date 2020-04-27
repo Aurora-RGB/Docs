@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="wide">
+    <section>
+        <!-- Title -->
+        <span class="page-title">{{ $.Site.Title }}</span><br/>
+
+        <p>Welcome to the Aurora RGB software documentation. Here are some articles for getting started with Aurora. Alternatively, you can choose pages from the left.</p>
+        <div class="index-list">
+            <a href="{{ "/basic-topics/installation" | relURL }}" class="button">
+                <p class="item-title">Installation</p>
+            </a>
+            <a href="{{ "/basic-topics/getting-started" | relURL }}" class="button">
+                <p class="item-title">Getting Started</p>
+            </a>
+            <a href="{{ "/advanced-topics/state-variables" | relURL }}" class="button">
+                <p class="item-title">About State Variables</p>
+            </a>
+            <a href="{{ "/advanced-topics/overrides-system" | relURL }}" class="button">
+                <p class="item-title">Overrides system</p>
+            </a>
+            <a href="{{ "/reference-layers" | relURL }}" class="button">
+                <p class="item-title">Layers list</p>
+            </a>
+            <a href="{{ "/reference-expressions" | relURL }}" class="button">
+                <p class="item-title">Override expressions list</p>
+            </a>
+        </div>
+    </section>
+</article>
+<aside class="toc wide-article collapsed">&nbsp;</aside>
+{{ end }}

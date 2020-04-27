@@ -1,0 +1,54 @@
+.index-list {
+	display: grid;
+	list-style: none;
+	padding: 0;
+	grid-template-columns: 33% 33% 33%;
+
+	// Move the buttons a bit closer together
+	margin: 4px -8px;
+	.button {
+		position: relative;
+		overflow: hidden;
+		padding: 8px 16px;
+		margin: 8px;
+	}
+
+	// Disable custom image zoom functionality
+	img {
+		pointer-events: none;
+	}
+	.img-caption {
+		display: none;
+	}
+
+	.item-title {
+		padding: 0 8px;
+		margin: 8px;
+		font-size: 1.15rem;
+		text-align: center;
+		text-shadow: none;
+	}
+
+	/* For list with images */
+	&.with-images {
+		// Fix height of button
+		.button {
+			height: 135px;
+		}
+
+		// Move title to bottom
+		.item-title {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			text-shadow: 0 0 10px black, 0 0 6px black, 0 0 2px black;
+		}
+	}
+}
+
+@include mobile-only {
+	.index-list {
+		grid-template-columns: 100%;
+	}
+}

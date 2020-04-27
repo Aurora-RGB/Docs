@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article>
+<article class="wide">
     <section>
         <span class="page-title">{{ .Title }}</span><br/>
 
@@ -9,14 +9,14 @@
                 <input type="search" class="search" id="search-term">
                 <div></div>
             </div>
-            <button type="submit">Search</button>
+            <button class="primary" type="submit">Search</button>
         </form>
 
         <!-- Result list -->
         <ol id="results" class="search-results"></ol>
     </section>
 </article>
-<aside class="toc collapsed">&nbsp;</aside>
+<aside class="toc wide-article collapsed">&nbsp;</aside>
 
 <!-- Search script -->
 <script src="//unpkg.com/lunr/lunr.js"></script>

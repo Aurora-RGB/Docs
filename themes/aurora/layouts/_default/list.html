@@ -1,1 +1,25 @@
-{{ define "dummy" }}{{ end }}
+{{ define "main" }}
+<article class="wide">
+    <section>
+        <!-- Title -->
+        <span class="page-title">{{ default $.Site.Title .Title }}</span><br/>
+        {{ $img := .Params.indexImages }}
+        {{ $cls := cond (eq $img true) "with-images" "" }}
+
+        <div class="index-list {{ $cls }}">
+            {{ range .Pages }}
+                <a href="{{ .Permalink }}" class="button">
+                    {{ if $img }}
+                        {{/* Regex which finds anything that matches ![*](/img/*). I.E. finds the first occurance of an image from the page content
+                        This is then rendered as HTML, resulting in the first image, which, atleast for layers, we can assume is a preview of the layer. */}}
+                        {{ $m := findRE "!\\[.*?\\]\\(\\/img\\/.*?\\)" .RawContent 1 }}
+                        {{ index $m 0 | .RenderString }}
+                    {{ end }}
+                    <p class="item-title">{{ .Title }}</p>
+                </a>
+            {{ end }}
+        </div>
+    </section>
+</article>
+<aside class="toc wide-article collapsed">&nbsp;</aside>
+{{ end }}
