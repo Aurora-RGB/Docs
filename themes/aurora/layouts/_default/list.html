@@ -3,11 +3,15 @@
     <section>
         <!-- Title -->
         <span class="page-title">{{ default $.Site.Title .Title }}</span><br/>
+
+        {{ .Content }}
+
+        <!-- Image index -->
         {{ $img := .Params.indexImages }}
         {{ $cls := cond (eq $img true) "with-images" "" }}
 
         <div class="index-list {{ $cls }}">
-            {{ range .Pages }}
+            {{ range .Pages.ByParam "order" }}
                 <a href="{{ .Permalink }}" class="button">
                     {{ if $img }}
                         {{/* Regex which finds anything that matches ![*](/img/*). I.E. finds the first occurance of an image from the page content

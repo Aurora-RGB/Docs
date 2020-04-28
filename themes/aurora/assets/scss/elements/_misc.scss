@@ -1,0 +1,22 @@
+.typetag {
+
+    font-size: .9rem;
+    padding: 4px 8px;
+    vertical-align: middle;
+
+    &.boolean { background-color: #214359; }
+    &.number { background-color: #215929; }
+    &.string { background-color: #59212C; }
+
+    &:first-of-type {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    &:last-of-type {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+#TableOfContents .typetag { display: none; }
