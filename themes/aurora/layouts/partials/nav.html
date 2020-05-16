@@ -3,16 +3,17 @@
         <div data-simplebar>
             <!-- Home link-->
             <ul class="nav-list">
-                <li class="">
+                <li class="{{ if .IsHome }}active{{ end }}">
                     <a href="/">Introduction</a>
                 </li>
             </ul>
-
+            
+            {{ $cur := . }}
             {{ range $.Site.Sections.ByParam "order" }}
             <span class="nav-title">{{ .Title }}</span>
             <ul class="nav-list">
                 {{ range .Pages.ByParam "order" }}
-                    <li class="">
+                    <li class="{{ if eq $cur.Permalink .Permalink }}active{{ end }}">
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>
                 {{ end }}
