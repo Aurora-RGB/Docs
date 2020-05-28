@@ -23,12 +23,19 @@ For GHUB:
 For LGS:
 
 1. Open Logitech Gaming Software and go into Settings
+
 ![Opening Settings in Logitech Gaming Software](/static/img/docs/lgs-enable-sdk-1.png)
+
 2. Enable Game Integration Settings
+
 ![Enabling Game Integration Settings in Logitech Gaming Software](/static/img/docs/lgs-enable-sdk-2.png)
+
 3. Open the Game Integration Configuration menu
+
 ![Opening the Game Integration Menu in Logitech Gaming Software](/static/img/docs/lgs-enable-sdk-3.png)
+
 4. Disable Conflicting Settings and Applets
+
 ![Disabling CS:GO in Logitech Gaming Software](/static/img/docs/lgs-enable-sdk-4.png)
 ![Disabling DotA2 in Logitech Gaming Software](/static/img/docs/lgs-enable-sdk-5.png)
 
