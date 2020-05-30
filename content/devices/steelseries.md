@@ -18,6 +18,10 @@ If you still cannot control your keyboard or mouse illumination, check if Color 
 
 ![Color Special Event in Aurora applet](/img/docs/sse-special-event.png)
 
+# Known Issues
+
+Mice with more that 2 zones (Rival 600, Rival 650), do not have extra LEDs working - the only zones that can be controlled are mouse wheel and SteelSeries logo.
+
 # Supported Devices
 
 Most devices supported by SteelSeries Engine. Notable exceptions are zone based keyboards like Apex M350 or Apex 3.
