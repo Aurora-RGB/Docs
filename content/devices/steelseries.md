@@ -20,7 +20,7 @@ If you still cannot control your keyboard or mouse illumination, check if Color 
 
 # Known Issues
 
-Mice with more that 2 zones (Rival 600, Rival 650), do not have extra LEDs working - the only zones that can be controlled are mouse wheel and SteelSeries logo.
+Devices with number of zones other than 1, 2 or 12 are not fully supported (ex. Rival 600) - they may still work but not all zones can be controlled.
 
 # Supported Devices
 
