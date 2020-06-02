@@ -90,6 +90,10 @@ nav#main-nav {
 	}
 }
 
+.mobile-site-search {
+	display: none;
+}
+
 @include tablet-mobile() {
 
 	$mobile-nav-width: 268px;
@@ -123,5 +127,17 @@ nav#main-nav {
 	}
 	body.nav-open {
 		left: $mobile-nav-width;
+	}
+
+	.mobile-site-search {
+		display: block;
+
+		input {
+			padding: 21px 12px 20px;
+			border-radius: 0;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+		}
 	}
 }

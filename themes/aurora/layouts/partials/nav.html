@@ -1,6 +1,13 @@
 <nav id="main-nav">
     <div class="inner-nav">
         <div data-simplebar>
+            <!-- Search menu (mobile-only) -->
+            <div class="mobile-site-search">
+                <form action="/search">
+                    <input name="q" type="search" placeholder="Search documentation..." />
+                </form>
+            </div>
+
             <!-- Home link-->
             <ul class="nav-list">
                 <li class="{{ if .IsHome }}active{{ end }}">
