@@ -1,6 +1,7 @@
 nav#main-nav {
 	flex: 1 1 $nav-width;
 	overflow-y: auto;
+	overflow-x: hidden;
 	border-right: 1px solid rgba($text-primary, .15);
 	background: $background-secondary;
 	font-weight: 700;

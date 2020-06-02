@@ -15,7 +15,7 @@ html {
 	navigation menus look out of line with the ones from pages without scrollbars*/
 	overflow-y: scroll;
 	/* Prevent a scrollbar appearing on mobile when the nav is open */
-	overflow-x: scroll;
+	overflow-x: hidden;
 }
 
 body {
