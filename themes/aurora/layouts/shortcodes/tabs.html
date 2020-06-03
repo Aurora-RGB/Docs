@@ -1,4 +1,4 @@
-<div class="tabs">
+<div class="tabs" data-tabs-sync-group="{{ .Get "group" }}">
     <div class="tab-headers">
         {{ range (split (.Get "headers") "|") }}
             <button class="tab-header">{{ . }}</button>
