@@ -1,0 +1,10 @@
+<div class="tabs">
+    <div class="tab-headers">
+        {{ range (split (.Get "headers") "|") }}
+            <button class="tab-header">{{ . }}</button>
+        {{ end }}
+    </div>
+    <div class="tab-contents">
+        {{ .Inner }}
+    </div>
+</div>
