@@ -11,15 +11,21 @@ This page lists all the standard evaluatables that are under the 'Logic' categor
 
 Takes two input booleans and outputs `true` only if both these inputs are also `true`.
 
+## Boolean Change Detector {{% typetag "boolean" %}}
+
+Watches an input boolean evaluatable and outputs `true` on a frame if the value of the child is different than it was last frame. Otherwise it outputs `false`.
+
+Can also be configured to only output when the new value of the input is `true` or the new value is `false`.
+
 ## Boolean Constant {{% typetag "boolean" %}}
 
 Outputs a boolean of your choice, either `true` or `false`.
 
-## Flip-Flip {{% typetag "boolean" %}}
+## Flip-flop (Set-Reset) {{% typetag "boolean" %}}
 
 A special kind of evaluatable that can store and toggle a boolean value.
 
-It has two boolean inputs, a "_Set_" and "_Reset".
+It has two boolean inputs, a "_Set_" and "_Reset_".
 
 When _Set_ becomes `true`, the flip-flop starts outputting a `true` value. It will keep outputting `true` until _Reset_ becomes true (even if _Set_ becomes false in the mean time).
 
@@ -31,6 +37,10 @@ Set|Reset|Output
 `1`|`1`|`1`
 
 This can be used to make simple toggles. For example, you could have a layer whose enabled property is based on a flip-flop whose _Set_ was bound to the user pressing the 'A' key and _Reset_ bound to the user pressing the 'Space' key. Now, whenever the A key is tapped or held, the layer will activate and remain activate until the space key is pressed or held.
+
+## Flip-flop (Toggle) {{% typetag "boolean" %}}
+
+A expression that stores a boolean value and outputs it. Each frame, the value of the input evaluatable is evaluated and if the result is true, the stored value of the flip-flop changes from `true` to `false` or vice-versa.
 
 ## If - Else If - Else {{% typetag "boolean" %}}{{% typetag "number" %}}{{% typetag "string" %}}
 
