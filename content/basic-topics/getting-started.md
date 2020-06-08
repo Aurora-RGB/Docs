@@ -42,6 +42,10 @@ To show the layers list, click the "Layers" list view button that will be at the
 - Delete the layer by selecting it and clicking the red "X" button.
 - Re-order layers by clicking and dragging the triple horizontal line (burger) button next to the layer.
 
+## Overlay Layers
+Overlay layers are different from regular layers in that they appear whenever a particular process is running (or in the case of desktop overlay layers, always). For example, if you create a profile for Spotify and add a audio visualizer as an overlay, the visualizer will always appear whenever Spotify is open, regardless of whether you have it in the foreground or not.
+
+Note that the layers and overlay layers for a profile can be enabled/disabled independently. With the Spotify example, if you disable the regular layers for the profile but keep the overlay layers, your desktop profile will stay active when Spotify is in the foreground instead of going blank with only the overlay layers.
 
 ## Layer Properties
 Each layer will have a set of properties that you can change such as color or the keys it affects. This can be changed in the bottom right panel, the Properties Panel. The properties available to each layer are listed in the reference section of this guide that can be accessed in the navigation list.
