@@ -2,7 +2,7 @@
 
 This is the Hugo documentation for the Aurora RGB lighting software.
 
-If you only wish to view the documentation, you're in the wrong place! [Go here instead!](https://wibble199.github.io/Aurora-Docs/)
+If you only wish to view the documentation, you're in the wrong place! [Go here instead!](https://aurora-rgb.github.io/Docs/)
 
 ## Contributing
 ### Setting up a local Hugo environment
