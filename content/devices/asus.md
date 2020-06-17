@@ -24,12 +24,13 @@ How to uninstall Aura 1.07.79 and/or armoury crate in order to downgrade to .71 
 4. Select all the ASUS Aura components
 ![Select Aura components](/img/docs/revo-select-asus.png)
 5. Click quick uninstall, accept all the warning messages
-6. Open the Registry Editor (regedit) and delete the following keys:
+6. If you have other asus software installed such as AI Suite or FanXpert, and cannot figure out which registry entries or files are added by it, it is highly recommended to uninstall those apps as well before proceeding with the next step otherwise they will break.
+7. Open the Registry Editor (regedit) and delete the following keys:
     * Computer\HKEY_LOCAL_MACHINE\SOFTWARE\ASUS
     * Computer\HKEY_CURRENT_USER\Software\ASUS
-7. Reboot
-8. Install 1.07.71. [Download Link](https://dlcdnets.asus.com/pub/ASUS/mb/Utility/Lighting_Control_1.07.71.zip)
-9. Reboot when the setup asks.
+8. Reboot
+9. Install 1.07.71. [Download Link](https://dlcdnets.asus.com/pub/ASUS/mb/Utility/Lighting_Control_1.07.71.zip)
+10. Reboot when the setup asks.
 
 # Known issues
 
