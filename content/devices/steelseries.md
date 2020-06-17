@@ -10,7 +10,7 @@ authors:
 
 # Needed configuration
 
-The SDK should be enabled by default, but in case it's not, make sure custom application is enabled.
+The SDK should be enabled by default, but in case it's not, make sure the 'Project Aurora' custom application is enabled.
 
 ![Enabling custom app in SSE3](/img/docs/enable-sse-app.png)
 
