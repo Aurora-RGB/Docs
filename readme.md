@@ -1,5 +1,7 @@
 # Aurora Documentation
 
+![Publish status](https://github.com/Aurora-RGB/Docs/workflows/GitHub%20Pages/badge.svg)
+
 This is the Hugo documentation for the Aurora RGB lighting software.
 
 If you only wish to view the documentation, you're in the wrong place! [Go here instead!](https://aurora-rgb.github.io/Docs/)
