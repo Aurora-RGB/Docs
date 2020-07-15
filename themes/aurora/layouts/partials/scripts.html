@@ -5,4 +5,4 @@
 {{ $scroll := resources.Get "js/scroll-offset.js" }}
 {{ $simplebar := resources.Get "js/simplebar.min.js" }}
 {{ $scripts := slice $externalLink $image $tabs $mobile $scroll $simplebar | resources.Concat "app.js" | minify | fingerprint }}
-<script type="text/javascript" src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ $scripts.Permalink }}"></script>
