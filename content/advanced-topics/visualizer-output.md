@@ -11,7 +11,7 @@ The Audio Visualizer layer allows you to display a representation of whatever yo
 # Isolating applications
 
 ### Why
-One of the things that annoys me about the layer is that every single sound your computer emits will be shown on the keyboard, which isn't very useful or appealing if you're talking to someone on Discord for example. So I found a way to isolate a single application (in my case, spotify) in the same audio output as Aurora.
+One of the things that annoys me about the layer is that every single sound your computer emits will be shown on the keyboard, which isn't very useful or appealing if you're talking to someone on Discord for example. So I found a way to isolate a single application (in my case, Spotify) in the same audio output as Aurora.
 
 This makes it so only sound emitted by Spotify is processed and displayed on the keyboard, and does make the visualization change if you change the volume of the music.
 

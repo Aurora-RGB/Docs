@@ -5,7 +5,7 @@ authors:
   - Wibble199
 ---
 
-Aurora stores all user data in a directory in the roaming application data folder. This user data includes all your settings (such as preferred devices, bitmap accurracy, etc) as well as all your lighting profiles and recent logs that Aurora has created. You can see the Aurora folder by navigating to `%APPDATA%\Aurora` in Windows file explorer.
+Aurora stores all user data in a directory in the roaming application data folder. This user data includes all your settings (such as preferred devices, bitmap accuracy, etc) as well as all your lighting profiles and recent logs that Aurora has created. You can see the Aurora folder by navigating to `%APPDATA%\Aurora` in Windows file explorer.
 
 # Importing Profiles
 
@@ -19,7 +19,7 @@ If you have created a profile that you wish to share with other people, you can 
 
 # Taking a Backup
 
-There amy be times when it would be wise to take a backus of your enitre Aurora data folder (for example when you are installing a test build of Aurora). Doing this is a very simple matter of duplicating a folder.
+There may be times when it would be wise to take a backup of your entire Aurora data folder (for example when you are installing a test build of Aurora). Doing this is a very simple matter of duplicating a folder.
 
 1. First, open up Windows file explorer.
 1. In the address bar, type `%APPDATA%` and press enter. This will take you to the folder where various installed programs can store data for your user account.
@@ -31,9 +31,9 @@ There amy be times when it would be wise to take a backus of your enitre Aurora 
 
 # Clearing User Data
 
-Clearling your user data may be required if you start using test versions of Aurora or need to downgrade your Aurora installation for whatever reason. To do this, you can simply delete (or rename/move if you intend to reuse to this data some time) the Aurora folder.
+Clearing your user data may be required if you start using test versions of Aurora or need to downgrade your Aurora installation for whatever reason. To do this, you can simply delete (or rename/move if you intend to reuse to this data some time) the Aurora folder.
 
 1. First, ensure that you have closed Aurora. Deleting data while Aurora is running may cause it to crash. Additionally, Aurora will write some data to it's user data folder when it closes.
 1. Next, open up Windows file explorer and in the address bar, type `%APPDATA%` and press enter. This will take you to the roaming application data folder.
 1. There will be a folder called "Aurora" in here. Simply delete, move or rename that folder.
-1. When you next re-open Aurora, it will recreate all the neccessary data with the default configuration: default settings, default profiles, etc.
+1. When you next re-open Aurora, it will recreate all the necessary data with the default configuration: default settings, default profiles, etc.

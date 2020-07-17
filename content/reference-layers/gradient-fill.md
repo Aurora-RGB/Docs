@@ -12,7 +12,7 @@ This layer sets all the specified keys to the same color, determined by the grad
 
 Name|Description
 -|-
-Gradient|The gradient that will be used to set the keys's color to. 
+Gradient|The gradient that will be used to set the keys' color to. 
 Effect Speed|The speed that the colors of the keys change. Higher = faster.
 Fill keyboard canvas|Tick this to fill the whole keyboard with the gradient instead of the *affected keys*.
 Affected Keys|A collection of keys that will be set to the target color.

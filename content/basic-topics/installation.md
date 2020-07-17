@@ -25,7 +25,7 @@ The dev version is automatically built whenever a new change happens to the dev 
 
 Since there are several contributors contributing to Aurora, there are several different branches of Aurora. A developer will often ask their branch to be tested by users, either through [Discord](https://discord.gg/YAuBmg9) or on a [Pull Request on GitHub](https://github.com/antonpup/Aurora/pulls).
 
-Because of all the seperate versions with different functionality, it is advisiable **NOT** to install these versions using the exe, but instead to download the zip file and extract them to a place **other than your main Aurora installation**. Like with the dev version, it's **highly** recommended to backup profiles and settings.
+Because of all the separate versions with different functionality, it is advisable **NOT** to install these versions using the exe, but instead to download the zip file and extract them to a place **other than your main Aurora installation**. Like with the dev version, it's **highly** recommended to backup profiles and settings.
 
 ### Downloading a GitHub Pull Request
 
