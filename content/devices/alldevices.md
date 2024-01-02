@@ -27,4 +27,4 @@ authors:
 - Yeelight
 - And [by OpenRGB](https://openrgb.org/devices.html) with "Direct Mode" support
 
-See [Wiki](https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices) for details
+See [Wiki](https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices) for details, as some models can be incompatible.
