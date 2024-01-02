@@ -1,24 +1,24 @@
 <article>
+    <!-- Title -->
+    <h1 class="page-title">{{ default $.Site.Title .Title }}</h1><br/>
+
+    <!-- Actual page content -->
     <section>
-        <!-- Title -->
-        <span class="page-title">{{ default $.Site.Title .Title }}</span><br/>
-        
-        <!-- Actual page content -->
         {{ .Content }}
-        
-        <!-- Author List -->
-        {{ if isset .Params "authors" }}
-            <hr style="margin:28px 100px"/>
-            <ul class="author-list">
-                {{ range .Params.authors }}
-                <li data-username="{{ . }}"><a href="https://github.com/{{ . }}" target="_blank">
-                    <img class="avatar avatar-small" alt="{{ . }}" src="https://github.com/{{ . }}.png?size=32" width="32" height="32" />
-                </a></li>
-                {{ end }}
-            </ul>
-            <span class="author-text-label">Page authored by</span>
-        {{ end }}
     </section>
+
+    <!-- Author List -->
+    {{ if isset .Params "authors" }}
+    <hr style="margin:28px 100px"/>
+    <ul class="author-list">
+        {{ range .Params.authors }}
+        <li data-username="{{ . }}"><a rel="author" href="https://github.com/{{ . }}" target="_blank">
+            <img class="avatar avatar-small" alt="{{ . }}" src="https://github.com/{{ . }}.png?size=32" width="32" height="32" />
+        </a></li>
+        {{ end }}
+    </ul>
+    <span class="author-text-label">Page authored by</span>
+    {{ end }}
 </article>
 
 <!-- Table of Contents -->
