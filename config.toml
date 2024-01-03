@@ -1,4 +1,4 @@
-baseURL = "//aurora-rgb.github.io/Docs/"
+baseURL = "https://www.project-aurora.com/Docs/"
 languageCode = "en-US"
 title = "Aurora User Docs"
 theme = "aurora"
