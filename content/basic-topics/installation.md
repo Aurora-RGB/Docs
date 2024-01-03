@@ -5,7 +5,7 @@ authors:
   - Wibble199
 ---
 
-To install Aurora, the easiest way is to download the installer from our [GitHub page](https://github.com/antonpup/Aurora/releases) and simply run it.
+To install Aurora, the easiest way is to download the installer from our [GitHub page](https://github.com/Aurora-RGB/Aurora/releases) and simply run it.
 
 After this, you will find Aurora in your start menu. Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to. It's important you follows these steps otherwise Aurora may not work correctly.
 
@@ -19,11 +19,9 @@ If you would like to, it is possible to download the dev version to access some 
 
 <span class="alert warning">The dev version's settings may also be incompatible with the main release's. It is **highly** recommended that you [back up your profiles]({{% ref "basic-topics/user-data#taking-a-backup" %}}) and settings before changing Aurora versions.</span>
 
-The dev version is automatically built whenever a new change happens to the dev branch and you can find the artefacts on the relevant [AppVeyor page](https://ci.appveyor.com/project/antonpup/aurora/branch/dev/artifacts).
-
 ## Other Versions
 
-Since there are several contributors contributing to Aurora, there are several different branches of Aurora. A developer will often ask their branch to be tested by users, either through [Discord](https://discord.gg/YAuBmg9) or on a [Pull Request on GitHub](https://github.com/antonpup/Aurora/pulls).
+Since there are several contributors contributing to Aurora, there are several different branches of Aurora. A developer will often ask their branch to be tested by users, either through [Discord](https://discord.gg/YAuBmg9) or on a [Pull Request on GitHub](https://github.com/Aurora-RGB/Aurora/pulls).
 
 Because of all the separate versions with different functionality, it is advisable **NOT** to install these versions using the exe, but instead to download the zip file and extract them to a place **other than your main Aurora installation**. Like with the dev version, it's **highly** recommended to backup profiles and settings.
 
