@@ -3,6 +3,7 @@ title: Logitech
 authors:
   - diogotr7
   - Mikowmer
+  - Aytackydln
 ---
 
 # Required Software
@@ -53,6 +54,7 @@ For LGS:
 
 ## Keyboards
 
+All per-key RGB keyboards are supposed to work. These are confirmed keyboards:
 * G910
 * G410
 * G810
@@ -62,7 +64,10 @@ For LGS:
 
 ## Mice
 
+All mice are supposed to work, these are confirmed mice:
 * G900
 * G502
+
+## Mousepads
 
 {{% alert "Most other Logitech LIGHTSYNC devices should work fine, even if they don't have a layout available in Aurora. Simply choose a keyboard with the same layout!" "info" %}}

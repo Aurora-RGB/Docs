@@ -6,7 +6,9 @@ authors:
 
 # Required Software
 
+One of:
 * SteelSeries Engine 3
+* OpenRGB
 
 # Needed configuration
 

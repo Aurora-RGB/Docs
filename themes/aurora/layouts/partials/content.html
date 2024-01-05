@@ -1,6 +1,7 @@
 <article>
     <!-- Title -->
     <h1 class="page-title">{{ default $.Site.Title .Title }}</h1><br/>
+    <span class="date-info italic">Last updated {{ .Lastmod.Format "02.01.2006" }}</span>
 
     <!-- Actual page content -->
     <section>

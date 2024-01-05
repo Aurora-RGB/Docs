@@ -23,6 +23,15 @@ $content-width: 780px;
 $nav-width: 268px;
 $toc-width: 220px;
 
+// last published
+.italic {
+  font-style: italic;
+}
+.date-info {
+  font-family: amiri,times new roman,georgia,serif;
+  font-size: 1.13rem;
+}
+
 
 // ------------------------ //
 // Import other SASS files //

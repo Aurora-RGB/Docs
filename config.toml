@@ -4,6 +4,7 @@ title = "Aurora User Docs"
 theme = "aurora"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLs = true
+enableGitInfo = true
 
 [markup]
   [markup.tableOfContents]

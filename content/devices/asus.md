@@ -5,10 +5,14 @@ authors:
 ---
 
 # Required Software
+One of:
 
-* Asus Aura Sync 1.01.79_V2.1 or later - [Download](https://www.asus.com/campaign/aura/us/download.html)
+* Asus Aura Sync 1.01.79_V2.1 or later - [Download](https://www.asus.com/campaign/aura/us/download.html) or,
+* Asus Armory Crate
 
 {{% alert "Version 1.07.79 of Asus Aura Sync will NOT work for most users." "info" %}}
+
+{{% alert "Using OpenRGB instead of Asus software is highly recommended." "info" %}}
 
 # Needed configuration
 

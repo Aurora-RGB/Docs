@@ -1,5 +1,5 @@
 ---
-title: Wrapper Lights Layer
+title: Wrapper Lights Layer (LightFX)
 authors:
   - Wibble199
 ---

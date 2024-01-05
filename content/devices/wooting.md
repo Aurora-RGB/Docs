@@ -20,8 +20,4 @@ There is currently no fix / workaround for this, but this data might be a game s
 Sometimes having Aurora and Wootility open at the same time can cause the keyboard to stop sending inputs. Replug the keyboard to fix this.
 
 # Supported Devices
-
-## Keyboards
-
-* One
-* Two
+All keyboards should work fine as long as they have per-key RGB.
