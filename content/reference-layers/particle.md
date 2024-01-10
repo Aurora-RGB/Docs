@@ -8,8 +8,8 @@ The particle layer spawns a number of particles which can independently move (ba
 
 Some examples of what can be done with this layer are shown below (both are available as presets), but this is by no means all that can be achieved. Experiment with it!
 
-![A particle layer with the fire preset](/img/docs/layer-particle-fire.gif)
-![A particle layer with the matrix preset](/img/docs/layer-particle-matrix.gif)
+![A particle layer with the fire preset](img/docs/layer-particle-fire.gif)
+![A particle layer with the matrix preset](img/docs/layer-particle-matrix.gif)
 
 {{% alert "There is no limit on the number of particles that can be spawned at once. If it is setup to spawn far too many at a time, you may see issues with CPU or memory usage or the program may crash. Be sensible with it." "warning" %}}
 

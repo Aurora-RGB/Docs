@@ -25,7 +25,7 @@ There may be times when it would be wise to take a backup of your entire Aurora 
 1. In the address bar, type `%APPDATA%` and press enter. This will take you to the folder where various installed programs can store data for your user account.
 1. There will be a folder called "Aurora" in here. Simply copy that folder to a different location (for example your Documents).
 
-![Finding the Aurora user data directory](/img/docs/aurora-user-data-directory.png)
+![Finding the Aurora user data directory](img/docs/aurora-user-data-directory.png)
 
 1. Should you need to restore data that's been backed up in future, you can simply replace the sane Aurora direction with the backup folder.
 

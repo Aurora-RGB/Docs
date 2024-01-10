@@ -6,7 +6,7 @@ authors:
 
 The Gradient Layer shows a gradient effect on the specified keys. The gradient can also be animated to move across the keyboard to give a wave effect. If it helps to understand how it works, you can imagine the gradient to be displayed on a (possibly moving) rectangle, and each key acts as a “window” onto that rectangle.
 
-![A rainbow Gradient Layer on the alphabetical keys](/img/docs/layer-gradient.gif)
+![A rainbow Gradient Layer on the alphabetical keys](img/docs/layer-gradient.gif)
 
 ## Properties
 

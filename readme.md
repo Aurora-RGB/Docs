@@ -41,7 +41,7 @@ To link to a page in the same section, you can use relref:
 #### Images
 Images should be placed in the `static/img/docs` folder. Then they can be simply used using a normal markdown image tag with static as the root directory. For example, if I had a file called `my-image.png` in the docs images folder, I could then use this markdown to display it:
 ```md
-![Alt Image Text](/img/docs/my-image.png)
+![Alt Image Text](img/docs/my-image.png)
 ```
 
 #### Alerts

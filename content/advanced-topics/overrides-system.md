@@ -13,13 +13,13 @@ The overrides system works by providing you, the user, the ability to use one of
 # The Editor
 To open the overrides editor panel, first select the layer whose properties you want to override then click on the left-most button in the top right of the properties panel.
 
-![The button to open the overrides editor](/img/docs/overrides-button.png)
+![The button to open the overrides editor](img/docs/overrides-button.png)
 
 The editor is split into two columns. The left column contains a list of all overridable properties on the selected layer, showing their name and type. Note that not all properties are overridable. The right hand (larger) column is where the main logic editor is. This area is how you choose and edit the override technique. Initially, only a drop down box will be shown with an empty area.
 
 To actually setup an override for a property, select it from the property list, then choose an override mode from the drop down list.
 
-![Setting up an override on the Primary Color property of the breathing layer](/img/docs/overrides-setup.png)
+![Setting up an override on the Primary Color property of the breathing layer](img/docs/overrides-setup.png)
 
 
 # Override Modes
@@ -28,7 +28,7 @@ The dynamic value override method allows you to dynamically create a value based
 
 A simple example for this could be assigning to opacity of a layer to be the health of a player, so it appears to fade in as the health lowers, showing a red warning when your character is close to death. A more complex example could be constructing a color based on the current time, with seconds being red, minutes green and hours blue. Whether you'd actually want this who knows, but it's possible with this override technique.
 
-![Basic example of a dynamic value being used with opacity to make the layer flash in and then fade out](/img/docs/overrides-dynamic-value-example.png)
+![Basic example of a dynamic value being used with opacity to make the layer flash in and then fade out](img/docs/overrides-dynamic-value-example.png)
 
 Depending on the type of property being edited, you will be asked to provide one or more expressions of different types. Descriptions of these expressions are available in the "Reference: Expression Types" section of the guide. For example, the "Enabled" property will require a boolean expression and "Opacity" will require a numeric expression.
 
@@ -36,7 +36,7 @@ Depending on the type of property being edited, you will be asked to provide one
 
 The lookup table is a list of condition-value pairs. When using this override technique, Aurora will evaluate the boolean condition expression of each item in the list until it finds one that is true. When it does so, it will override the requested property with the value of the pair.
 
-![Example lookup table that sets the color to red every once every three seconds](/img/docs/overrides-lookup-table-example.png)
+![Example lookup table that sets the color to red every once every three seconds](img/docs/overrides-lookup-table-example.png)
 
 If you are familiar with the concept of programming, you can think of a lookup table as being like a switch statement or a collection of `if else if` blocks.
 
@@ -44,6 +44,6 @@ If you are familiar with the concept of programming, you can think of a lookup t
 # Demos
 This profile contains a *single solid fill layer* that fades in and out every second, each second alternating between red, green and blue.
 
-![The demo layer running](/img/docs/overrides-demo-rgb-flash.gif)
+![The demo layer running](img/docs/overrides-demo-rgb-flash.gif)
 
 [You can download the demo profile here.](/files/overrides-rgb-flash-demo.json)

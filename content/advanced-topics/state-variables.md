@@ -16,7 +16,7 @@ There are some State Variables that are operating system-wide (such as RAM/CPU u
 # How do you use State Variables?
 Any layers that support the use of State Variables will present you with a drop down box allowing you to select a State Variable from the current application profile.
 
-![An example of a drop down containing a list of State Variables for Minecraft](/img/docs/state-variable-example.png)
+![An example of a drop down containing a list of State Variables for Minecraft](img/docs/state-variable-example.png)
 
 Note that in most circumstances, the drop down list is editable you are able to type a number into the field to use that instead of referencing a State Variable.
 

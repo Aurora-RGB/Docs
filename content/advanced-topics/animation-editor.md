@@ -20,7 +20,7 @@ Before getting into the guide itself, let me define some of the concepts and fea
 # The Editor
 With that out of the way, lets move on to the creation of an animation. To open the animation editor, first add an animation layer to your profile. On the layer settings, click on the "Edit Animation" button. When you first open the animation editor you will be presented with a screen that looks like this:
 
-![The main screen of the Animation Editor labelled showing the main controls](/img/docs/animation-editor-1.png)
+![The main screen of the Animation Editor labelled showing the main controls](img/docs/animation-editor-1.png)
 
 There are 3 main areas to the editor:
 - The timeline which shows the tracks that currently make up the animation as well as also containing a seek line (the vertical red line) which dictates which how far through the animation the preview is.
@@ -31,19 +31,19 @@ There are 3 main areas to the editor:
 # Creating an Animation
 First we need to add a track by clicking on the "Add Track" button just above and to the left of the timeline, then choosing the type of shape we wish to add. The manual color track allows you to set individual colors of the keyboard (see Closing Notes), rather than using shapes; the other tracks should be self-explanatory. For the purpose of the tutorial, I will add an (unfilled) circle track.
 
-![Adding a circle track to the timeline](/img/docs/animation-editor-2.png)
+![Adding a circle track to the timeline](img/docs/animation-editor-2.png)
 
 You should now see a new row has appeared in the timeline. This is the new shape we’ve just created. The left-most grey box shows the name of the track, a delete button and an icon to indicate the type of the track. If you so desire you can double click on the name of the track to change it to something more helpful, though this has no effect on the actual animation itself.
 
-![The newly created circle track on the timeline](/img/docs/animation-editor-3.png)
+![The newly created circle track on the timeline](img/docs/animation-editor-3.png)
 
 Next to the grey box you will see a pair of colored rectangles. These represent a keyframe on the track, the color being indicative of the color of the shape at that keyframe. Clicking this keyframe, we can edit the properties of the circle using the properties in the top right. I'm going to set them to the values in the image below.
 
-![Properties for the first keyframe](/img/docs/animation-editor-4.png)
+![Properties for the first keyframe](img/docs/animation-editor-4.png)
 
 Next, we'll need another keyframe to animate to, otherwise we will just have a static image! Double click on the timeline inline with the track to insert a new keyframe at that time. Unfortunately the properties are all reset so we have to enter them again from scratch. Like before though, single left click on the keyframe and set the properties in the properties panel. This time, I will use these settings:
 
-![Properties for the first keyframe](/img/docs/animation-editor-5.png)
+![Properties for the first keyframe](img/docs/animation-editor-5.png)
 
 You can add as many other keyframes as you like and even add new tracks with their own keyframes using the steps from above, but I won't bother.
 

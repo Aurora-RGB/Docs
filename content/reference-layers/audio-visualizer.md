@@ -6,7 +6,7 @@ authors:
 
 This layer takes in audio data from your computer and visualizes the volume at various frequencies. There are many different customization options for this layer including which frequencies should be detected. Which frequencies are best depends on the type of audio you expect to be playing (rock will be different from classical) but the default frequencies provide a good starting point.
 
-![An equalizer layer in gradient mode while playing a music track](/img/docs/layer-equalizer.gif)
+![An equalizer layer in gradient mode while playing a music track](img/docs/layer-equalizer.gif)
 
 ## Properties
 

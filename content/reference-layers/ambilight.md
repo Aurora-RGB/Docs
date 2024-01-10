@@ -8,7 +8,7 @@ The ambilight layer takes the average color of the monitor (or specific areas of
 
 {{% alert "This can be a very intensive operation and so may not perform well on all machines. You may find that Aurora is lagging or using too much CPU when you use one of these layers." "warning" %}}
 
-![Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other](/img/docs/layer-ambilight.png)
+![Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other](img/docs/layer-ambilight.png)
 
 ## Properties
 

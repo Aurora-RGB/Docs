@@ -8,7 +8,7 @@ The toolbar layer is a layer that shows one key as “active” and all others a
 
 The layer can also be toggled to listen for the scroll wheel to allow scrolling through the toolbar by turning on the <em>Enable Scroll</em> configuration option. The order the keys are scrolled through is given by their order in the <em>Affected Keys</em> option, so if scrolling through is in the incorrect order, check the order of the keys here. 
 
-![The toolbar layer affecting the number keys](/img/docs/layer-toolbar.gif)
+![The toolbar layer affecting the number keys](img/docs/layer-toolbar.gif)
 
 ## Properties
 

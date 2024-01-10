@@ -6,7 +6,7 @@ authors:
 
 This layer sets all the specified keys to the same color, determined by the gradient. Unlike the regular gradient layer, all keys are the same color. You can think of the gradient as being a “timeline”, and the colors of all the keys are set based on how far through the timeline we are. This can be used to create a fade effect between multiple different colors.
 
-![A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard](/img/docs/layer-gradient-fill.gif)
+![A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard](img/docs/layer-gradient-fill.gif)
 
 ## Properties
 

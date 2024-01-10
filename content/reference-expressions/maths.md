@@ -42,7 +42,7 @@ Creates a wave output based on the given input.
 {{% alert "Note that **all** waves are normalized to accept a value in the range `0 - 1` and also output a value in the range `0 - 1`." "info" %}}
 
 #### Sine
-![](/img/docs/evaluatable-number-waves-sine.png)
+![](img/docs/evaluatable-number-waves-sine.png)
 
 #### Triangle
-![](/img/docs/evaluatable-number-waves-triangle.png)
+![](img/docs/evaluatable-number-waves-triangle.png)

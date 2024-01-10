@@ -6,7 +6,7 @@ authors:
 
 The interactive layer listens for key presses on the keyboard and plays an animation from that key. This can be used to make ripple effects (as shown in the GIF below) or have the key light up and slowly fade out when it’s been pressed.
 
-![Pressing keys on an interactive layer with key wave mode](/img/docs/layer-interactive.gif)
+![Pressing keys on an interactive layer with key wave mode](img/docs/layer-interactive.gif)
 
 ## Properties
 

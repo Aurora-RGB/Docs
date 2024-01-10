@@ -31,12 +31,12 @@ A pull request is where a developer has made changes to Aurora and would like to
 
 Once you have found a Pull Request you wish to download and test, you should be presented with a screen such as this.
 
-![PR GitHub page](/img/docs/gh-pr-1.png)
+![PR GitHub page](img/docs/gh-pr-1.png)
 
 Scroll down until you find a section with green ticks (a maybe red crosses). There should be an item that says "All checks have passed". Next to this item, click on "Show all checks" button to reveal a small panel below this item. Click on the "Details" link. If you do not have an "All checks have passed" option, the automatic build process has failed and you will not be able to download a pre-built version.
 
-![The panel that will take you to the build artefacts](/img/docs/gh-pr-2.png)
+![The panel that will take you to the build artefacts](img/docs/gh-pr-2.png)
 
 You should be taken to the website "AppVeyor" and should see a large blue block of text. Just above this text, click the "Artifacts" tab, and you will be presented with the built installer and ZIP file for that PR.
 
-![The download link for the artefacts](/img/docs/appveyor-pr-1.png)
+![The download link for the artefacts](img/docs/appveyor-pr-1.png)

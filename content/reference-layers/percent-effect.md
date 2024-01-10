@@ -6,7 +6,7 @@ authors:
 
 The percent effect layer allows you to have the color of some set keys dependent on a numeric variable that can be provided by the computer (such as how much RAM or CPU is in use) or by the game if it is supported (e.g. health in CS:GO or speed in Euro Truck Sim).
 
-![A percent layer with current value set to the current time's milliseconds](/img/docs/layer-percent-effect.gif)
+![A percent layer with current value set to the current time's milliseconds](img/docs/layer-percent-effect.gif)
 
 ## Properties
 

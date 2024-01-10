@@ -6,7 +6,7 @@ authors:
 
 The Shortcut Assistant layer shows possible key presses when a modifier key is pressed. The defined shortcuts will set the keyboard lights when they are partially pressed. For example, if you had a shortcut defined for Ctrl + C and Ctrl + V, whenever you press control, the other layers below are dimmed and the C and V letter light up in whichever color is specified.
 
-![A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer](/img/docs/layer-shortcut.gif)
+![A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer](img/docs/layer-shortcut.gif)
 
 ## Properties
 
