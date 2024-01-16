@@ -17,11 +17,11 @@ One of:
 
 The SDK should come enabled by default when you install LGS or GHUB, but in case it doesn't connect, make sure it is enabled.
 
-For GHUB:
+## For GHUB:
 
 ![Turning on the SDK in Logitech G HUB](img/docs/ghub-enable-sdk.png)
 
-For LGS:
+## For LGS:
 
 1. Open Logitech Gaming Software and go into Settings
 
