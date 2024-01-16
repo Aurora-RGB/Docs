@@ -3,6 +3,7 @@ $lightbox-transition: 400ms ease-in-out;
 article img:not(.avatar):not(.emoji) {
 	display: block;
 	max-width: 100%;
+	height: auto;
 	margin: auto;
 	cursor: zoom-in;
 }

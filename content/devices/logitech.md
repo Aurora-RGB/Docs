@@ -42,6 +42,10 @@ For LGS:
 
 # Known issues
 
+{{% alert "Logitech device integration does not work when Lightsync Wrapper is enabled" "warning" %}}
+* Lightsync wrapper will be automatically disabled if Logitech software autorun is detected.
+If you want to use Logitech devices with other brands and have Lightsync integration on all devices, you have to replace Logitech software with [OpenRGB]({{% ref "devices/openrgb" %}})
+
 * G HUB can take a very long time to fully open and start receiving SDK requests. Because of this, on some systems Aurora tries to connect to G HUB before it has the chance to completely start. This causes any following connections to fail until both G HUB and Aurora are restarted. This can be fixed on boot by adding a delay to the task Aurora uses to startup. This can be done in the General Settings:
 
 ![Adding a delay to Aurora's startup task](img/docs/aurora-startup-delay.png)

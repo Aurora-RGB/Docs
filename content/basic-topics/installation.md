@@ -15,10 +15,6 @@ The Aurora software is constantly evolving thanks to submissions from various co
 
 If you would like to, it is possible to download the dev version to access some new additional features and bug fixes.
 
-{{% alert "The dev version may be more unstable than the main release, and so you may encounter some bugs." "warning" %}}
-
-<span class="alert warning">The dev version's settings may also be incompatible with the main release's. It is **highly** recommended that you [back up your profiles]({{% ref "basic-topics/user-data#taking-a-backup" %}}) and settings before changing Aurora versions.</span>
-
 ## Other Versions
 
 Since there are several contributors contributing to Aurora, there are several different branches of Aurora. A developer will often ask their branch to be tested by users, either through [Discord](https://discord.gg/YAuBmg9) or on a [Pull Request on GitHub](https://github.com/Aurora-RGB/Aurora/pulls).

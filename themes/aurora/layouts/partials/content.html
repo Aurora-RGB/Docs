@@ -5,7 +5,7 @@
 
     <!-- Actual page content -->
     <section>
-        {{ .Content }}
+        {{ replaceRE `%!d\(string=(\d+px)\)` "$1" .Content | safeHTML }}
     </section>
 
     <!-- Author List -->
