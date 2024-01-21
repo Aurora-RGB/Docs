@@ -4,7 +4,7 @@ authors:
   - Aytackydln
 ---
 
-You can have brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.
+You can have brand specific integrations (like LightFX and Lightsync) with Razer devices using Aurora.
 
 # Required Software
 
@@ -20,9 +20,7 @@ One of:
 
 # Needed configuration
 
-The SDK should come enabled by default when you install iCUE, but in case it doesn't connect, make sure it is enabled.
-
-![Turning on the SDK in Corsair iCUE](img/docs/icue-enable-sdk.png)
+The SDK should come enabled by default when you install Synapse.
 
 # Supported Devices
 
