@@ -7,13 +7,18 @@ article {
 	text-rendering: optimizeLegibility;
 	line-height: 1.7rem;
 	flex: 0 1 $content-width;
+	flex-direction: row;
 }
 
 article.wide {
 	flex: 0 1 $content-width + $toc-width;
+	flex-direction: row;
 }
 
 @include mobile-only() {
+	[data-simplebar] {
+		max-height: 100vh;
+	}
 	article {
 		padding: 12px;
 	}

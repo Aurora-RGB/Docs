@@ -2,6 +2,6 @@
 {{ $tabs := resources.Get "js/tabs-script.js" }}
 {{ $mobile := resources.Get "js/mobile.js" }}
 {{ $scroll := resources.Get "js/scroll-offset.js" }}
-{{ $simplebar := resources.Get "js/simplebar.min.js" }}
+{{ $simplebar := resources.GetRemote "https://unpkg.com/simplebar@latest/dist/simplebar.min.js" }}
 {{ $scripts := slice $externalLink $tabs $mobile $scroll $simplebar | resources.Concat "app.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ $scripts.Permalink }}"></script>
