@@ -6,6 +6,8 @@ authors:
   - Aytackydln
 ---
 
+You can use Aurora profiles and brand specific integrations (like Chroma) with Logitech devices using Aurora.
+
 # Required Software
 
 One of:

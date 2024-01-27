@@ -4,6 +4,8 @@ authors:
   - Popat0
 ---
 
+You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.
+
 # Required Software
 One of:
 
