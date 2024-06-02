@@ -10,6 +10,13 @@ article {
 	flex-direction: row;
 }
 
+blockquote {
+	border: black 1px solid;
+	border-radius: 15px;
+	background: $background-secondary;
+	padding-left: 25px;
+}
+
 article.wide {
 	flex: 0 1 $content-width + $toc-width;
 	flex-direction: row;
