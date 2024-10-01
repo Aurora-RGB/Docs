@@ -1,8 +1,11 @@
 ---
+searchTitle: "How to Use Razer Chroma on Non-Razer Devices"
 title: "Razer Chroma"
 authors:
   - Aytackydln
 ---
+
+![Diagram showing Aurora Chroma integration](img/chroma_diagram.png)
 
 You can use Chroma integration with [all supported devices]({{< relref "/devices/alldevices.md" >}})
 

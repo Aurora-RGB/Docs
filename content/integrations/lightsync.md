@@ -1,8 +1,11 @@
 ---
+searchTitle: "How to Use Lightsync integration on Non-Logitech Devices"
 title: "Logitech Lightsync"
 authors:
   - Aytackydln
 ---
+
+![Diagram showing Aurora & Lightsync integration](img/lightsync_diagram.png)
 
 You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}})
 

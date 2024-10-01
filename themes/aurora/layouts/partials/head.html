@@ -1,7 +1,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="How to use Aurora to control RGB keyboards, mice and others">
+
+{{ if .Params.searchTitle }}
+<title>{{ default $.Params.searchTitle }} • Aurora Docs</title>
+{{ else }}
 <title>{{ default $.Site.Title .Title }} •{{ if .Section }}{{ printf " %s •" .Section }}{{ end }} Aurora Docs</title>
+{{ end }}
 {{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 <link rel="icon" href="{{ "favicon.ico" | relURL }}">
