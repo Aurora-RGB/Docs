@@ -22,7 +22,13 @@ See their pages to see how they are configured.&lt;/p>
 
  
  
- &lt;/p>
+ 
+ 
+ 
+ &lt;picture>
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/lightsync_diagram.png?v=1bbe94f77e78d95af98555f206db5668" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+&lt;/picture>
+&lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a>&lt;/p>
 &lt;blockquote>
 &lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
@@ -46,7 +52,13 @@ See their pages to see how they are configured.&lt;/p>
 
  
  
- &lt;/p>
+ 
+ 
+ 
+ &lt;picture>
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/chroma_diagram.png?v=1bbe94f77e78d95af98555f206db5668" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+&lt;/picture>
+&lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a>&lt;/p>
 &lt;blockquote>
 &lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
