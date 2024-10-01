@@ -1,6 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Repair WMI</title><link>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</guid><description>If this page opened automatically for you, you need to take action to repair your Windows.
-AuroraRGB needs Win32_Process class in WMI to work properly. Here you can follow the steps to fix it for Aurora and possibly other software.
-Open a terminal (as Admin):
-In the start menu type &amp;ldquo;cmd&amp;rdquo; OR Right click &amp;ldquo;Start&amp;rdquo; button and choose Terminal Enter following command:
-net stop winmgmt
-Open a Windows Explorer and locate the path to C:\Windows\System32\WBEM\ folder and rename the Repository folder to something else like RepositoryOLD.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Repair WMI</title><link>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</guid><description>&lt;p>If this page opened automatically for you, you need to take action to repair your Windows.&lt;/p>
+&lt;p>AuroraRGB needs Win32_Process class in WMI to work properly.
+Here you can follow the steps to fix it for Aurora and possibly other software.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open a terminal (as Admin):&lt;/p>
+&lt;ul>
+&lt;li>In the start menu type &amp;ldquo;cmd&amp;rdquo; OR&lt;/li>
+&lt;li>Right click &amp;ldquo;Start&amp;rdquo; button and choose Terminal&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Enter following command:&lt;/p>
+&lt;blockquote>
+&lt;p>net stop winmgmt&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Open a Windows Explorer and locate the path to &lt;code>C:\Windows\System32\WBEM\&lt;/code> folder
+and rename the &lt;strong>Repository&lt;/strong> folder to something else like RepositoryOLD.&lt;/p></description></item></channel></rss>

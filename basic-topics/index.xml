@@ -1,3 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic Topics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/basic-topics/</link><description>Recent content in Basic Topics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/basic-topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://www.project-aurora.com/Docs/basic-topics/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/getting-started/</guid><description>When you first open Aurora, you will be presented with a window that looks like the following. Applications On the far left is the application list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe.</description></item><item><title>Installation</title><link>https://www.project-aurora.com/Docs/basic-topics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/installation/</guid><description>To install Aurora, the easiest way is to download the installer from our GitHub page and simply run it.
-After this, you will find Aurora in your start menu. Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to. It&amp;rsquo;s important you follows these steps otherwise Aurora may not work correctly.</description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>Aurora supports these games natively: CS2 Dota 2 League of Legends Chroma enabled games Lightsync enabled games LightFX enabled games Aurora supports these games/softwares via mods: Discord (via BetterDiscord) Minecraft (with version specific mods) OSU Witcher 3 Terraria Rocket League See Wiki for details, as some models can be incompatible.</description></item><item><title>User Data</title><link>https://www.project-aurora.com/Docs/basic-topics/user-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/user-data/</guid><description>Aurora stores all user data in a directory in the roaming application data folder. This user data includes all your settings (such as preferred devices, bitmap accuracy, etc) as well as all your lighting profiles and recent logs that Aurora has created. You can see the Aurora folder by navigating to %APPDATA%\Aurora in Windows file explorer.
-Importing Profiles Profiles that others have made can be imported easily into Aurora using the import button on the &amp;ldquo;Profiles&amp;rdquo; section.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic Topics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/basic-topics/</link><description>Recent content in Basic Topics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/basic-topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://www.project-aurora.com/Docs/basic-topics/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/getting-started/</guid><description>&lt;p>When you first open Aurora, you will be presented with a window that looks like the following.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ &lt;picture>
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=4dd26f32f257980f65dac53e0bd8245a" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
+&lt;/picture>
+&lt;/p>
+&lt;h1 id="applications">Applications&lt;/h1>
+&lt;p>On the far left is the &lt;strong>application&lt;/strong> list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe. You can disable applications if you don’t want your lighting changing when you open that app by going onto the overview and un-checking the “Enable Aurora to provide lighting effects…” box. You can also right-click on the application icons to hide them if you do not have that game and don’t want it cluttering up the list.&lt;/p></description></item><item><title>Installation</title><link>https://www.project-aurora.com/Docs/basic-topics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/installation/</guid><description>&lt;p>To install Aurora, the easiest way is to download the installer from our &lt;a href="https://github.com/Aurora-RGB/Aurora/releases">GitHub page&lt;/a> and simply run it.&lt;/p>
+&lt;p>After this, you will find Aurora in your start menu. Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to. It&amp;rsquo;s important you follows these steps otherwise Aurora may not work correctly.&lt;/p>
+&lt;h2 id="dev-version">Dev Version&lt;/h2>
+&lt;p>The Aurora software is constantly evolving thanks to submissions from various contributors. Before these changes hit the main release, they are added to a special &amp;ldquo;dev&amp;rdquo; version of Aurora (after being bug-tested).&lt;/p></description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-games-natively">Aurora supports these games natively:&lt;/h1>
+&lt;ul>
+&lt;li>CS2&lt;/li>
+&lt;li>Dota 2&lt;/li>
+&lt;li>League of Legends&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/">Chroma enabled games&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/">Lightsync enabled games&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/">LightFX enabled games&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="aurora-supports-these-gamessoftwares-via-mods">Aurora supports these games/softwares via mods:&lt;/h1>
+&lt;ul>
+&lt;li>Discord (via BetterDiscord)&lt;/li>
+&lt;li>Minecraft (with version specific mods)&lt;/li>
+&lt;li>OSU&lt;/li>
+&lt;li>Witcher 3&lt;/li>
+&lt;li>Terraria&lt;/li>
+&lt;li>Rocket League&lt;/li>
+&lt;/ul>
+&lt;p>See &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices">Wiki&lt;/a> for details, as some models can be incompatible.&lt;/p></description></item><item><title>User Data</title><link>https://www.project-aurora.com/Docs/basic-topics/user-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/user-data/</guid><description>&lt;p>Aurora stores all user data in a directory in the roaming application data folder. This user data includes all your settings (such as preferred devices, bitmap accuracy, etc) as well as all your lighting profiles and recent logs that Aurora has created. You can see the Aurora folder by navigating to &lt;code>%APPDATA%\Aurora&lt;/code> in Windows file explorer.&lt;/p>
+&lt;h1 id="importing-profiles">Importing Profiles&lt;/h1>
+&lt;p>Profiles that others have made can be imported easily into Aurora using the import button on the &amp;ldquo;Profiles&amp;rdquo; section. Pressing this button will open a dialog asking you to choose a file to import. JSON files that have been exported from Aurora (see &lt;a href="#exporting-profiles">exporting profiles&lt;/a>) are fully supported through import. In addition, Aurora has partial support for implementing iCUE profiles, however due to the nature of it being a different program with different layers and formats, imported profiles may not look identical.&lt;/p></description></item></channel></rss>
