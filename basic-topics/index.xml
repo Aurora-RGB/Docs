@@ -21,14 +21,17 @@
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=119ddc4337e67300bbb09dfe3c63009e" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=e144cd68452cef05aa3040ec1ed5beca" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="applications">Applications&lt;/h1>
 &lt;p>On the far left is the &lt;strong>application&lt;/strong> list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe. You can disable applications if you don’t want your lighting changing when you open that app by going onto the overview and un-checking the “Enable Aurora to provide lighting effects…” box. You can also right-click on the application icons to hide them if you do not have that game and don’t want it cluttering up the list.&lt;/p></description></item><item><title>Installation</title><link>https://www.project-aurora.com/Docs/basic-topics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/installation/</guid><description>&lt;p>To install Aurora, the easiest way is to download the installer from our &lt;a href="https://github.com/Aurora-RGB/Aurora/releases">GitHub page&lt;/a> and simply run it.&lt;/p>
-&lt;p>After this, you will find Aurora in your start menu. Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to. It&amp;rsquo;s important you follows these steps otherwise Aurora may not work correctly.&lt;/p>
+&lt;p>After this, you will find Aurora in your start menu.
+Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to.
+It&amp;rsquo;s important you follows these steps otherwise Aurora may not work correctly.&lt;/p>
 &lt;h2 id="dev-version">Dev Version&lt;/h2>
-&lt;p>The Aurora software is constantly evolving thanks to submissions from various contributors. Before these changes hit the main release, they are added to a special &amp;ldquo;dev&amp;rdquo; version of Aurora (after being bug-tested).&lt;/p></description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-games-natively">Aurora supports these games natively:&lt;/h1>
+&lt;p>Builds tagged as &amp;ldquo;Prerelease&amp;rdquo; are usually versions that may have breaking changes.
+Aurora currently has one developer and I would really appreciate more people testing it.&lt;/p></description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-games-natively">Aurora supports these games natively:&lt;/h1>
 &lt;ul>
 &lt;li>CS2&lt;/li>
 &lt;li>Dota 2&lt;/li>
