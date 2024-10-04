@@ -1,8 +1,11 @@
 ---
+searchTitle: "How to Use Aurora with Razer Devices"
 title: SteelSeries
 authors:
   - th3an7
 ---
+
+You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Steelseries devices using Aurora.
 
 # Required Software
 

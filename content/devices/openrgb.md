@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with OpenRGB"
 title: OpenRGB
 authors:
   - Aytackydln

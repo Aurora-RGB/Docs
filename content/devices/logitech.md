@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with Logitech Devices"
 title: Logitech
 authors:
   - diogotr7
@@ -14,6 +15,7 @@ One of:
 
 * Logitech Gaming Software 9.02.65+
 * Logitech G Hub
+* OpenRGB
 
 # Needed configuration
 

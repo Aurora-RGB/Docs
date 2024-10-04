@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with Corsair Devices"
 title: Corsair
 authors:
   - diogotr7
@@ -19,4 +20,4 @@ The SDK should come enabled by default when you install iCUE, but in case it doe
 
 # Supported Devices
 
-All devices that a version of iCUE is supported.
+All devices that are supported with iCUE is supported.

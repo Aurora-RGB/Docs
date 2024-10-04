@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with Razer Devices"
 title: Razer
 authors:
   - Aytackydln

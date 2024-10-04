@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with DualShock4 & DualSense Controllers"
 title: DualShock4 & DualSense
 authors:
   - Aytackydln

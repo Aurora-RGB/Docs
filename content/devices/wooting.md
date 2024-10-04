@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with Wooting Devices"
 title: Wooting
 authors:
   - diogotr7

@@ -1,4 +1,5 @@
 ---
+searchTitle: "How to Use Aurora with Asus Devices"
 title: Asus
 authors:
   - Popat0
@@ -9,8 +10,9 @@ You can use Aurora profiles and brand specific integrations (like Chroma and Lig
 # Required Software
 One of:
 
-* Asus Aura Sync 1.01.79_V2.1 or later - [Download](https://www.asus.com/campaign/aura/us/download.html) or,
+* Asus Aura Sync 1.01.79_V2.1 or later - [Download](https://www.asus.com/campaign/aura/us/download.html)
 * Asus Armory Crate
+* OpenRGB
 
 {{% alert "Version 1.07.79 of Asus Aura Sync will NOT work for most users." "info" %}}
 
