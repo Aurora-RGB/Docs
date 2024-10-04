@@ -4,7 +4,9 @@ authors:
   - Aytackydln
 ---
 
-You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}})
+![Diagram showing Aurora & LightFX integration](img/diagrams/lfx_diagram.png)
+
+You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
 
 You must install LightFX wrapper dll to the game directory from Aurora settings.
 

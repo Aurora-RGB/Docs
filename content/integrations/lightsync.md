@@ -5,7 +5,7 @@ authors:
   - Aytackydln
 ---
 
-![Diagram showing Aurora & Lightsync integration](img/lightsync_diagram.png)
+![Diagram showing Aurora & Lightsync integration](img/diagrams/lightsync_diagram.png)
 
 You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
 
