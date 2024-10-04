@@ -61,7 +61,7 @@ To change this behaviour, you must open the Aurora settings, get to the &amp;ldq
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=a71d2854f2395d41ca466dcae81079a8" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=0d6c136a5861664f79476cf8e81ad0be" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="supported-devices">Supported Devices&lt;/h1>
@@ -106,7 +106,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=a71d2854f2395d41ca466dcae81079a8" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=0d6c136a5861664f79476cf8e81ad0be" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="for-lgs">For LGS:&lt;/h2>
@@ -135,7 +135,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/lgs-enable-sdk-1.png?v=a71d2854f2395d41ca466dcae81079a8" alt="Opening Settings in Logitech Gaming Software" loading="lazy" height="750" width="1006" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/lgs-enable-sdk-1.png?v=0d6c136a5861664f79476cf8e81ad0be" alt="Opening Settings in Logitech Gaming Software" loading="lazy" height="750" width="1006" />
 &lt;/picture>
 &lt;/p></description></item><item><title>OpenRGB</title><link>https://www.project-aurora.com/Docs/devices/openrgb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/openrgb/</guid><description>&lt;h1 id="required-software">Required Software&lt;/h1>
 &lt;p>&lt;a href="https://openrgb.org/">OpenRGB&lt;/a>&lt;/p>
@@ -184,7 +184,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=a71d2854f2395d41ca466dcae81079a8" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=0d6c136a5861664f79476cf8e81ad0be" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p>
@@ -210,7 +210,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/sse-special-event.png?v=a71d2854f2395d41ca466dcae81079a8" alt="Color Special Event in Aurora applet" loading="lazy" height="1040" width="1920" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/sse-special-event.png?v=0d6c136a5861664f79476cf8e81ad0be" alt="Color Special Event in Aurora applet" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="known-issues">Known Issues&lt;/h1>
