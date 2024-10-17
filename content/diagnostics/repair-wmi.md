@@ -1,5 +1,6 @@
 ---
 title: Repair WMI
+description: Tutorial explaining how to fix WMI for Windows
 order: 1
 authors:
   - Aytackydln
@@ -7,8 +8,8 @@ authors:
 
 If this page opened automatically for you, you need to take action to repair your Windows.
 
-AuroraRGB needs Win32_Process class in WMI to work properly.
-Here you can follow the steps to fix it for Aurora and possibly other software.
+AuroraRGB, and possibly other software, needs Win32_Process class in WMI to work properly.
+Here you can follow the steps to fix it.
 
 
 1) Open a terminal (as Admin):
