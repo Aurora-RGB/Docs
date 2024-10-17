@@ -20,7 +20,7 @@
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -74,7 +74,7 @@
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-ambilight.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other" loading="lazy" height="241" width="725" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-ambilight.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other" loading="lazy" height="241" width="725" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Animation Editor</title><link>https://www.project-aurora.com/Docs/advanced-topics/animation-editor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/advanced-topics/animation-editor/</guid><description>&lt;p>The &lt;a href="https://www.project-aurora.com/Docs/reference-layers/animation/">Animation Layer&lt;/a> allows you to add your own custom animated effects to your peripheral lights. To edit this animation, the Animation Editor used. This is a powerful tool, and fairly easy to use once you understand how it works. As with all unfamiliar things however, it may be daunting at first.&lt;/p>
 &lt;h1 id="concepts-and-definitions">Concepts and Definitions&lt;/h1>
@@ -114,7 +114,7 @@ To change this behaviour, you must open the Aurora settings, get to the &amp;ldq
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-equalizer.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="An equalizer layer in gradient mode while playing a music track" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-equalizer.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="An equalizer layer in gradient mode while playing a music track" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Audio Visualizer Tweaks</title><link>https://www.project-aurora.com/Docs/advanced-topics/visualizer-output/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/advanced-topics/visualizer-output/</guid><description>&lt;p>The Audio Visualizer layer allows you to display a representation of whatever you&amp;rsquo;re listening to on your RGB devices.&lt;/p>
 &lt;h1 id="isolating-applications">Isolating applications&lt;/h1>
@@ -142,41 +142,41 @@ To change this behaviour, you must open the Aurora settings, get to the &amp;ldq
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-blinking.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A blinking layer with cyan and a random secondary color" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-blinking.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A blinking layer with cyan and a random secondary color" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Name&lt;/th>
- &lt;th style="text-align: left">Description&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">Primary Color&lt;/td>
- &lt;td style="text-align: left">The solid color to set all the affected keys to during the first phase.&lt;/td>
+ &lt;td>Primary Color&lt;/td>
+ &lt;td>The solid color to set all the affected keys to during the first phase.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Use Random Primary&lt;/td>
- &lt;td style="text-align: left">Tick this to use a random color during first phase instead of &lt;em>Primary Color&lt;/em>.&lt;/td>
+ &lt;td>Use Random Primary&lt;/td>
+ &lt;td>Tick this to use a random color during first phase instead of &lt;em>Primary Color&lt;/em>.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Secondary Color&lt;/td>
- &lt;td style="text-align: left">The solid color to set all the affected keys to during the second phase.&lt;/td>
+ &lt;td>Secondary Color&lt;/td>
+ &lt;td>The solid color to set all the affected keys to during the second phase.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Use Random Secondary&lt;/td>
- &lt;td style="text-align: left">Tick this to use a random color during second phase instead of &lt;em>Secondary Color&lt;/em>.&lt;/td>
+ &lt;td>Use Random Secondary&lt;/td>
+ &lt;td>Tick this to use a random color during second phase instead of &lt;em>Secondary Color&lt;/em>.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Effect Speed&lt;/td>
- &lt;td style="text-align: left">How fast the keys swap between primary and secondary colors.&lt;/td>
+ &lt;td>Effect Speed&lt;/td>
+ &lt;td>How fast the keys swap between primary and secondary colors.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Affected Keys&lt;/td>
- &lt;td style="text-align: left">A collection of keys that will be set to the target color.&lt;/td>
+ &lt;td>Affected Keys&lt;/td>
+ &lt;td>A collection of keys that will be set to the target color.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Brand Integrations</title><link>https://www.project-aurora.com/Docs/integrations/integrations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/integrations/</guid><description>&lt;p>Some of the brand specific game integrations are reverse-engineered to work with Aurora.
@@ -210,41 +210,41 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-breathing.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A breathing layer with two random colors" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-breathing.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A breathing layer with two random colors" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Name&lt;/th>
- &lt;th style="text-align: left">Description&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">Primary Color&lt;/td>
- &lt;td style="text-align: left">The solid color to set all the affected keys to during the first phase.&lt;/td>
+ &lt;td>Primary Color&lt;/td>
+ &lt;td>The solid color to set all the affected keys to during the first phase.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Use Random Primary&lt;/td>
- &lt;td style="text-align: left">Tick this to use a random color during first phase instead of &lt;em>Primary Color&lt;/em>.&lt;/td>
+ &lt;td>Use Random Primary&lt;/td>
+ &lt;td>Tick this to use a random color during first phase instead of &lt;em>Primary Color&lt;/em>.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Secondary Color&lt;/td>
- &lt;td style="text-align: left">The solid color to set all the affected keys to during the second phase.&lt;/td>
+ &lt;td>Secondary Color&lt;/td>
+ &lt;td>The solid color to set all the affected keys to during the second phase.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Use Random Secondary&lt;/td>
- &lt;td style="text-align: left">Tick this to use a random color during second phase instead of &lt;em>Secondary Color&lt;/em>.&lt;/td>
+ &lt;td>Use Random Secondary&lt;/td>
+ &lt;td>Tick this to use a random color during second phase instead of &lt;em>Secondary Color&lt;/em>.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Effect Speed&lt;/td>
- &lt;td style="text-align: left">How fast the keys swap between primary and secondary colors.&lt;/td>
+ &lt;td>Effect Speed&lt;/td>
+ &lt;td>How fast the keys swap between primary and secondary colors.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Affected Keys&lt;/td>
- &lt;td style="text-align: left">A collection of keys that will be set to the target color.&lt;/td>
+ &lt;td>Affected Keys&lt;/td>
+ &lt;td>A collection of keys that will be set to the target color.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Conditional &amp; Comparison Layers</title><link>https://www.project-aurora.com/Docs/reference-layers/conditional-comparisons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/conditional-comparisons/</guid><description>&lt;p>&lt;span class="alert danger">These layers are no longer necessary and the Overrides System should be used instead as it has more functionality than these layers. They will remain in Aurora so as not to break existing profiles.&lt;/span>&lt;/p>
@@ -278,7 +278,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="supported-devices">Supported Devices&lt;/h1>
@@ -314,7 +314,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="applications">Applications&lt;/h1>
@@ -341,25 +341,25 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-glitch.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-glitch.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Name&lt;/th>
- &lt;th style="text-align: left">Description&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">Update Interval&lt;/td>
- &lt;td style="text-align: left">The time in seconds between the key&amp;rsquo;s randomization.&lt;/td>
+ &lt;td>Update Interval&lt;/td>
+ &lt;td>The time in seconds between the key&amp;rsquo;s randomization.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Allow Transparency&lt;/td>
- &lt;td style="text-align: left">If true, the random color may be transparent.&lt;/td>
+ &lt;td>Allow Transparency&lt;/td>
+ &lt;td>If true, the random color may be transparent.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Gradient Fill Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/gradient-fill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/gradient-fill/</guid><description>&lt;p>This layer sets all the specified keys to the same color, determined by the gradient. Unlike the regular gradient layer, all keys are the same color. You can think of the gradient as being a “timeline”, and the colors of all the keys are set based on how far through the timeline we are. This can be used to create a fade effect between multiple different colors.&lt;/p>
@@ -385,7 +385,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient-fill.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient-fill.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Gradient Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/gradient/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/gradient/</guid><description>&lt;p>The Gradient Layer shows a gradient effect on the specified keys. The gradient can also be animated to move across the keyboard to give a wave effect. If it helps to understand how it works, you can imagine the gradient to be displayed on a (possibly moving) rectangle, and each key acts as a “window” onto that rectangle.&lt;/p>
 &lt;p>
@@ -410,7 +410,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A rainbow Gradient Layer on the alphabetical keys" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A rainbow Gradient Layer on the alphabetical keys" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -476,25 +476,25 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-image.png?v=70193a96a5eb90163a8dba844748f8b7" alt="An image layer displaying a picture of a landscape" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-image.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="An image layer displaying a picture of a landscape" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Name&lt;/th>
- &lt;th style="text-align: left">Description&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">Selected Image&lt;/td>
- &lt;td style="text-align: left">The file path to the image you wish to display.&lt;/td>
+ &lt;td>Selected Image&lt;/td>
+ &lt;td>The file path to the image you wish to display.&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Affected Keys&lt;/td>
- &lt;td style="text-align: left">The collection of keys that will be set to colors that imitate the given image.&lt;/td>
+ &lt;td>Affected Keys&lt;/td>
+ &lt;td>The collection of keys that will be set to colors that imitate the given image.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Input</title><link>https://www.project-aurora.com/Docs/reference-expressions/input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/input/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;Input&amp;rsquo; category.&lt;/p>
@@ -530,7 +530,7 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-interactive.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="Pressing keys on an interactive layer with key wave mode" loading="lazy" height="290" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-interactive.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Pressing keys on an interactive layer with key wave mode" loading="lazy" height="290" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -623,7 +623,7 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="for-lgs">For LGS:&lt;/h2>
@@ -652,7 +652,7 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/lgs-enable-sdk-1.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Opening Settings in Logitech Gaming Software" loading="lazy" height="750" width="1006" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/lgs-enable-sdk-1.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Opening Settings in Logitech Gaming Software" loading="lazy" height="750" width="1006" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
 
@@ -676,7 +676,7 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -736,7 +736,7 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=70193a96a5eb90163a8dba844748f8b7" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
 &lt;/picture>
 &lt;/p>
 &lt;p>SDK server in OpenRGB needs to be started. This can be done automatically at boot from OpenRGB settings.&lt;/p>
@@ -768,7 +768,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-fire.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A particle layer with the fire preset" loading="lazy" height="240" width="724" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-fire.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A particle layer with the fire preset" loading="lazy" height="240" width="724" />
 &lt;/picture>
 
 
@@ -793,7 +793,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-matrix.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A particle layer with the matrix preset" loading="lazy" height="239" width="724" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-matrix.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A particle layer with the matrix preset" loading="lazy" height="239" width="724" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Percent (Gradient) Effect Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/percent-gradient-effect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/percent-gradient-effect/</guid><description>&lt;p>This layer is very similar to the Percent Effect Layer, but makes use of a gradient instead of a progress/background color. This layer does not have a background.&lt;/p>
 &lt;p>
@@ -818,7 +818,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-gradient-effect.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-gradient-effect.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -889,7 +889,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-effect.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A percent layer with current value set to the current time&amp;rsquo;s milliseconds" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-effect.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A percent layer with current value set to the current time&amp;rsquo;s milliseconds" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -965,7 +965,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-radial.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A rainbow radial layer" loading="lazy" height="240" width="724" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-radial.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A rainbow radial layer" loading="lazy" height="240" width="724" />
 &lt;/picture>
 &lt;/p>
 &lt;p>Note that this gradient is generated using discrete pie-shaped segments of colour. This color is determined by the median color at a particular point on the gradient. For example, if there were 4 segments, each would have a 90 degree arc. The first would use the color at 45 degrees (90 / 2) the second at 135 degrees, etc. If you do not get the colors you expect when using small numbers of segments, this is likely the reason.&lt;/p></description></item><item><title>Razer</title><link>https://www.project-aurora.com/Docs/devices/razer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/razer/</guid><description>&lt;p>You can have brand specific integrations (like LightFX and Lightsync) with Razer devices using Aurora.&lt;/p>
@@ -1003,7 +1003,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -1014,8 +1014,8 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 Then, &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; needs to be running for the integration to work.&lt;/p>
 &lt;p>&lt;a href="https://www.razer.com/chroma-workshop#--games">Chrome Enabled Games List on www.razer.com&lt;/a>&lt;/p>
 &lt;p>You can use the &amp;ldquo;Disable Device Control&amp;rdquo; button in &amp;ldquo;Devices &amp;amp; Wrappers&amp;rdquo; tab of Aurora to disable Chroma SDK from controlling Razer devices.&lt;/p></description></item><item><title>Repair WMI</title><link>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</guid><description>&lt;p>If this page opened automatically for you, you need to take action to repair your Windows.&lt;/p>
-&lt;p>AuroraRGB needs Win32_Process class in WMI to work properly.
-Here you can follow the steps to fix it for Aurora and possibly other software.&lt;/p>
+&lt;p>AuroraRGB, and possibly other software, needs Win32_Process class in WMI to work properly.
+Here you can follow the steps to fix it.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>Open a terminal (as Admin):&lt;/p>
@@ -1055,7 +1055,7 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-shortcut.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-shortcut.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Solid Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/solid-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/solid-color/</guid><description>&lt;p>The Solid Color Layer is for setting static colors for specific keys. The keys will constantly be lit in the given color (providing they aren’t overridden by a higher-up layer). This is one of the most simple layers in Aurora, but can be useful for things such as highlighting controls such as WASD in video games.&lt;/p>
 &lt;p>
@@ -1080,7 +1080,7 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-color.png?v=70193a96a5eb90163a8dba844748f8b7" alt="A Solid Color Layer lighting common video game control keys" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-color.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A Solid Color Layer lighting common video game control keys" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you want to set the color of the entire (or most) of the keyboard, consider using the &lt;a href="https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/">Solid Fill Color&lt;/a> Layer instead.&lt;/p></description></item><item><title>Solid Fill Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/</guid><description>&lt;p>Similar to the Solid Color layer, however it does not have fine control over which keys are lit and so fills the entire canvas (keyboard, mouse and any other peripherals) with the given color. This layer is useful for setting static backgrounds, saving you from having to manually add each key.&lt;/p>
@@ -1106,21 +1106,21 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-fill-color.png?v=70193a96a5eb90163a8dba844748f8b7" alt="A Solid Fill Layer setting the entire keyboard to cyan" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-fill-color.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A Solid Fill Layer setting the entire keyboard to cyan" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Name&lt;/th>
- &lt;th style="text-align: left">Description&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">Color&lt;/td>
- &lt;td style="text-align: left">The solid color to set all the affected keys to.&lt;/td>
+ &lt;td>Color&lt;/td>
+ &lt;td>The solid color to set all the affected keys to.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>State</title><link>https://www.project-aurora.com/Docs/reference-expressions/state/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/state/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;State&amp;rsquo; category.&lt;/p>
@@ -1160,7 +1160,7 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=70193a96a5eb90163a8dba844748f8b7" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p></description></item><item><title>String</title><link>https://www.project-aurora.com/Docs/reference-expressions/string/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/string/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;String&amp;rsquo; category.&lt;/p>
@@ -1190,7 +1190,7 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-timer.gif?v=70193a96a5eb90163a8dba844748f8b7" alt="A timer layer on the alphabetical keys" loading="lazy" height="288" width="866" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-timer.gif?v=a9e6882ad4e29edb6ea6779fe0c4a384" alt="A timer layer on the alphabetical keys" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Toggle Key Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/toggle-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/toggle-key/</guid><description>&lt;p>The toggle key layer allows for the turning on or off some lights based on the key press of another specific key. This layer can be useful for things such as indicators for whether something is toggled on/off in a game.&lt;/p>
 &lt;p>&lt;span class="alert info">If you are using caps lock, num lock or scroll lock as a trigger key it is probably better to use the Lock Layer to ensure the key light state stays synced with the lock state properly.&lt;/span>&lt;/p></description></item><item><title>Toolbar Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/toolbar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/toolbar/</guid><description>&lt;p>The toolbar layer is a layer that shows one key as “active” and all others assigned to it as “inactive”. When a different key is pressed, the pressed key becomes the active one instead. This works similarly to how toolbars/item bars work in video games such as Factorio or Minecraft.&lt;/p>

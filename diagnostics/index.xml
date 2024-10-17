@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Repair WMI</title><link>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</guid><description>&lt;p>If this page opened automatically for you, you need to take action to repair your Windows.&lt;/p>
-&lt;p>AuroraRGB needs Win32_Process class in WMI to work properly.
-Here you can follow the steps to fix it for Aurora and possibly other software.&lt;/p>
+&lt;p>AuroraRGB, and possibly other software, needs Win32_Process class in WMI to work properly.
+Here you can follow the steps to fix it.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>Open a terminal (as Admin):&lt;/p>
