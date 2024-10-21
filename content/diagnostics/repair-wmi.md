@@ -1,5 +1,6 @@
 ---
 title: Repair WMI
+searchTitle: How to Repair Windows WMI
 description: Tutorial explaining how to fix WMI for Windows
 order: 1
 authors:
