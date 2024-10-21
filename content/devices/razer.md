@@ -21,7 +21,19 @@ One of:
 
 # Needed configuration
 
-The SDK should come enabled by default when you install Synapse.
+## Through Razer Software
+
+1. Install Synapse from Razer or Chroma SDK from Aurora
+2. Make sure Razer (RGB.NET) is enabled in Aurora's Device Manager
+3. Make sure you didn't enable "Disable Device Control" in "Devices & Wrappers" settings. If you did, click "..." button in Chroma Wrapper section and reenable device control.
+4. Make sure "Razer Chroma SDK Service" in running
+
+## Through OpenRGB
+
+1. Check OpenRGB page for regular instructions.
+2. If you are still using Synapse:
+  1. Click/check "Disable Device Control" in "Devices & Wrappers" Chroma section
+2. If you are not using Synapse, you can either uninstall it or make sure all Razer services are disabled
 
 # Supported Devices
 
