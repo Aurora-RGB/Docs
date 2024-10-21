@@ -13,9 +13,10 @@ You can use Aurora with OpenRGB for ultimate lighting control, integration, perf
 
 # Needed configuration
 
+1. Enable SDK Server from OpenRGB
 ![OpenRGB Setup screenshot](img/docs/openrgb-setup.png)
-
-SDK server in OpenRGB needs to be started. This can be done automatically at boot from OpenRGB settings.
+You can also make OpenRGB start at boot and enable SDK Server automatically from it's settings.
+2. Make sure **OpenRGB (RGB.NET)** is enabled in Aurora's **Device Manager**
 
 ## "Device is Detected in OpenRGB but not listed in Aurora"
 For Aurora to use RGB devices safely, devices must support "Direct Mode"

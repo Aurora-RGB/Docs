@@ -3,6 +3,7 @@ searchTitle: "How to Use Aurora with Asus Devices"
 title: Asus
 authors:
   - Popat0
+  - Aytackydln
 ---
 
 You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.
@@ -10,7 +11,7 @@ You can use Aurora profiles and brand specific integrations (like Chroma and Lig
 # Required Software
 One of:
 
-* Asus Aura Sync 1.01.79_V2.1 or later - [Download](https://www.asus.com/campaign/aura/us/download.html)
+* Asus Aura Sync 1.01.79_V2.1 or later - [Download from Asus](https://www.asus.com/campaign/aura/us/download.html)
 * Asus Armory Crate
 * OpenRGB
 
@@ -20,14 +21,16 @@ One of:
 
 # Needed configuration
 
-By default, all Asus lights that are not a keyboard will default to the mouse logo color.
-To change this behaviour, you must open the Aurora settings, get to the "Devices and Wrappers" tab and click the "Configure Asus Peripheral Devices" button, which will open an interface to assign each individual light to a certain key or zone, such as mousepad lights.
+After installing official software, make sure "LightingService" runs in the background.
+
+If you aren't using official software, make sure "LightingService" **is disabled**
 
 # Known issues
 
 Items controlled by both Aura and another supported app can create conflicts.
 A common example would be Corsair RAM in the system with Asus Aura and iCue both trying to control it at the same time.
-The fix for that is rather simple : Open up the Aura app and disable sync for that peripheral/component by clicking the unlink button under its icon, at the top.
+The fix for that is rather simple :
+Open up the Aura app and disable sync for that peripheral/component by clicking the unlink button under its icon, at the top.
 
 # Supported Devices
 

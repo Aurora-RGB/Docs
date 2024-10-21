@@ -19,6 +19,7 @@ One of:
 
 # Needed configuration
 
+{{% alert "Logitech software does not work when Lightsync Wrapper in Aurora is enabled" "warning" %}}
 The SDK should come enabled by default when you install LGS or GHUB, but in case it doesn't connect, make sure it is enabled.
 
 ## For GHUB:
@@ -28,25 +29,17 @@ The SDK should come enabled by default when you install LGS or GHUB, but in case
 ## For LGS:
 
 1. Open Logitech Gaming Software and go into Settings
-
 ![Opening Settings in Logitech Gaming Software](img/docs/lgs-enable-sdk-1.png)
-
 2. Enable Game Integration Settings
-
 ![Enabling Game Integration Settings in Logitech Gaming Software](img/docs/lgs-enable-sdk-2.png)
-
 3. Open the Game Integration Configuration menu
-
 ![Opening the Game Integration Menu in Logitech Gaming Software](img/docs/lgs-enable-sdk-3.png)
-
 4. Disable Conflicting Settings and Applets
-
-![Disabling CS:GO in Logitech Gaming Software](img/docs/lgs-enable-sdk-4.png)
+![Disabling CS2 in Logitech Gaming Software](img/docs/lgs-enable-sdk-4.png)
 ![Disabling DotA2 in Logitech Gaming Software](img/docs/lgs-enable-sdk-5.png)
 
 # Known issues
 
-{{% alert "Logitech device integration does not work when Lightsync Wrapper is enabled" "warning" %}}
 * Lightsync wrapper will be automatically disabled if Logitech software autorun is detected.
 If you want to use Logitech devices with other brands and have Lightsync integration on all devices, you have to replace Logitech software with [OpenRGB]({{% ref "devices/openrgb" %}})
 

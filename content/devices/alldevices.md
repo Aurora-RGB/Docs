@@ -6,25 +6,25 @@ authors:
 ---
 
 # You can use Aurora with these Brands:
-- Asus
+- [Asus]({{% ref "devices/asus" %}})
 - AtmoOrb
 - Bloody
 - Clevo
 - CoolerMaster
-- Corsair
+- [Corsair]({{% ref "devices/corsair" %}})
 - Drevo
 - Ducky
 - Alienware
-- Logitech
+- [Logitech]({{% ref "devices/logitech" %}})
 - OMEN
-- Razer
+- [Razer]({{% ref "devices/razer" %}})
 - Roccat
-- Sony DS4 & DualSense
+- [Sony DS4 & DualSense]({{% ref "devices/dualsense" %}})
 - SoundBlasterX
-- Steelseries
+- [Steelseries]({{% ref "devices/steelseries" %}})
 - Vulcan
-- Wooting
+- [Wooting]({{% ref "devices/wooting" %}})
 - Yeelight
-- And [by OpenRGB](https://openrgb.org/devices.html) with "Direct Mode" support
+- And [by OpenRGB]({{% ref "devices/openrgb" %}}) with "Direct Mode" support
 
 See [Wiki](https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices) for details, as some models can be incompatible.
