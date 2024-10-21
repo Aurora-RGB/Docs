@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devices on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/devices/</link><description>Recent content in Devices on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/devices/index.xml" rel="self" type="application/rss+xml"/><item><title>All Supported Devices</title><link>https://www.project-aurora.com/Docs/devices/alldevices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/alldevices/</guid><description>&lt;h1 id="you-can-use-aurora-with-these-brands">You can use Aurora with these Brands:&lt;/h1>
 &lt;ul>
-&lt;li>Asus&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/asus/">Asus&lt;/a>&lt;/li>
 &lt;li>AtmoOrb&lt;/li>
 &lt;li>Bloody&lt;/li>
 &lt;li>Clevo&lt;/li>
 &lt;li>CoolerMaster&lt;/li>
-&lt;li>Corsair&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/corsair/">Corsair&lt;/a>&lt;/li>
 &lt;li>Drevo&lt;/li>
 &lt;li>Ducky&lt;/li>
 &lt;li>Alienware&lt;/li>
-&lt;li>Logitech&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/logitech/">Logitech&lt;/a>&lt;/li>
 &lt;li>OMEN&lt;/li>
-&lt;li>Razer&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/razer/">Razer&lt;/a>&lt;/li>
 &lt;li>Roccat&lt;/li>
-&lt;li>Sony DS4 &amp;amp; DualSense&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/dualsense/">Sony DS4 &amp;amp; DualSense&lt;/a>&lt;/li>
 &lt;li>SoundBlasterX&lt;/li>
-&lt;li>Steelseries&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/steelseries/">Steelseries&lt;/a>&lt;/li>
 &lt;li>Vulcan&lt;/li>
-&lt;li>Wooting&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/wooting/">Wooting&lt;/a>&lt;/li>
 &lt;li>Yeelight&lt;/li>
-&lt;li>And &lt;a href="https://openrgb.org/devices.html">by OpenRGB&lt;/a> with &amp;ldquo;Direct Mode&amp;rdquo; support&lt;/li>
+&lt;li>And &lt;a href="https://www.project-aurora.com/Docs/devices/openrgb/">by OpenRGB&lt;/a> with &amp;ldquo;Direct Mode&amp;rdquo; support&lt;/li>
 &lt;/ul>
 &lt;p>See &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices">Wiki&lt;/a> for details, as some models can be incompatible.&lt;/p></description></item><item><title>Asus</title><link>https://www.project-aurora.com/Docs/devices/asus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/asus/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
 &lt;p>One of:&lt;/p>
 &lt;ul>
-&lt;li>Asus Aura Sync 1.01.79_V2.1 or later - &lt;a href="https://www.asus.com/campaign/aura/us/download.html">Download&lt;/a>&lt;/li>
+&lt;li>Asus Aura Sync 1.01.79_V2.1 or later - &lt;a href="https://www.asus.com/campaign/aura/us/download.html">Download from Asus&lt;/a>&lt;/li>
 &lt;li>Asus Armory Crate&lt;/li>
 &lt;li>OpenRGB&lt;/li>
 &lt;/ul>
 &lt;p>&lt;span class="alert info">Version 1.07.79 of Asus Aura Sync will NOT work for most users.&lt;/span>&lt;/p>
 &lt;p>&lt;span class="alert info">Using OpenRGB instead of Asus software is highly recommended.&lt;/span>&lt;/p>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
-&lt;p>By default, all Asus lights that are not a keyboard will default to the mouse logo color.
-To change this behaviour, you must open the Aurora settings, get to the &amp;ldquo;Devices and Wrappers&amp;rdquo; tab and click the &amp;ldquo;Configure Asus Peripheral Devices&amp;rdquo; button, which will open an interface to assign each individual light to a certain key or zone, such as mousepad lights.&lt;/p></description></item><item><title>Corsair</title><link>https://www.project-aurora.com/Docs/devices/corsair/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/corsair/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.&lt;/p>
+&lt;p>After installing official software, make sure &amp;ldquo;LightingService&amp;rdquo; runs in the background.&lt;/p></description></item><item><title>Corsair</title><link>https://www.project-aurora.com/Docs/devices/corsair/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/corsair/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
+&lt;p>One of:&lt;/p>
 &lt;ul>
 &lt;li>Corsair iCUE&lt;/li>
+&lt;li>&lt;a href="https://www.project-aurora.com/Docs/devices/openrgb/">OpenRGB&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
+&lt;h2 id="through-icue">Through iCue&lt;/h2>
 &lt;p>The SDK should come enabled by default when you install iCUE, but in case it doesn&amp;rsquo;t connect, make sure it is enabled.&lt;/p>
 &lt;p>
 
@@ -62,9 +64,12 @@ To change this behaviour, you must open the Aurora settings, get to the &amp;ldq
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=eac4773a581ff74f2be017f2a896288d" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=207c414a688d45e68566ad446ce47a4b" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
+&lt;blockquote>
+&lt;p>iCue needs to be running&lt;/p>
+&lt;/blockquote>
 &lt;h1 id="supported-devices">Supported Devices&lt;/h1>
 &lt;p>All devices that are supported with iCUE is supported.&lt;/p></description></item><item><title>DualShock4 &amp; DualSense</title><link>https://www.project-aurora.com/Docs/devices/dualsense/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/dualsense/</guid><description>&lt;p>You can use Aurora to change your controller&amp;rsquo;s color depending on games and other variables.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
@@ -84,6 +89,7 @@ Color updating is recommended to be disabled with supported games by setting a s
 &lt;li>OpenRGB&lt;/li>
 &lt;/ul>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
+&lt;p>&lt;span class="alert warning">Logitech software does not work when Lightsync Wrapper in Aurora is enabled&lt;/span>&lt;/p>
 &lt;p>The SDK should come enabled by default when you install LGS or GHUB, but in case it doesn&amp;rsquo;t connect, make sure it is enabled.&lt;/p>
 &lt;h2 id="for-ghub">For GHUB:&lt;/h2>
 &lt;p>
@@ -108,42 +114,15 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=eac4773a581ff74f2be017f2a896288d" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
-&lt;/picture>
-&lt;/p>
-&lt;h2 id="for-lgs">For LGS:&lt;/h2>
-&lt;ol>
-&lt;li>Open Logitech Gaming Software and go into Settings&lt;/li>
-&lt;/ol>
-&lt;p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/lgs-enable-sdk-1.png?v=eac4773a581ff74f2be017f2a896288d" alt="Opening Settings in Logitech Gaming Software" loading="lazy" height="750" width="1006" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=207c414a688d45e68566ad446ce47a4b" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
 &lt;/picture>
 &lt;/p></description></item><item><title>OpenRGB</title><link>https://www.project-aurora.com/Docs/devices/openrgb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/openrgb/</guid><description>&lt;p>You can use Aurora with OpenRGB for ultimate lighting control, integration, performance and compatibility.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
 &lt;p>&lt;a href="https://openrgb.org/">OpenRGB&lt;/a>&lt;/p>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
-&lt;p>
+&lt;ol>
+&lt;li>Enable SDK Server from OpenRGB
+
 
 
 
@@ -165,10 +144,12 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=eac4773a581ff74f2be017f2a896288d" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=207c414a688d45e68566ad446ce47a4b" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
 &lt;/picture>
-&lt;/p>
-&lt;p>SDK server in OpenRGB needs to be started. This can be done automatically at boot from OpenRGB settings.&lt;/p>
+
+You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li>
+&lt;li>Make sure &lt;strong>OpenRGB (RGB.NET)&lt;/strong> is enabled in Aurora&amp;rsquo;s &lt;strong>Device Manager&lt;/strong>&lt;/li>
+&lt;/ol>
 &lt;h2 id="device-is-detected-in-openrgb-but-not-listed-in-aurora">&amp;ldquo;Device is Detected in OpenRGB but not listed in Aurora&amp;rdquo;&lt;/h2>
 &lt;p>For Aurora to use RGB devices safely, devices must support &amp;ldquo;Direct Mode&amp;rdquo;
 Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for more details&lt;/p></description></item><item><title>Razer</title><link>https://www.project-aurora.com/Docs/devices/razer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/razer/</guid><description>&lt;p>You can have brand specific integrations (like LightFX and Lightsync) with Razer devices using Aurora.&lt;/p>
@@ -180,22 +161,27 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 &lt;/ul>
 &lt;h1 id="tips">Tips&lt;/h1>
 &lt;ul>
-&lt;li>After installing Synapse, you can disable all Razer services and only leave &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; running to reduce background usage.&lt;/li>
-&lt;li>Using Chroma SDK Service and a Chroma integrated game make Razer devices flicker. In this case using OpenRGB and &amp;ldquo;Disabling Device Control&amp;rdquo; in &amp;ldquo;Devices &amp;amp; Wrappers&amp;rdquo; menu of Aurora is recommended&lt;/li>
+&lt;li>After installing Synapse, you can disable all Razer services and only leave &amp;ldquo;&lt;strong>Razer Chroma SDK Service&lt;/strong>&amp;rdquo; running to reduce background usage.&lt;/li>
+&lt;li>Using Chroma SDK Service and a Chroma integrated game make Razer devices flicker.
+In this case using OpenRGB and &amp;ldquo;&lt;strong>Disabling Device Control&lt;/strong>&amp;rdquo; in &amp;ldquo;&lt;strong>Devices &amp;amp; Wrappers&lt;/strong>&amp;rdquo; menu of Aurora is recommended&lt;/li>
 &lt;/ul>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
 &lt;h2 id="through-razer-software">Through Razer Software&lt;/h2>
 &lt;ol>
 &lt;li>Install Synapse from Razer or Chroma SDK from Aurora&lt;/li>
-&lt;li>Make sure Razer (RGB.NET) is enabled in Aurora&amp;rsquo;s Device Manager&lt;/li>
-&lt;li>Make sure you didn&amp;rsquo;t enable &amp;ldquo;Disable Device Control&amp;rdquo; in &amp;ldquo;Devices &amp;amp; Wrappers&amp;rdquo; settings. If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in Chroma Wrapper section and reenable device control.&lt;/li>
+&lt;li>Make sure &lt;strong>Razer (RGB.NET)&lt;/strong> is enabled in Aurora&amp;rsquo;s &lt;strong>Device Manager&lt;/strong>&lt;/li>
+&lt;li>Make sure you didn&amp;rsquo;t enable &amp;ldquo;Disable Device Control&amp;rdquo; in &amp;ldquo;&lt;strong>Devices &amp;amp; Wrappers&lt;/strong>&amp;rdquo; settings.
+If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong>Chroma Wrapper&lt;/strong> section and reenable device control.&lt;/li>
 &lt;li>Make sure &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; in running&lt;/li>
 &lt;/ol>
 &lt;h2 id="through-openrgb">Through OpenRGB&lt;/h2>
 &lt;ol>
-&lt;li>Check OpenRGB page for regular instructions.&lt;/li>
-&lt;li>If you are still using Synapse:&lt;/li>
+&lt;li>Check &lt;a href="https://www.project-aurora.com/Docs/devices/openrgb/">OpenRGB page&lt;/a> for regular instructions.&lt;/li>
+&lt;li>If you are still using Synapse:
+&lt;ol>
 &lt;li>Click/check &amp;ldquo;Disable Device Control&amp;rdquo; in &amp;ldquo;Devices &amp;amp; Wrappers&amp;rdquo; Chroma section&lt;/li>
+&lt;/ol>
+&lt;/li>
 &lt;li>If you are not using Synapse, you can either uninstall it or make sure all Razer services are disabled&lt;/li>
 &lt;/ol>
 &lt;h1 id="supported-devices">Supported Devices&lt;/h1>
@@ -230,7 +216,7 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=eac4773a581ff74f2be017f2a896288d" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=207c414a688d45e68566ad446ce47a4b" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p></description></item><item><title>Wooting</title><link>https://www.project-aurora.com/Docs/devices/wooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/wooting/</guid><description>&lt;h1 id="required-software">Required Software&lt;/h1>
