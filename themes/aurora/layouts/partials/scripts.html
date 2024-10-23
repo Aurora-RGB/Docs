@@ -5,3 +5,9 @@
 {{ $simplebar := resources.GetRemote "https://unpkg.com/simplebar@latest/dist/simplebar.min.js" }}
 {{ $scripts := slice $externalLink $tabs $mobile $scroll $simplebar | resources.Concat "app.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ $scripts.Permalink }}"></script>
+
+<script>
+    function adsLoaded() {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+</script>
