@@ -23,5 +23,3 @@
 {{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 <link rel="icon" href="{{ "favicon.ico" | relURL }}">
-
-<script data-adbreak-test="on" async onload="adsLoaded()" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2151914442626247" crossorigin="anonymous"></script>

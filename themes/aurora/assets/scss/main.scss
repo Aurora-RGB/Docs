@@ -32,6 +32,19 @@ $toc-width: 220px;
   font-size: 1.13rem;
 }
 
+ins {
+  min-height: 600px;
+}
+@media only screen and (max-width: 1320px){
+  ins {
+    min-height: 160px;
+    margin-top: 8px;
+  }
+}
+
+ins {
+  border: red dashed 1px;
+}
 
 // ------------------------ //
 // Import other SASS files //
