@@ -25,6 +25,8 @@ After installing official software, make sure "LightingService" runs in the back
 
 If you aren't using official software, make sure "LightingService" **is disabled**
 
+see [Disabling Windows Services]({{% ref "diagnostics/disabling-windows-services" %}})
+
 # Known issues
 
 Items controlled by both Aura and another supported app can create conflicts.

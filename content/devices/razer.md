@@ -16,6 +16,7 @@ One of:
 # Tips
 
 - After installing Synapse, you can disable all Razer services and only leave "**Razer Chroma SDK Service**" running to reduce background usage.
+  - see [Disabling Windows Services]({{% ref "diagnostics/disabling-windows-services" %}})
 - Using Chroma SDK Service and a Chroma integrated game make Razer devices flicker.
 In this case using OpenRGB and "**Disabling Device Control**" in "**Devices & Wrappers**" menu of Aurora is recommended
 
