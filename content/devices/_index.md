@@ -1,4 +1,4 @@
 ---
 title: "Devices"
-order: 6
+order: 4
 ---

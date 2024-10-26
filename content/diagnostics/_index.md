@@ -1,4 +1,4 @@
 ---
 title: "Diagnostics"
-order: 3
+order: 5
 ---

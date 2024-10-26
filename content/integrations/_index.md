@@ -1,4 +1,4 @@
 ---
 title: "Brand Specific Game Integrations"
-order: 5
+order: 3
 ---
