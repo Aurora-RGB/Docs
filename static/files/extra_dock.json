@@ -1,0 +1,105 @@
+{
+  "group_tag": "keyboard",
+  "origin_region": 1,
+  "grouped_keys": [
+    {
+      "visualName": "1",
+      "tag": 142,
+      "margin_left": -40,
+      "margin_top": 0,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "2",
+      "tag": 143,
+      "margin_left": -40,
+      "margin_top": 30,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "3",
+      "tag": 144,
+      "margin_left": -40,
+      "margin_top": 60,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "4",
+      "tag": 145,
+      "margin_left": -40,
+      "margin_top": 90,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "5",
+      "tag": 146,
+      "margin_left": -40,
+      "margin_top": 120,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "6",
+      "tag": 147,
+      "margin_left": -40,
+      "margin_top": 150,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "7",
+      "tag": 148,
+      "margin_left": -40,
+      "margin_top": 180,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "8",
+      "tag": 149,
+      "margin_left": -40,
+      "margin_top": 210,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "9",
+      "tag": 150,
+      "margin_left": -40,
+      "margin_top": 240,
+      "width": 35,
+      "height": 29,
+      "font_size": 24,
+      "enabled": true,
+      "absolute_location": true
+    }
+  ]
+}
