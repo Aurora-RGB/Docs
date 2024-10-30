@@ -7,7 +7,7 @@
         {{ .Content }}
 
         <div class="index-list">
-            {{ range .Pages.ByParam "order" }}
+            {{ range .Pages }}
                 <a href="{{ .Permalink }}" class="button">
                     <p class="item-title">{{ .Title }}</p>
                 </a>

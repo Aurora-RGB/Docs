@@ -2,7 +2,7 @@
 title: "Brand Integrations"
 authors:
   - Aytackydln
-order: 1
+weight: 1
 ---
 
 Some of the brand specific game integrations are reverse-engineered to work with Aurora.

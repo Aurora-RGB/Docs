@@ -1,5 +1,5 @@
 ---
 title: "Reference: Layers"
-order: 7
+weight: 7
 indexImages: true
 ---
