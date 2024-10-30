@@ -1,33 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brand Specific Game Integrations on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/integrations/</link><description>Recent content in Brand Specific Game Integrations on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/integrations/index.xml" rel="self" type="application/rss+xml"/><item><title>Alienware LightFX</title><link>https://www.project-aurora.com/Docs/integrations/lightfx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightfx/</guid><description>&lt;p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=b1cdb5f3b770f88778a8516bbec2e3d3" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
-&lt;/picture>
-&lt;/p>
-&lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
-&lt;p>You must install LightFX wrapper dll to the game directory from Aurora settings.&lt;/p>
-&lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
-&lt;/blockquote></description></item><item><title>Brand Integrations</title><link>https://www.project-aurora.com/Docs/integrations/integrations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/integrations/</guid><description>&lt;p>Some of the brand specific game integrations are reverse-engineered to work with Aurora.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brand Specific Game Integrations on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/integrations/</link><description>Recent content in Brand Specific Game Integrations on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/integrations/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Integrations</title><link>https://www.project-aurora.com/Docs/integrations/integrations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/integrations/</guid><description>&lt;p>Some of the brand specific game integrations are reverse-engineered to work with Aurora.
 See their pages to see how they are configured.&lt;/p>
 &lt;h2 id="game-integrations-aurora-supports">Game Integrations Aurora Supports&lt;/h2>
 &lt;ul>
@@ -35,7 +6,7 @@ See their pages to see how they are configured.&lt;/p>
 &lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/">Lightsync&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/">LightFX&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://www.pcgamingwiki.com/wiki/RGB_lighting_middleware">PCGamingWiki page about integrations&lt;/a>&lt;/p></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
+&lt;p>&lt;a href="https://www.pcgamingwiki.com/wiki/RGB_lighting_middleware">PCGamingWiki page about integrations&lt;/a>&lt;/p></description></item><item><title>Alienware LightFX</title><link>https://www.project-aurora.com/Docs/integrations/lightfx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightfx/</guid><description>&lt;p>
 
 
 
@@ -57,7 +28,36 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=b1cdb5f3b770f88778a8516bbec2e3d3" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=577108f998382fdefb7f8b1da9ea804b" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
+&lt;/picture>
+&lt;/p>
+&lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
+&lt;p>You must install LightFX wrapper dll to the game directory from Aurora settings.&lt;/p>
+&lt;blockquote>
+&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
+&lt;/blockquote></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ &lt;picture>
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=577108f998382fdefb7f8b1da9ea804b" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -87,7 +87,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=b1cdb5f3b770f88778a8516bbec2e3d3" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=577108f998382fdefb7f8b1da9ea804b" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
