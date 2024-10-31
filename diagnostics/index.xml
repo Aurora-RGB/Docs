@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Aurora Logs</title><link>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</guid><description>&lt;p>Short answer:&lt;/p>
+&lt;blockquote>
+&lt;p>%appdata%\Aurora\Logs&lt;/p>
+&lt;/blockquote>
+&lt;p>If you want to know which file to share:&lt;/p>
+&lt;ol>
+&lt;li>Device related; log files starting with Devices- then a date&lt;/li>
+&lt;li>UI, Layers, Game Integrations; files that are just dates&lt;/li>
+&lt;/ol></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
 reducing resource consumption and improving performance&lt;/p>
 &lt;p>&lt;span class="alert success">You can also set the services to &amp;quot;Manual&amp;quot; so that they don't run unless they are needed&lt;/span>&lt;/p>
 &lt;h3 id="services-to-consider-disabling-or-setting-to-manual">Services to Consider Disabling or Setting to &amp;ldquo;Manual&amp;rdquo;&lt;/h3>

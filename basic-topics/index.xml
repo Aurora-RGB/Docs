@@ -21,7 +21,7 @@
  
  
  &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=577108f998382fdefb7f8b1da9ea804b" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=de6125a9509576077779e57748e95518" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="applications">Applications&lt;/h1>
@@ -49,8 +49,10 @@ Aurora currently has one developer and I would really appreciate more people tes
 &lt;li>Terraria&lt;/li>
 &lt;li>Rocket League&lt;/li>
 &lt;/ul>
-&lt;p>See &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices">Wiki&lt;/a> for details, as some models can be incompatible.&lt;/p></description></item><item><title>User Data</title><link>https://www.project-aurora.com/Docs/basic-topics/user-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/user-data/</guid><description>&lt;p>You can see the Aurora data by navigating to &lt;code>%APPDATA%\Aurora&lt;/code> in File Explorer.
+&lt;p>See &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices">Wiki&lt;/a> for details, as some models can be incompatible.&lt;/p></description></item><item><title>User Data &amp; Backups</title><link>https://www.project-aurora.com/Docs/basic-topics/user-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/user-data/</guid><description>&lt;p>You can see the Aurora data by navigating to &lt;code>%APPDATA%\Aurora&lt;/code> in File Explorer.
 This user data includes all your settings as well as all your lighting profiles and recent logs that Aurora has created.&lt;/p>
+&lt;p>&amp;lsquo;Sensitive.json&amp;rsquo; contains encrypted data contains location data (possible tokens in the future) and it is encrypted.
+It can only be opened by Aurora and on the current Windows user.&lt;/p>
 &lt;h1 id="importing-profiles">Importing Profiles&lt;/h1>
 &lt;p>Profiles that others have made can be imported easily into Aurora using the import button on the &amp;ldquo;Profiles&amp;rdquo; section. Pressing this button will open a dialog asking you to choose a file to import.
 JSON files that have been exported from Aurora (see &lt;a href="#exporting-profiles">exporting profiles&lt;/a>) are fully supported through import.&lt;/p></description></item></channel></rss>
