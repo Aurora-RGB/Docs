@@ -1,6 +1,6 @@
 ---
-searchTitle: Aurora User Data Folder
-title: User Data
+searchTitle: Aurora User Data Folder and Backups
+title: User Data & Backups
 order: 4
 authors:
   - Wibble199
@@ -9,6 +9,9 @@ authors:
 
 You can see the Aurora data by navigating to `%APPDATA%\Aurora` in File Explorer.
 This user data includes all your settings as well as all your lighting profiles and recent logs that Aurora has created.
+
+'Sensitive.json' contains encrypted data contains location data (possible tokens in the future) and it is encrypted.
+It can only be opened by Aurora and on the current Windows user.
 
 # Importing Profiles
 
