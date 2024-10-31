@@ -1,6 +1,6 @@
 ---
 title: "All Supported Devices"
-order: 1
+weight: 1
 authors:
   - Aytackydln
 ---
