@@ -20,6 +20,24 @@
     </ul>
     <span class="author-text-label">Page authors</span>
     {{ end }}
+
+    <!-- Prev/Next -->
+    <div class="next-post">
+        {{ if .NextInSection }}
+            <a class="page-link page-link-prev" href="{{ .NextInSection.Permalink }}">« {{ .NextInSection.Title | truncate 50 "..." }}</a>
+        {{ else }}
+            <span class="page-link"></span>
+        {{ end }}
+
+        <span class="divider">|</span>
+
+        {{ if .PrevInSection }}
+            <a class="page-link page-link-next" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title | truncate 50 "..." }} »</a>
+        {{ else }}
+            <span class="page-link"></span>
+        {{ end }}
+    </div>
+
     <!-- Bottom ad -->
     <ins class="adsbygoogle" data-adtest="on" data-ad-test="on"
          style="display:block"

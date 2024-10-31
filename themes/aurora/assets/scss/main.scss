@@ -48,6 +48,33 @@ h1 {
   border-radius: 3px;
 }
 
+.next-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.page-link {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+}
+.page-link-prev {
+  text-align: left;
+}
+.page-link-next {
+  text-align: right;
+}
+.divider {
+  color: #888;
+  padding: 0 10px;
+}
+
 // ------------------------ //
 // Import other SASS files //
 // ---------------------- //
