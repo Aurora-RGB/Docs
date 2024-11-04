@@ -4,9 +4,39 @@
 &lt;/blockquote>
 &lt;p>If you want to know which file to share:&lt;/p>
 &lt;ol>
-&lt;li>Device related; log files starting with Devices- then a date&lt;/li>
+&lt;li>Device related; log files starting with &lt;strong>Devices-&lt;/strong> then a date&lt;/li>
 &lt;li>UI, Layers, Game Integrations; files that are just dates&lt;/li>
-&lt;/ol></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
+&lt;/ol>
+&lt;h2 id="event-viewer-logs">Event Viewer Logs&lt;/h2>
+&lt;p>In case Aurora cannot handle the crash, Windows logs the error in &lt;strong>Event Viewer&lt;/strong>&lt;/p>
+&lt;p>If asked, you can find them by searching Windows with keyword &lt;strong>Event Viewer&lt;/strong>.
+Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
+&lt;p>Below image shows an example log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ &lt;picture>
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=07113c84549b0355e46b25a59d1af25d" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" />
+&lt;/picture>
+&lt;/p></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
 reducing resource consumption and improving performance&lt;/p>
 &lt;p>&lt;span class="alert success">You can also set the services to &amp;quot;Manual&amp;quot; so that they don't run unless they are needed&lt;/span>&lt;/p>
 &lt;h3 id="services-to-consider-disabling-or-setting-to-manual">Services to Consider Disabling or Setting to &amp;ldquo;Manual&amp;rdquo;&lt;/h3>
