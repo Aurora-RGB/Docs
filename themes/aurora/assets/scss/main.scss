@@ -75,6 +75,25 @@ h1 {
   padding: 0 10px;
 }
 
+a[target="_blank"]:after {
+  content: "open_in_new";
+  margin-left: 5px;
+
+  font-family: 'Material Symbols Outlined';
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 80%;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
 // ------------------------ //
 // Import other SASS files //
 // ---------------------- //
