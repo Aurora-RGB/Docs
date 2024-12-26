@@ -19,7 +19,7 @@ This naming is recommended as you will lose your changes if new layout updates a
 
 ## Using AI to Create New Layout
 
-1. Use your preferred AI that supports file attachments. You can use ChatGpt4 if you have the plan or [claude.ai](https://claude.ai/)
+1. Use your preferred AI that supports file attachments. You can use [claude.ai(Suggested)](https://claude.ai/) or ChatGpt4 if you have the plan
 2. Go to Aurora's installation folder, then **kb_layouts** folder
 3. Pick any layout, and one of the included_features (mentioned in json) file from **Extra Features** and attach it to the AI conversation
 4. Attach {{% link "files/extra_dock.json" %}}example file extra_dock.json{{% /link %}}
