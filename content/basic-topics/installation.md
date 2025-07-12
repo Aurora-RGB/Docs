@@ -1,6 +1,6 @@
 ---
 title: Installation
-order: 1
+weight: 1
 authors:
   - Wibble199
   - Aytackydln
