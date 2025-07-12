@@ -29,7 +29,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=b4ecd42cf1aaaa91a48658daa8fc41b3" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -58,7 +58,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=b4ecd42cf1aaaa91a48658daa8fc41b3" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -88,7 +88,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=b4ecd42cf1aaaa91a48658daa8fc41b3" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -97,4 +97,6 @@ See their pages to see how they are configured.&lt;/p>
 &lt;p>You can have Synapse installed and Aurora will automatically apply game effects to your devices.
 Then, &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; needs to be running for the integration to work.&lt;/p>
 &lt;p>&lt;a href="https://www.razer.com/chroma-workshop#--games">Chrome Enabled Games List on www.razer.com&lt;/a>&lt;/p>
-&lt;p>You can use the &amp;ldquo;Disable Device Control&amp;rdquo; button in &amp;ldquo;Devices &amp;amp; Wrappers&amp;rdquo; tab of Aurora to disable Chroma SDK from controlling Razer devices.&lt;/p></description></item></channel></rss>
+&lt;p>In case game integration doesn&amp;rsquo;t work,
+use &lt;a href="https://discord.com/channels/427609830073696258/428606882064629761/1393688715611738242">Chroma Sample Application&lt;/a>
+to test if the integration is working properly.&lt;/p></description></item></channel></rss>
