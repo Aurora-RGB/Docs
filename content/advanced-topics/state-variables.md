@@ -17,7 +17,7 @@ but these specific ones do not work for other profiles such as Minecraft.
 There are some State Variables that are operating system-wide (such as RAM/CPU usage and time values)
 and these are always available to use, regardless of the application a profile is on.
 
-Available State Variables can be found in the [State Variables]({{% ref "advanced-topics/state-variables" %}}) page.
+Available State Variables can be found in the [State Variables]({{% ref "/state-variables" %}}) page.
 
 
 # How do you use State Variables?
