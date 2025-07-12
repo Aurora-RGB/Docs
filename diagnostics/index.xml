@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Aurora Logs</title><link>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</guid><description>&lt;p>Short answer:&lt;/p>
 &lt;blockquote>
-&lt;p>%appdata%\Aurora\Logs&lt;/p>
-&lt;/blockquote>
+&lt;p>%appdata%\Aurora\Logs&lt;/p>&lt;/blockquote>
 &lt;p>If you want to know which file to share:&lt;/p>
 &lt;ol>
 &lt;li>Device related; log files starting with &lt;strong>Devices-&lt;/strong> then a date&lt;/li>
@@ -28,13 +27,14 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=c1d16e944ae5b7287576a3bf9229f94a" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=5ff23d87117275ca154a37ef843e46ec" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
 reducing resource consumption and improving performance&lt;/p>
@@ -83,8 +83,7 @@ Here you can follow the steps to fix it.&lt;/p>
 &lt;li>
 &lt;p>Enter following command:&lt;/p>
 &lt;blockquote>
-&lt;p>net stop winmgmt&lt;/p>
-&lt;/blockquote>
+&lt;p>net stop winmgmt&lt;/p>&lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>Open a Windows Explorer and locate the path to &lt;code>C:\Windows\System32\WBEM\&lt;/code> folder

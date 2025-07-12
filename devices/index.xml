@@ -65,18 +65,18 @@
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
 &lt;blockquote>
-&lt;p>iCue needs to be running&lt;/p>
-&lt;/blockquote>
+&lt;p>iCue needs to be running&lt;/p>&lt;/blockquote>
 &lt;h1 id="supported-devices">Supported Devices&lt;/h1>
 &lt;p>All devices that are supported with iCUE is supported.&lt;/p></description></item><item><title>DualShock4 &amp; DualSense</title><link>https://www.project-aurora.com/Docs/devices/dualsense/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/dualsense/</guid><description>&lt;p>You can use Aurora to change your controller&amp;rsquo;s color depending on games and other variables.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
@@ -115,13 +115,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
 &lt;/picture>
 &lt;/p></description></item><item><title>OpenRGB</title><link>https://www.project-aurora.com/Docs/devices/openrgb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/openrgb/</guid><description>&lt;p>You can use Aurora with OpenRGB for ultimate lighting control, integration, performance and compatibility.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
@@ -145,13 +146,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=5ff23d87117275ca154a37ef843e46ec" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
 &lt;/picture>
 
 You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li>
@@ -221,13 +223,14 @@ If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong>Chroma
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p></description></item><item><title>Wooting</title><link>https://www.project-aurora.com/Docs/devices/wooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/wooting/</guid><description>&lt;h1 id="required-software">Required Software&lt;/h1>

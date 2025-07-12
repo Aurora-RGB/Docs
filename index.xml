@@ -52,20 +52,20 @@ See their pages to see how they are configured.&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
 &lt;p>You must install LightFX wrapper dll to the game directory from Aurora settings.&lt;/p>
 &lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
-&lt;/blockquote></description></item><item><title>Ambilight Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/ambilight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/ambilight/</guid><description>&lt;p>The ambilight layer takes the average color of the monitor (or specific areas of the monitor) and displays them on the keys.&lt;/p>
+&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote></description></item><item><title>Ambilight Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/ambilight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/ambilight/</guid><description>&lt;p>The ambilight layer takes the average color of the monitor (or specific areas of the monitor) and displays them on the keys.&lt;/p>
 &lt;p>&lt;span class="alert warning">This can be a very intensive operation and so may not perform well on all machines. You may find that Aurora is lagging or using too much CPU when you use one of these layers.&lt;/span>&lt;/p>
 &lt;p>
 
@@ -83,13 +83,14 @@ See their pages to see how they are configured.&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-ambilight.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other" loading="lazy" height="241" width="725" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-ambilight.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other" loading="lazy" height="241" width="725" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Animation Editor</title><link>https://www.project-aurora.com/Docs/advanced-topics/animation-editor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/advanced-topics/animation-editor/</guid><description>&lt;p>The &lt;a href="https://www.project-aurora.com/Docs/reference-layers/animation/">Animation Layer&lt;/a> allows you to add your own custom animated effects to your peripheral lights. To edit this animation, the Animation Editor used. This is a powerful tool, and fairly easy to use once you understand how it works. As with all unfamiliar things however, it may be daunting at first.&lt;/p>
 &lt;h1 id="concepts-and-definitions">Concepts and Definitions&lt;/h1>
@@ -105,7 +106,26 @@ See their pages to see how they are configured.&lt;/p>
 &lt;p>&lt;span class="alert info">Version 1.07.79 of Asus Aura Sync will NOT work for most users.&lt;/span>&lt;/p>
 &lt;p>&lt;span class="alert info">Using OpenRGB instead of Asus software is highly recommended.&lt;/span>&lt;/p>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
-&lt;p>After installing official software, make sure &amp;ldquo;LightingService&amp;rdquo; runs in the background.&lt;/p></description></item><item><title>Audio Visualizer Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/audio-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/audio-visualizer/</guid><description>&lt;p>This layer takes in audio data from your computer and visualizes the volume at various frequencies. There are many different customization options for this layer including which frequencies should be detected. Which frequencies are best depends on the type of audio you expect to be playing (rock will be different from classical) but the default frequencies provide a good starting point.&lt;/p>
+&lt;p>After installing official software, make sure &amp;ldquo;LightingService&amp;rdquo; runs in the background.&lt;/p></description></item><item><title>Audio</title><link>https://www.project-aurora.com/Docs/state-variables/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/audio/</guid><description>&lt;p>Data provided by NAudio&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>PlaybackDevice&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>PlaybackDeviceName&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>SpeakerLevel&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>SystemVolume&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>SystemVolumeIsMuted&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>RecordingDevice&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>MicLevelIfNotMuted&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>MicrophoneIsMuted&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>MicrophoneLevel&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>MicrophoneVolume&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RecordingDeviceName&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Audio Visualizer Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/audio-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/audio-visualizer/</guid><description>&lt;p>This layer takes in audio data from your computer and visualizes the volume at various frequencies. There are many different customization options for this layer including which frequencies should be detected. Which frequencies are best depends on the type of audio you expect to be playing (rock will be different from classical) but the default frequencies provide a good starting point.&lt;/p>
 &lt;p>
 
 
@@ -122,21 +142,21 @@ See their pages to see how they are configured.&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-equalizer.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="An equalizer layer in gradient mode while playing a music track" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-equalizer.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="An equalizer layer in gradient mode while playing a music track" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Audio Visualizer Tweaks</title><link>https://www.project-aurora.com/Docs/advanced-topics/visualizer-output/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/advanced-topics/visualizer-output/</guid><description>&lt;p>The Audio Visualizer layer allows you to display a representation of whatever you&amp;rsquo;re listening to on your RGB devices.&lt;/p>
 &lt;h1 id="isolating-applications">Isolating applications&lt;/h1>
 &lt;h3 id="why">Why&lt;/h3>
 &lt;p>One of the things that annoys me about the layer is that every single sound your computer emits will be shown on the keyboard, which isn&amp;rsquo;t very useful or appealing if you&amp;rsquo;re talking to someone on Discord for example. So I found a way to isolate a single application (in my case, Spotify) in the same audio output as Aurora.&lt;/p></description></item><item><title>Aurora Logs</title><link>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</guid><description>&lt;p>Short answer:&lt;/p>
 &lt;blockquote>
-&lt;p>%appdata%\Aurora\Logs&lt;/p>
-&lt;/blockquote>
+&lt;p>%appdata%\Aurora\Logs&lt;/p>&lt;/blockquote>
 &lt;p>If you want to know which file to share:&lt;/p>
 &lt;ol>
 &lt;li>Device related; log files starting with &lt;strong>Devices-&lt;/strong> then a date&lt;/li>
@@ -163,13 +183,14 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=c1d16e944ae5b7287576a3bf9229f94a" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=5ff23d87117275ca154a37ef843e46ec" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Blinking Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/blinking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/blinking/</guid><description>&lt;p>The blinking layer sets the colors of the specified keys to flash between two alternatives, with no fading between the colors. Like to the breathing layer, it allows either or both of these colors to be randomized if you wish.&lt;/p>
 &lt;p>
@@ -188,13 +209,14 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-blinking.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A blinking layer with cyan and a random secondary color" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-blinking.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A blinking layer with cyan and a random secondary color" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -248,13 +270,14 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-breathing.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A breathing layer with two random colors" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-breathing.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A breathing layer with two random colors" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -291,7 +314,10 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
  &lt;td>A collection of keys that will be set to the target color.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Conditional &amp; Comparison Layers</title><link>https://www.project-aurora.com/Docs/reference-layers/conditional-comparisons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/conditional-comparisons/</guid><description>&lt;p>&lt;span class="alert danger">These layers are no longer necessary and the Overrides System should be used instead as it has more functionality than these layers. They will remain in Aurora so as not to break existing profiles.&lt;/span>&lt;/p>
+&lt;/table></description></item><item><title>CelestialData</title><link>https://www.project-aurora.com/Docs/state-variables/celestialdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/celestialdata/</guid><description>&lt;p>Provides the solar noon percentage, which indicates how close the sun is to the zenith.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>SolarNoonPercentage&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Conditional &amp; Comparison Layers</title><link>https://www.project-aurora.com/Docs/reference-layers/conditional-comparisons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/conditional-comparisons/</guid><description>&lt;p>&lt;span class="alert danger">These layers are no longer necessary and the Overrides System should be used instead as it has more functionality than these layers. They will remain in Aurora so as not to break existing profiles.&lt;/span>&lt;/p>
 &lt;h1 id="conditional-layer">Conditional Layer&lt;/h1>
 &lt;p>The conditional layer sets the color of the given keys to one of two colors, based on whether the a boolean value (a yes/no) from the game or system or is true or false. Not all games have boolean properties available. Like the percent layers, a drop down is provided allowing you to select from a list the variable you want to reference.&lt;/p></description></item><item><title>Corsair</title><link>https://www.project-aurora.com/Docs/devices/corsair/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/corsair/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Corsair devices using Aurora.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
@@ -319,18 +345,18 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
 &lt;blockquote>
-&lt;p>iCue needs to be running&lt;/p>
-&lt;/blockquote>
+&lt;p>iCue needs to be running&lt;/p>&lt;/blockquote>
 &lt;h1 id="supported-devices">Supported Devices&lt;/h1>
 &lt;p>All devices that are supported with iCUE is supported.&lt;/p></description></item><item><title>Custom Layout</title><link>https://www.project-aurora.com/Docs/advanced-topics/custom-layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/advanced-topics/custom-layout/</guid><description>&lt;p>Intended way to use Aurora with more than keyboard, mouse, mousepad etc. is &lt;em>Remapping&lt;/em> them to CL1-CL5 keys.
 This way, they can be integrated with default game effects.&lt;/p>
@@ -338,7 +364,84 @@ This way, they can be integrated with default game effects.&lt;/p>
 &lt;p>Currently only way to create new layouts is by editing the json files in Aurora&amp;rsquo;s installation folder.&lt;/p>
 &lt;p>You can save your layouts as &lt;strong>custom_keyboard.json&lt;/strong>, &lt;strong>custom_mouse.json&lt;/strong>,
 &lt;strong>custom_mousepad.json&lt;/strong>, &lt;strong>custom_headset.json&lt;/strong> or &lt;strong>custom_chroma.json&lt;/strong>&lt;/p>
-&lt;p>This naming is recommended as you will lose your changes if new layout updates are downloaded&lt;/p></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
+&lt;p>This naming is recommended as you will lose your changes if new layout updates are downloaded&lt;/p></description></item><item><title>Desktop</title><link>https://www.project-aurora.com/Docs/state-variables/desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/desktop/</guid><description>&lt;ul>
+&lt;li>&lt;strong>AccentColorA&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>AccentColorB&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>AccentColorG&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>AccentColorR&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CursorPosition&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>X&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Y&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>IsLocked&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Devices</title><link>https://www.project-aurora.com/Docs/state-variables/devices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/devices/</guid><description>&lt;ul>
+&lt;li>&lt;strong>Controllers&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Controller1&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>IsConnected&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftTrigger&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightTrigger&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Controller2&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>IsConnected&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftTrigger&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightTrigger&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Controller3&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>IsConnected&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftTrigger&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightTrigger&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Controller4&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>IsConnected&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LeftTrigger&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbX&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightThumbY&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RightTrigger&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>RazerDevices&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Mouse&lt;/strong>
+: Not compatible with running in tandem with Synapse.
+Compatible with OpenRGB 2025 and later builds
+&lt;ul>
+&lt;li>&lt;strong>BatteryCharging&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>BatteryPercentage&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
 reducing resource consumption and improving performance&lt;/p>
 &lt;p>&lt;span class="alert success">You can also set the services to &amp;quot;Manual&amp;quot; so that they don't run unless they are needed&lt;/span>&lt;/p>
 &lt;h3 id="services-to-consider-disabling-or-setting-to-manual">Services to Consider Disabling or Setting to &amp;ldquo;Manual&amp;rdquo;&lt;/h3>
@@ -397,13 +500,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
 &lt;/picture>
 &lt;/p>
 &lt;h1 id="applications">Applications&lt;/h1>
@@ -424,13 +528,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-glitch.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-glitch.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -468,13 +573,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient-fill.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient-fill.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Gradient Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/gradient/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/gradient/</guid><description>&lt;p>The Gradient Layer shows a gradient effect on the specified keys. The gradient can also be animated to move across the keyboard to give a wave effect. If it helps to understand how it works, you can imagine the gradient to be displayed on a (possibly moving) rectangle, and each key acts as a “window” onto that rectangle.&lt;/p>
 &lt;p>
@@ -493,13 +599,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A rainbow Gradient Layer on the alphabetical keys" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A rainbow Gradient Layer on the alphabetical keys" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -559,13 +666,14 @@ Color updating is recommended to be disabled with supported games by setting a s
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-image.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="An image layer displaying a picture of a landscape" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-image.png?v=5ff23d87117275ca154a37ef843e46ec" alt="An image layer displaying a picture of a landscape" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -587,9 +695,9 @@ Color updating is recommended to be disabled with supported games by setting a s
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Input</title><link>https://www.project-aurora.com/Docs/reference-expressions/input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/input/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;Input&amp;rsquo; category.&lt;/p>
-&lt;h2 id="away-time-span-titlethis-expression-can-output-a-number-classtypetag-numbernumberspan">Away Time &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/h2>
+&lt;h2 id="away-time-number">Away Time &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/h2>
 &lt;p>Outputs the amount of time the user has been inactivate. This is determined based on mouse or keyboard interaction.&lt;/p>
-&lt;h2 id="away-timer-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">Away Timer &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="away-timer-boolean">Away Timer &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Outputs &lt;code>true&lt;/code> if the user has been inactivate for the the amount of time specified. Whether the user is away is determined based on mouse or keyboard interaction.&lt;/p></description></item><item><title>Installation</title><link>https://www.project-aurora.com/Docs/basic-topics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/installation/</guid><description>&lt;p>To install Aurora, the easiest way is to download the installer from our &lt;a href="https://github.com/Aurora-RGB/Aurora/releases">GitHub page&lt;/a> and simply run it.&lt;/p>
 &lt;p>After this, you will find Aurora in your start menu.
 Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to.
@@ -613,13 +721,14 @@ Aurora currently has one developer and I would really appreciate more people tes
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-interactive.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Pressing keys on an interactive layer with key wave mode" loading="lazy" height="290" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-interactive.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="Pressing keys on an interactive layer with key wave mode" loading="lazy" height="290" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -674,11 +783,64 @@ Aurora currently has one developer and I would really appreciate more people tes
  &lt;td>A collection of keys that will not trigger the animations (but will still show the animation if it passes over).&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Lock Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/lock-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/lock-color/</guid><description>&lt;p>The lock layer allows you to have keys light up (or pulse) in a color when one of the “lock” keys is active (caps lock, num lock or scroll lock). You can use this to make a warning for when caps lock is on for example, or perhaps turn off the lights on the numpad when the numpad is off.&lt;/p>
+&lt;/table></description></item><item><title>LocalPCInfo</title><link>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</guid><description>&lt;p>Information is mostly provided by LibreHardwareMonitor&lt;/p>
+&lt;p>On AMD Systems, CPU and GPU data is not available by default because of insecure driver used LibreHardwareMonitor.
+Go to Aurora Settings -&amp;gt; Plugin Management to enable it&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Battery&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>ChargeStatus&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LifePercent&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>PluggedIn&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>SecondsRemaining&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>CPU&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>PowerUsage&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Temperature&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Usage&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>GPU&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>FanRPM&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>PowerUsage&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Temperature&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Usage&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>NET&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>DownloadSpeed&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>UploadSpeed&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Usage&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>NetworkAdapters&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RAM&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Free&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Total&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Used&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Time&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>CurrentDay&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CurrentHour&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CurrentMillisecond&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CurrentMinute&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CurrentMonth&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CurrentSecond&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>MillisecondsSinceEpoch&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Lock Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/lock-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/lock-color/</guid><description>&lt;p>The lock layer allows you to have keys light up (or pulse) in a color when one of the “lock” keys is active (caps lock, num lock or scroll lock). You can use this to make a warning for when caps lock is on for example, or perhaps turn off the lights on the numpad when the numpad is off.&lt;/p>
 &lt;p>&lt;span class="alert info">This layer functionality can be incorporated using the Overrides System. That said, it is simpler to use this layer for the pulse feature than to use the Override System alternative.&lt;/span>&lt;/p></description></item><item><title>Logic</title><link>https://www.project-aurora.com/Docs/reference-expressions/logic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/logic/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;Logic&amp;rsquo; category.&lt;/p>
-&lt;h2 id="and-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">And &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="and-boolean">And &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Takes two input booleans and outputs &lt;code>true&lt;/code> only if both these inputs are also &lt;code>true&lt;/code>.&lt;/p>
-&lt;h2 id="boolean-change-detector-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">Boolean Change Detector &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="boolean-change-detector-boolean">Boolean Change Detector &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Watches an input boolean evaluatable and outputs &lt;code>true&lt;/code> on a frame if the value of the child is different than it was last frame. Otherwise it outputs &lt;code>false&lt;/code>.&lt;/p></description></item><item><title>Logitech</title><link>https://www.project-aurora.com/Docs/devices/logitech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/logitech/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma) with Logitech devices using Aurora.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
 &lt;p>One of:&lt;/p>
@@ -707,13 +869,14 @@ Aurora currently has one developer and I would really appreciate more people tes
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
 
@@ -731,28 +894,34 @@ Aurora currently has one developer and I would really appreciate more people tes
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
 &lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
-&lt;/blockquote>
+&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
 &lt;p>You can have LGS installed and Aurora will automatically apply game effects to your devices.&lt;/p>
 &lt;p>LGS must be fully closed before Aurora is launched.&lt;/p></description></item><item><title>Maths</title><link>https://www.project-aurora.com/Docs/reference-expressions/maths/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/maths/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;Maths&amp;rsquo; category.&lt;/p>
-&lt;h2 id="absolute-span-titlethis-expression-can-output-a-number-classtypetag-numbernumberspan">Absolute &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/h2>
+&lt;h2 id="absolute-number">Absolute &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/h2>
 &lt;p>Takes a number and outputs the absolute (positive) value. E.G. &lt;code>5&lt;/code> outputs &lt;code>5&lt;/code> (no change), but &lt;code>-10&lt;/code> would output &lt;code>10&lt;/code>.&lt;/p>
-&lt;h2 id="arithmetic-comparison-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">Arithmetic Comparison &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
-&lt;p>Compares two numbers together and outputs a boolean indicating the result of the comparison. Can choose a comparison from: equal, not equal, less than, less than or equal, greater than, greater than or equal.&lt;/p></description></item><item><title>Misc</title><link>https://www.project-aurora.com/Docs/reference-expressions/misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/misc/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;Misc&amp;rsquo; category.&lt;/p>
-&lt;h2 id="delay-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspanspan-titlethis-expression-can-output-a-number-classtypetag-numbernumberspanspan-titlethis-expression-can-output-a-string-classtypetag-stringstringspan">Delay &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/h2>
+&lt;h2 id="arithmetic-comparison-boolean">Arithmetic Comparison &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;p>Compares two numbers together and outputs a boolean indicating the result of the comparison. Can choose a comparison from: equal, not equal, less than, less than or equal, greater than, greater than or equal.&lt;/p></description></item><item><title>Media</title><link>https://www.project-aurora.com/Docs/state-variables/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/media/</guid><description>&lt;p>Data is provided by Dubya.WindowsMediaController&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>HasMedia&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>HasNextMedia&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>HasPreviousMedia&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>MediaPlaying&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Misc</title><link>https://www.project-aurora.com/Docs/reference-expressions/misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/misc/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;Misc&amp;rsquo; category.&lt;/p>
+&lt;h2 id="delay-booleannumberstring">Delay &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/h2>
 &lt;p>Takes an input and delays it by the given time period.&lt;/p>
-&lt;h2 id="process-running-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">Process Running &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="process-running-boolean">Process Running &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Checks if a process with the given name is currently running.&lt;/p></description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-games-natively">Aurora supports these games natively:&lt;/h1>
 &lt;ul>
 &lt;li>CS2&lt;/li>
@@ -793,13 +962,14 @@ Aurora currently has one developer and I would really appreciate more people tes
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=5ff23d87117275ca154a37ef843e46ec" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
 &lt;/picture>
 
 You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li>
@@ -827,13 +997,14 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-fire.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A particle layer with the fire preset" loading="lazy" height="240" width="724" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-fire.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A particle layer with the fire preset" loading="lazy" height="240" width="724" />
 &lt;/picture>
 
 
@@ -852,13 +1023,14 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-matrix.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A particle layer with the matrix preset" loading="lazy" height="239" width="724" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-matrix.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A particle layer with the matrix preset" loading="lazy" height="239" width="724" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Percent (Gradient) Effect Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/percent-gradient-effect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/percent-gradient-effect/</guid><description>&lt;p>This layer is very similar to the Percent Effect Layer, but makes use of a gradient instead of a progress/background color. This layer does not have a background.&lt;/p>
 &lt;p>
@@ -877,13 +1049,14 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-gradient-effect.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-gradient-effect.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -948,13 +1121,14 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-effect.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A percent layer with current value set to the current time&amp;rsquo;s milliseconds" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-effect.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A percent layer with current value set to the current time&amp;rsquo;s milliseconds" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -1007,7 +1181,10 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
  &lt;td>A collection of keys that will display the progress bar or color. Note that for progressive effect types, the order of the keys in the list matters.&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Radial Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/radial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/radial/</guid><description>&lt;p>A layer that provides a gradient that rotates around a single point and optionally spins.&lt;/p>
+&lt;/table></description></item><item><title>Processes</title><link>https://www.project-aurora.com/Docs/state-variables/processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/processes/</guid><description>&lt;ul>
+&lt;li>&lt;strong>ActiveProcess&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ActiveWindowName&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Radial Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/radial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/radial/</guid><description>&lt;p>A layer that provides a gradient that rotates around a single point and optionally spins.&lt;/p>
 &lt;p>
 
 
@@ -1024,13 +1201,14 @@ Check &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki">Wiki&lt;/a> for mor
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-radial.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A rainbow radial layer" loading="lazy" height="240" width="724" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-radial.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A rainbow radial layer" loading="lazy" height="240" width="724" />
 &lt;/picture>
 &lt;/p>
 &lt;p>Note that this gradient is generated using discrete pie-shaped segments of colour. This color is determined by the median color at a particular point on the gradient. For example, if there were 4 segments, each would have a 90 degree arc. The first would use the color at 45 degrees (90 / 2) the second at 135 degrees, etc. If you do not get the colors you expect when using small numbers of segments, this is likely the reason.&lt;/p></description></item><item><title>Razer</title><link>https://www.project-aurora.com/Docs/devices/razer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/razer/</guid><description>&lt;p>You can have brand specific integrations (like LightFX and Lightsync) with Razer devices using Aurora.&lt;/p>
@@ -1086,19 +1264,19 @@ If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong>Chroma
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
 &lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>
-&lt;/blockquote>
+&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
 &lt;p>You can have Synapse installed and Aurora will automatically apply game effects to your devices.
 Then, &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; needs to be running for the integration to work.&lt;/p>
 &lt;p>&lt;a href="https://www.razer.com/chroma-workshop#--games">Chrome Enabled Games List on www.razer.com&lt;/a>&lt;/p>
@@ -1116,8 +1294,7 @@ Here you can follow the steps to fix it.&lt;/p>
 &lt;li>
 &lt;p>Enter following command:&lt;/p>
 &lt;blockquote>
-&lt;p>net stop winmgmt&lt;/p>
-&lt;/blockquote>
+&lt;p>net stop winmgmt&lt;/p>&lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>Open a Windows Explorer and locate the path to &lt;code>C:\Windows\System32\WBEM\&lt;/code> folder
@@ -1138,13 +1315,14 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-shortcut.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-shortcut.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Solid Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/solid-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/solid-color/</guid><description>&lt;p>The Solid Color Layer is for setting static colors for specific keys. The keys will constantly be lit in the given color (providing they aren’t overridden by a higher-up layer). This is one of the most simple layers in Aurora, but can be useful for things such as highlighting controls such as WASD in video games.&lt;/p>
 &lt;p>
@@ -1163,13 +1341,14 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-color.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A Solid Color Layer lighting common video game control keys" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-color.png?v=5ff23d87117275ca154a37ef843e46ec" alt="A Solid Color Layer lighting common video game control keys" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you want to set the color of the entire (or most) of the keyboard, consider using the &lt;a href="https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/">Solid Fill Color&lt;/a> Layer instead.&lt;/p></description></item><item><title>Solid Fill Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/</guid><description>&lt;p>Similar to the Solid Color layer, however it does not have fine control over which keys are lit and so fills the entire canvas (keyboard, mouse and any other peripherals) with the given color. This layer is useful for setting static backgrounds, saving you from having to manually add each key.&lt;/p>
@@ -1189,13 +1368,14 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-fill-color.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A Solid Fill Layer setting the entire keyboard to cyan" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-fill-color.png?v=5ff23d87117275ca154a37ef843e46ec" alt="A Solid Fill Layer setting the entire keyboard to cyan" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p>
 &lt;h2 id="properties">Properties&lt;/h2>
@@ -1213,9 +1393,9 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>State</title><link>https://www.project-aurora.com/Docs/reference-expressions/state/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/state/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;State&amp;rsquo; category.&lt;/p>
-&lt;h2 id="boolean-state-variable-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">Boolean State Variable &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="boolean-state-variable-boolean">Boolean State Variable &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Gets a boolean value from the &lt;a href="https://www.project-aurora.com/Docs/advanced-topics/state-variables/">game state&lt;/a>.&lt;/p>
-&lt;h2 id="enum-state-variable-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">Enum State Variable &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="enum-state-variable-boolean">Enum State Variable &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Gets a enum value from the &lt;a href="https://www.project-aurora.com/Docs/advanced-topics/state-variables/">game state&lt;/a> and compares it to a specified value.&lt;/p>
 &lt;p>An enum is a discrete set of possible options. For example in Terraria, the biome the player is in is an enum as there are only certain distinct possibilities.&lt;/p></description></item><item><title>State Variables</title><link>https://www.project-aurora.com/Docs/advanced-topics/state-variables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/advanced-topics/state-variables/</guid><description>&lt;h1 id="what-are-state-variables">What are State Variables?&lt;/h1>
 &lt;p>State Variables are numeric, boolean (true/false) or string (sequence of letters) values that can be obtained and dynamically updated by Aurora as it is running. Layers such as the Percent Effect Layer or the Animation Layer can make use of these values to conditionally set the lights on the keyboard. The values depend on which profile is currently in use, for example the CSGO profile contains State Variables for health, current ammo, max ammo, etc. but these specific ones do not work for other profiles such as Minecraft.&lt;/p></description></item><item><title>SteelSeries</title><link>https://www.project-aurora.com/Docs/devices/steelseries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/steelseries/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma and Lightsync) with Steelseries devices using Aurora.&lt;/p>
@@ -1243,19 +1423,20 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=c1d16e944ae5b7287576a3bf9229f94a" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=5ff23d87117275ca154a37ef843e46ec" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p></description></item><item><title>String</title><link>https://www.project-aurora.com/Docs/reference-expressions/string/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-expressions/string/</guid><description>&lt;p>This page lists all the standard evaluatables that are under the &amp;lsquo;String&amp;rsquo; category.&lt;/p>
-&lt;h2 id="string-comparison-span-titlethis-expression-can-output-a-boolean-classtypetag-booleanbooleanspan">String Comparison &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
+&lt;h2 id="string-comparison-boolean">String Comparison &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/h2>
 &lt;p>Compares the values of two strings together. Can compare based on length, alphabetical position, etc. Can be configured to do a case insensitive comparison.&lt;/p>
-&lt;h2 id="string-constant-span-titlethis-expression-can-output-a-string-classtypetag-stringstringspan">String Constant &lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/h2>
+&lt;h2 id="string-constant-string">String Constant &lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/h2>
 &lt;p>Constantly outputs the given string of characters.&lt;/p></description></item><item><title>Timer Key Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/timer-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/timer-key/</guid><description>&lt;p>The timer layer waits for one or more keys to be pressed (do not have to be the keys displaying the lights) and sets the color of the keys to be something else for a set duration, after which they return to their original color. This layer can be used for things such as ability timers for games that have no game state integration.&lt;/p>
 &lt;p>
 
@@ -1273,13 +1454,14 @@ and rename the &lt;strong>Repository&lt;/strong> folder to something else like R
 
 
 
+
  
  
  
  
  
- &lt;picture>
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-timer.gif?v=c1d16e944ae5b7287576a3bf9229f94a" alt="A timer layer on the alphabetical keys" loading="lazy" height="288" width="866" />
+ &lt;picture >
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-timer.gif?v=5ff23d87117275ca154a37ef843e46ec" alt="A timer layer on the alphabetical keys" loading="lazy" height="288" width="866" />
 &lt;/picture>
 &lt;/p></description></item><item><title>Toggle Key Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/toggle-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/toggle-key/</guid><description>&lt;p>The toggle key layer allows for the turning on or off some lights based on the key press of another specific key. This layer can be useful for things such as indicators for whether something is toggled on/off in a game.&lt;/p>
 &lt;p>&lt;span class="alert info">If you are using caps lock, num lock or scroll lock as a trigger key it is probably better to use the Lock Layer to ensure the key light state stays synced with the lock state properly.&lt;/span>&lt;/p></description></item><item><title>Toolbar Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/toolbar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/toolbar/</guid><description>&lt;p>The toolbar layer is a layer that shows one key as “active” and all others assigned to it as “inactive”. When a different key is pressed, the pressed key becomes the active one instead. This works similarly to how toolbars/item bars work in video games such as Factorio or Minecraft.&lt;/p>
