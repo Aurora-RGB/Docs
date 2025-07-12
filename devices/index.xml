@@ -72,7 +72,7 @@
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
 &lt;blockquote>
@@ -122,7 +122,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
 &lt;/picture>
 &lt;/p></description></item><item><title>OpenRGB</title><link>https://www.project-aurora.com/Docs/devices/openrgb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/openrgb/</guid><description>&lt;p>You can use Aurora with OpenRGB for ultimate lighting control, integration, performance and compatibility.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
@@ -153,7 +153,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
 &lt;/picture>
 
 You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li>
@@ -230,7 +230,7 @@ If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong>Chroma
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p></description></item><item><title>Wooting</title><link>https://www.project-aurora.com/Docs/devices/wooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/wooting/</guid><description>&lt;h1 id="required-software">Required Software&lt;/h1>

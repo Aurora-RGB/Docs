@@ -29,13 +29,16 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
 &lt;p>You must install LightFX wrapper dll to the game directory from Aurora settings.&lt;/p>
 &lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
+&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
+&lt;p>In case game integration doesn&amp;rsquo;t work,
+use &lt;a href="https://www.logitechg.com/sdk/LED_SDK_9.00.zip">LightFX Sample Application&lt;/a>
+to test if the integration is working properly.&lt;/p></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
 
 
 
@@ -58,7 +61,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -88,7 +91,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=5a56694ad64b23ac352bfd417c99a2a2" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=63a65a26648f2b7af10a0a4ab84bba7d" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
