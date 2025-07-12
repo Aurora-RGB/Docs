@@ -1,9 +1,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<meta property="og:url" content="https://www.project-aurora.com/">
+{{ with .Permalink }}
+    <meta property="og:url" content="{{ . }}">
+{{ end }}
 <meta property="og:type" content="website">
-<meta property="og:title" content="AuroraRGB - Open-Source, Powerful RGB Software">
+{{ if .Params.searchTitle }}
+    <meta property="og:title" content="{{ default $.Params.searchTitle }} • Aurora Docs">
+{{ else }}
+    <meta property="og:title" content="{{ default $.Site.Title .Title }} •{{ if .Section }}{{ printf " %s •" .Section }}{{ end }} Aurora Docs">
+{{ end }}
 <meta property="og:image" content="https://www.project-aurora.com/images/card.webp">
 <meta property="og:locale" content="en_US" />
 
