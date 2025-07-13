@@ -29,7 +29,7 @@ See their pages to see how they are configured.&lt;/p>
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=2436fa4233766ac53e8ec0437ad9301c" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=1fabb02d5c5900ff32af142c48e2a35e" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
@@ -61,14 +61,17 @@ to test if the integration is working properly.&lt;/p></description></item><item
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=2436fa4233766ac53e8ec0437ad9301c" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=1fabb02d5c5900ff32af142c48e2a35e" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
 &lt;blockquote>
 &lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
 &lt;p>You can have LGS installed and Aurora will automatically apply game effects to your devices.&lt;/p>
-&lt;p>LGS must be fully closed before Aurora is launched.&lt;/p></description></item><item><title>Razer Chroma</title><link>https://www.project-aurora.com/Docs/integrations/chroma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/chroma/</guid><description>&lt;p>
+&lt;p>LGS must be fully closed before Aurora is launched.&lt;/p>
+&lt;p>In case a specific game integration doesn&amp;rsquo;t work,
+use &lt;a href="https://www.logitechg.com/sdk/LED_SDK_9.00.zip">Lightsync Sample Application&lt;/a>
+to test if the integration is working properly.&lt;/p></description></item><item><title>Razer Chroma</title><link>https://www.project-aurora.com/Docs/integrations/chroma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/chroma/</guid><description>&lt;p>
 
 
 
@@ -91,7 +94,7 @@ to test if the integration is working properly.&lt;/p></description></item><item
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=2436fa4233766ac53e8ec0437ad9301c" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=1fabb02d5c5900ff32af142c48e2a35e" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
 &lt;/picture>
 &lt;/p>
 &lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
