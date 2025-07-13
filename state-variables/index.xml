@@ -98,7 +98,7 @@ Compatible with OpenRGB 2025 and later builds
 &lt;/ul>
 &lt;/li>
 &lt;/ul></description></item><item><title>LocalPCInfo</title><link>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</guid><description>&lt;p>Information is mostly provided by LibreHardwareMonitor&lt;/p>
-&lt;p>On AMD Systems, CPU and GPU data is not available by default because of insecure driver used LibreHardwareMonitor.
+&lt;p>On AMD Systems, CPU and GPU data is not available by default because of insecure driver used by LibreHardwareMonitor.
 Go to Aurora Settings -&amp;gt; Plugin Management to enable it&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Battery&lt;/strong>
