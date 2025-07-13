@@ -20,6 +20,9 @@ In case game integration doesn't work,
 use [Chroma Sample Application](https://discord.com/channels/427609830073696258/428606882064629761/1393688715611738242)
 to test if the integration is working properly.
 
+If it works with the sample application but not with Aurora,
+Reinstall Chroma from Aurora and restart your computer.
+
 Tip:
 
 You can use the "Disable Device Control" button in "Devices & Wrappers" tab of Aurora to disable Chroma SDK from controlling Razer devices.
