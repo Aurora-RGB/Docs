@@ -25,6 +25,7 @@
 {{ else }}
 <title>{{ default $.Site.Title .Title }} •{{ if .Section }}{{ printf " %s •" .Section }}{{ end }} Aurora Docs</title>
 {{ end }}
-{{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}">
+{{ with resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+    <style>{{ .Content | safeCSS }}</style>
+{{ end }}
 <link rel="icon" href="{{ "favicon.ico" | relURL }}">
