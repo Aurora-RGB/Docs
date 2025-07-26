@@ -5,10 +5,11 @@ authors:
   - Aytackydln
 ---
 
-# Aurora supports these games natively:
+# Aurora supports these games/softwares natively:
 - CS2
 - Dota 2
 - League of Legends
+- OBS Studio (Recording/Streaming status)
 - [Chroma enabled games]({{< relref "/integrations/chroma.md" >}})
 - [Lightsync enabled games]({{< relref "/integrations/lightsync.md" >}})
 - [LightFX enabled games]({{< relref "/integrations/lightfx.md" >}})
