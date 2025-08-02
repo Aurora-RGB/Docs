@@ -6,7 +6,7 @@ authors:
 ---
 
 Data is provided by Dubya.WindowsMediaController
-- **HasMedia**
-- **HasNextMedia**
-- **HasPreviousMedia**
-- **MediaPlaying**
+- **HasMedia** {{% typetag "boolean" %}}
+- **HasNextMedia** {{% typetag "boolean" %}}
+- **HasPreviousMedia** {{% typetag "boolean" %}}
+- **MediaPlaying** {{% typetag "boolean" %}}

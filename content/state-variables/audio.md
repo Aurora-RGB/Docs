@@ -6,14 +6,14 @@ authors:
 ---
 
 Data provided by NAudio
-- **PlaybackDevice**
-  - **PlaybackDeviceName**
-  - **SpeakerLevel**
-  - **SystemVolume**
-  - **SystemVolumeIsMuted**
-- **RecordingDevice**
-  - **MicLevelIfNotMuted**
-  - **MicrophoneIsMuted**
-  - **MicrophoneLevel**
-  - **MicrophoneVolume**
-  - **RecordingDeviceName**
+- **PlaybackDevice** 
+  - **PlaybackDeviceName** {{% typetag "string" %}}
+  - **SpeakerLevel** {{% typetag "number" %}}
+  - **SystemVolume** {{% typetag "number" %}}
+  - **SystemVolumeIsMuted** {{% typetag "boolean" %}}
+- **RecordingDevice** 
+  - **MicLevelIfNotMuted** {{% typetag "number" %}}
+  - **MicrophoneIsMuted** {{% typetag "boolean" %}}
+  - **MicrophoneLevel** {{% typetag "number" %}}
+  - **MicrophoneVolume** {{% typetag "number" %}}
+  - **RecordingDeviceName** {{% typetag "string" %}}

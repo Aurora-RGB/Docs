@@ -6,4 +6,4 @@ authors:
 ---
 
 Provides the solar noon percentage, which indicates how close the sun is to the zenith.
-- **SolarNoonPercentage**
+- **SolarNoonPercentage** {{% typetag "number" %}}

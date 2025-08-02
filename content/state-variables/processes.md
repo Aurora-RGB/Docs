@@ -6,5 +6,5 @@ authors:
 ---
 
 
-- **ActiveProcess**
-- **ActiveWindowName**
+- **ActiveProcess** {{% typetag "string" %}}
+- **ActiveWindowName** {{% typetag "string" %}}
