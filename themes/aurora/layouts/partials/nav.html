@@ -17,14 +17,16 @@
 
             {{ $cur := . }}
             {{ range $.Site.Sections }}
-            <span class="nav-title">{{ .Title }}</span>
-            <ul class="nav-list">
-                {{ range .Pages }}
-                    <li class="{{ if eq $cur.Permalink .Permalink }}active{{ end }}">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    </li>
-                {{ end }}
-            </ul>
+                <div class="nav-section">
+                    <span class="nav-title">{{ .Title }}</span>
+                    <ul class="nav-list">
+                        {{ range .Pages }}
+                            <li class="{{ if eq $cur.Permalink .Permalink }}active{{ end }}">
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
             {{ end }}
         </div>
     </div>

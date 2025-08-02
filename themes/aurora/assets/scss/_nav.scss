@@ -12,10 +12,18 @@ nav#main-nav {
 		padding-left: 9px;
 	}
 
+	.nav-section {
+		padding: 4px;
+		border-radius: 8px;
+		border-bottom: 0.5px solid rgba($text-primary, .15);
+		border-top: 0.5px solid rgba($text-primary, .15);
+	}
+
 	.nav-title {
+		color: $text-primary;
 		text-transform: uppercase;
-		opacity: .4;
-		font-size: .9rem;
+		font-size: 1rem;
+		font-weight: bold;
 	}
 
 	.nav-list {
