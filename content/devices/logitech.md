@@ -13,7 +13,7 @@ Exceptionally these devices cannot work with Logitech SDK or OpenRGB:
 - G502X (this exact model)
 - PRO X TKL RAPID
 
-# Required Software
+## Required Software
 
 One of:
 
@@ -21,16 +21,16 @@ One of:
 * Logitech G Hub
 * OpenRGB
 
-# Needed configuration
+## Needed configuration
 
 {{% alert "Logitech software does not work when Lightsync Wrapper in Aurora is enabled" "warning" %}}
 The SDK should come enabled by default when you install LGS or GHUB, but in case it doesn't connect, make sure it is enabled.
 
-## For GHUB:
+### For GHUB:
 
 ![Turning on the SDK in Logitech G HUB](img/docs/ghub-enable-sdk.png)
 
-## For LGS:
+### For LGS:
 
 1. Open Logitech Gaming Software and go into Settings
 ![Opening Settings in Logitech Gaming Software](img/docs/lgs-enable-sdk-1.png)
@@ -42,7 +42,7 @@ The SDK should come enabled by default when you install LGS or GHUB, but in case
 ![Disabling CS2 in Logitech Gaming Software](img/docs/lgs-enable-sdk-4.png)
 ![Disabling DotA2 in Logitech Gaming Software](img/docs/lgs-enable-sdk-5.png)
 
-# Known issues
+## Known issues
 
 * Lightsync wrapper will be automatically disabled if Logitech software autorun is detected.
 If you want to use Logitech devices with other brands and have Lightsync integration on all devices, you have to replace Logitech software with [OpenRGB]({{% ref "devices/openrgb" %}})
@@ -55,9 +55,9 @@ If you want to use Logitech devices with other brands and have Lightsync integra
 
 ![Setting the desktop profile as the persistent one in GHUB](img/docs/ghub-persistent.png)
 
-# Supported Devices
+## Supported Devices
 
-## Keyboards
+### Keyboards
 
 All per-key RGB keyboards are supposed to work. These are confirmed keyboards:
 * G910
@@ -67,12 +67,12 @@ All per-key RGB keyboards are supposed to work. These are confirmed keyboards:
 * G815
 * G513
 
-## Mice
+### Mice
 
 All mice are supposed to work, these are confirmed mice:
 * G900
 * G502, **NOT G502X**
 
-## Mousepads
+### Mousepads
 
 {{% alert "Most other Logitech LIGHTSYNC devices should work fine, even if they don't have a layout available in Aurora. Simply choose a keyboard with the same layout!" "info" %}}
