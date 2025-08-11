@@ -9,6 +9,10 @@ authors:
 
 You can use Aurora profiles and brand specific integrations (like Chroma) with Logitech devices using Aurora.
 
+Exceptionally these devices cannot work with Logitech SDK or OpenRGB:
+- G502X (this exact model)
+- PRO X TKL RAPID
+
 # Required Software
 
 One of:
@@ -67,7 +71,7 @@ All per-key RGB keyboards are supposed to work. These are confirmed keyboards:
 
 All mice are supposed to work, these are confirmed mice:
 * G900
-* G502
+* G502, **NOT G502X**
 
 ## Mousepads
 
