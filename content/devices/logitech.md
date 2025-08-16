@@ -11,7 +11,6 @@ You can use Aurora profiles and brand specific integrations (like Chroma) with L
 
 Exceptionally these devices cannot work with Logitech SDK or OpenRGB:
 - G502X (this exact model)
-- PRO X TKL RAPID
 
 ## Required Software
 
