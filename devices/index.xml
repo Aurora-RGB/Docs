@@ -72,7 +72,7 @@
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=12af51588d10b1214f70f8756af56a69" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=2d8a627dc84538f007c892ee24a0c72f" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" />
 &lt;/picture>
 &lt;/p>
 &lt;blockquote>
@@ -88,43 +88,21 @@
 &lt;h1 id="known-issues">Known issues&lt;/h1>
 &lt;p>PlayStation specific features like Vibration, Haptic and Adaptive Triggers won&amp;rsquo;t work while your color is being updated.
 Color updating is recommended to be disabled with supported games by setting a static color to it from Aurora.&lt;/p></description></item><item><title>Logitech</title><link>https://www.project-aurora.com/Docs/devices/logitech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/logitech/</guid><description>&lt;p>You can use Aurora profiles and brand specific integrations (like Chroma) with Logitech devices using Aurora.&lt;/p>
-&lt;h1 id="required-software">Required Software&lt;/h1>
+&lt;p>Exceptionally these devices cannot work with Logitech SDK or OpenRGB:&lt;/p>
+&lt;ul>
+&lt;li>G502X (this exact model)&lt;/li>
+&lt;li>PRO X TKL RAPID&lt;/li>
+&lt;/ul>
+&lt;h2 id="required-software">Required Software&lt;/h2>
 &lt;p>One of:&lt;/p>
 &lt;ul>
 &lt;li>Logitech Gaming Software 9.02.65+&lt;/li>
 &lt;li>Logitech G Hub&lt;/li>
 &lt;li>OpenRGB&lt;/li>
 &lt;/ul>
-&lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
+&lt;h2 id="needed-configuration">Needed configuration&lt;/h2>
 &lt;p>&lt;span class="alert warning">Logitech software does not work when Lightsync Wrapper in Aurora is enabled&lt;/span>&lt;/p>
-&lt;p>The SDK should come enabled by default when you install LGS or GHUB, but in case it doesn&amp;rsquo;t connect, make sure it is enabled.&lt;/p>
-&lt;h2 id="for-ghub">For GHUB:&lt;/h2>
-&lt;p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/ghub-enable-sdk.png?v=12af51588d10b1214f70f8756af56a69" alt="Turning on the SDK in Logitech G HUB" loading="lazy" height="792" width="1138" />
-&lt;/picture>
-&lt;/p></description></item><item><title>OpenRGB</title><link>https://www.project-aurora.com/Docs/devices/openrgb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/openrgb/</guid><description>&lt;p>You can use Aurora with OpenRGB for ultimate lighting control, integration, performance and compatibility.&lt;/p>
+&lt;p>The SDK should come enabled by default when you install LGS or GHUB, but in case it doesn&amp;rsquo;t connect, make sure it is enabled.&lt;/p></description></item><item><title>OpenRGB</title><link>https://www.project-aurora.com/Docs/devices/openrgb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/openrgb/</guid><description>&lt;p>You can use Aurora with OpenRGB for ultimate lighting control, integration, performance and compatibility.&lt;/p>
 &lt;h1 id="required-software">Required Software&lt;/h1>
 &lt;p>&lt;a href="https://openrgb.org/">OpenRGB&lt;/a>&lt;/p>
 &lt;h1 id="needed-configuration">Needed configuration&lt;/h1>
@@ -153,7 +131,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=12af51588d10b1214f70f8756af56a69" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=2d8a627dc84538f007c892ee24a0c72f" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" />
 &lt;/picture>
 
 You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li>
@@ -230,7 +208,7 @@ If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong>Chroma
  
  
  &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=12af51588d10b1214f70f8756af56a69" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=2d8a627dc84538f007c892ee24a0c72f" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" />
 &lt;/picture>
 &lt;/p>
 &lt;p>If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p></description></item><item><title>Wooting</title><link>https://www.project-aurora.com/Docs/devices/wooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/wooting/</guid><description>&lt;h1 id="required-software">Required Software&lt;/h1>
