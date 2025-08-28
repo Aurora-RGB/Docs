@@ -34,7 +34,7 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p&gt;
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=cca625c21d7743bebd98aca6ec8c3299" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p&gt;Some proprietary software services can be disabled if they are not necessary for your use case,
 reducing resource consumption and improving performance&lt;/p&gt;
