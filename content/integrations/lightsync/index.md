@@ -1,11 +1,13 @@
 ---
 searchTitle: "How to Use Lightsync integration on Non-Logitech Devices"
 title: "Logitech Lightsync"
+description:
+  You can use Aurora with Lightsync supported games.
 authors:
   - Aytackydln
 ---
 
-![Diagram showing Aurora & Lightsync integration](img/diagrams/lightsync_diagram.png)
+![Diagram showing Aurora & Lightsync integration](lightsync_diagram.png)
 
 You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
 

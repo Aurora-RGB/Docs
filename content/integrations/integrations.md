@@ -1,5 +1,7 @@
 ---
 title: "Brand Integrations"
+description:
+  Brand-specific proprietary game integrations that are reverse-engineered to work with Aurora.
 authors:
   - Aytackydln
 weight: 1

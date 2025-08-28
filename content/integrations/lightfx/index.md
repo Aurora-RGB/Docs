@@ -1,10 +1,12 @@
 ---
 title: "Alienware LightFX"
+description:
+  You can use Aurora with LightFX supported games.
 authors:
   - Aytackydln
 ---
 
-![Diagram showing Aurora & LightFX integration](img/diagrams/lfx_diagram.png)
+![Diagram showing Aurora & LightFX integration](lfx_diagram.png)
 
 You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
 

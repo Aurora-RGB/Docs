@@ -1,11 +1,13 @@
 ---
 searchTitle: "How to Use Razer Chroma on Non-Razer Devices"
 title: "Razer Chroma"
+description:
+  You can use Aurora with Razer Chroma supported games.
 authors:
   - Aytackydln
 ---
 
-![Diagram showing Aurora Chroma integration](img/diagrams/chroma_diagram.png)
+![Diagram showing Aurora Chroma integration](chroma_diagram.png)
 
 You can use Chroma integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
 
