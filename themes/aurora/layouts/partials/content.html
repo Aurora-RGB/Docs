@@ -14,7 +14,7 @@
     <ul class="author-list">
         {{ range .Params.authors }}
         <li data-username="{{ . }}"><a rel="author" href="https://github.com/{{ . }}" target="_blank">
-            <img class="avatar avatar-small" alt="{{ . }}" src="https://github.com/{{ . }}.png?size=32" width="32" height="32" />
+            <img class="avatar avatar-small" alt="{{ . }}" src="https://github.com/{{ . }}.png?size=32" width="32" height="32" loading="lazy" />
         </a></li>
         {{ end }}
     </ul>

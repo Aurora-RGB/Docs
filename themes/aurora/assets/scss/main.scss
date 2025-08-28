@@ -75,8 +75,16 @@ h1 {
   padding: 0 10px;
 }
 
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/MaterialIconsOutlined.woff2') format('woff2');
+  font-display: block;
+}
+
 a[target="_blank"]:after {
-  content: "open_in_new";
+  content: "\e89e";
   margin-left: 5px;
 
   font-family: 'Material Symbols Outlined';
