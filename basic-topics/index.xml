@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic Topics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/basic-topics/</link><description>Recent content in Basic Topics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/basic-topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://www.project-aurora.com/Docs/basic-topics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/installation/</guid><description>&lt;p>To install Aurora, the easiest way is to download the installer from our &lt;a href="https://github.com/Aurora-RGB/Aurora/releases">GitHub page&lt;/a> and simply run it.&lt;/p>
-&lt;p>After this, you will find Aurora in your start menu.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic Topics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/basic-topics/</link><description>Recent content in Basic Topics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/basic-topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://www.project-aurora.com/Docs/basic-topics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/installation/</guid><description>&lt;p&gt;To install Aurora, the easiest way is to download the installer from our &lt;a href="https://github.com/Aurora-RGB/Aurora/releases"&gt;GitHub page&lt;/a&gt; and simply run it.&lt;/p&gt;
+&lt;p&gt;After this, you will find Aurora in your start menu.
 Opening the Aurora program will show you some simple steps you will need to take with detected existing RGB to allow Aurora to take priority when it needs to.
-It&amp;rsquo;s important you follows these steps otherwise Aurora may not work correctly.&lt;/p>
-&lt;h2 id="dev-version">Dev Version&lt;/h2>
-&lt;p>Builds tagged as &amp;ldquo;Prerelease&amp;rdquo; are usually versions that may have breaking changes.
-Aurora currently has one developer and I would really appreciate more people testing it.&lt;/p></description></item><item><title>Getting Started</title><link>https://www.project-aurora.com/Docs/basic-topics/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/getting-started/</guid><description>&lt;p>When you first open Aurora, you will be presented with a window that looks like the following.
+It&amp;rsquo;s important you follows these steps otherwise Aurora may not work correctly.&lt;/p&gt;
+&lt;h2 id="dev-version"&gt;Dev Version&lt;/h2&gt;
+&lt;p&gt;Builds tagged as &amp;ldquo;Prerelease&amp;rdquo; are usually versions that may have breaking changes.
+Aurora currently has one developer and I would really appreciate more people testing it.&lt;/p&gt;</description></item><item><title>Getting Started</title><link>https://www.project-aurora.com/Docs/basic-topics/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/getting-started/</guid><description>&lt;p&gt;When you first open Aurora, you will be presented with a window that looks like the following.
 
 
 
@@ -27,32 +27,32 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=140c41a0d19d391319215e3934f9a3cb" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
-&lt;/picture>
-&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Enable device integrations&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Settings&lt;/strong> -&amp;gt; Devices -&amp;gt; Enable all devices you want to use with Aurora.&lt;/p>
-&lt;ul>
-&lt;li>See &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">Supported Devices&lt;/a> for specifics.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Select device layouts&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Settings&lt;/strong> -&amp;gt; Devices &amp;amp; Wrappers&lt;/p>
-&lt;ul>
-&lt;li>Go trough Keyboard, Mouse, Headset, and other devices and select the layouts you want to use.
-&lt;ul>
-&lt;li>Choose the layout that best matches your device.&lt;/li>
-&lt;li>If you want to use a custom layout, see &lt;a href="https://www.project-aurora.com/Docs/advanced-topics/custom-layout/">Advanced Topics/Custom Layouts&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Enjoy the profiles!&lt;/p></description></item><item><title>Profiles</title><link>https://www.project-aurora.com/Docs/basic-topics/profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/profiles/</guid><description>&lt;p>When you first open Aurora, you will be presented with a window that looks like the following.
+ &lt;picture &gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enable device integrations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; Devices -&amp;gt; Enable all devices you want to use with Aurora.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;Supported Devices&lt;/a&gt; for specifics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Select device layouts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; Devices &amp;amp; Wrappers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go trough Keyboard, Mouse, Headset, and other devices and select the layouts you want to use.
+&lt;ul&gt;
+&lt;li&gt;Choose the layout that best matches your device.&lt;/li&gt;
+&lt;li&gt;If you want to use a custom layout, see &lt;a href="https://www.project-aurora.com/Docs/advanced-topics/custom-layout/"&gt;Advanced Topics/Custom Layouts&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enjoy the profiles!&lt;/p&gt;</description></item><item><title>Profiles</title><link>https://www.project-aurora.com/Docs/basic-topics/profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/profiles/</guid><description>&lt;p&gt;When you first open Aurora, you will be presented with a window that looks like the following.
 
 
 
@@ -75,34 +75,34 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=140c41a0d19d391319215e3934f9a3cb" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" />
-&lt;/picture>
-&lt;/p>
-&lt;h1 id="applications">Applications&lt;/h1>
-&lt;p>On the far left is the &lt;strong>application&lt;/strong> list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe. You can disable applications if you don’t want your lighting changing when you open that app by going onto the overview and un-checking the “Enable Aurora to provide lighting effects…” box. You can also right-click on the application icons to hide them if you do not have that game and don’t want it cluttering up the list.&lt;/p></description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-gamessoftwares-natively">Aurora supports these games/softwares natively:&lt;/h1>
-&lt;ul>
-&lt;li>CS2&lt;/li>
-&lt;li>Dota 2&lt;/li>
-&lt;li>League of Legends&lt;/li>
-&lt;li>OBS Studio (Recording/Streaming status)&lt;/li>
-&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/">Chroma enabled games&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/">Lightsync enabled games&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/">LightFX enabled games&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h1 id="aurora-supports-these-gamessoftwares-via-mods">Aurora supports these games/softwares via mods:&lt;/h1>
-&lt;ul>
-&lt;li>Discord (via BetterDiscord)&lt;/li>
-&lt;li>Minecraft (with version specific mods)&lt;/li>
-&lt;li>OSU&lt;/li>
-&lt;li>Witcher 3&lt;/li>
-&lt;li>Terraria&lt;/li>
-&lt;li>Rocket League&lt;/li>
-&lt;/ul>
-&lt;p>See &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices">Wiki&lt;/a> for details, as some models can be incompatible.&lt;/p></description></item><item><title>User Data &amp; Backups</title><link>https://www.project-aurora.com/Docs/basic-topics/user-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/user-data/</guid><description>&lt;p>You can see the Aurora data by navigating to &lt;code>%APPDATA%\Aurora&lt;/code> in File Explorer.
-This user data includes all your settings as well as all your lighting profiles and recent logs that Aurora has created.&lt;/p>
-&lt;p>&amp;lsquo;Sensitive.json&amp;rsquo; contains encrypted data contains location data (possible tokens in the future) and it is encrypted.
-It can only be opened by Aurora and on the current Windows user.&lt;/p>
-&lt;h1 id="importing-profiles">Importing Profiles&lt;/h1>
-&lt;p>Profiles that others have made can be imported easily into Aurora using the import button on the &amp;ldquo;Profiles&amp;rdquo; section. Pressing this button will open a dialog asking you to choose a file to import.
-JSON files that have been exported from Aurora (see &lt;a href="#exporting-profiles">exporting profiles&lt;/a>) are fully supported through import.&lt;/p></description></item></channel></rss>
+ &lt;picture &gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+&lt;h1 id="applications"&gt;Applications&lt;/h1&gt;
+&lt;p&gt;On the far left is the &lt;strong&gt;application&lt;/strong&gt; list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe. You can disable applications if you don’t want your lighting changing when you open that app by going onto the overview and un-checking the “Enable Aurora to provide lighting effects…” box. You can also right-click on the application icons to hide them if you do not have that game and don’t want it cluttering up the list.&lt;/p&gt;</description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-gamessoftwares-natively"&gt;Aurora supports these games/softwares natively:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;CS2&lt;/li&gt;
+&lt;li&gt;Dota 2&lt;/li&gt;
+&lt;li&gt;League of Legends&lt;/li&gt;
+&lt;li&gt;OBS Studio (Recording/Streaming status)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/"&gt;Chroma enabled games&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/"&gt;Lightsync enabled games&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/"&gt;LightFX enabled games&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="aurora-supports-these-gamessoftwares-via-mods"&gt;Aurora supports these games/softwares via mods:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Discord (via BetterDiscord)&lt;/li&gt;
+&lt;li&gt;Minecraft (with version specific mods)&lt;/li&gt;
+&lt;li&gt;OSU&lt;/li&gt;
+&lt;li&gt;Witcher 3&lt;/li&gt;
+&lt;li&gt;Terraria&lt;/li&gt;
+&lt;li&gt;Rocket League&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href="https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices"&gt;Wiki&lt;/a&gt; for details, as some models can be incompatible.&lt;/p&gt;</description></item><item><title>User Data &amp; Backups</title><link>https://www.project-aurora.com/Docs/basic-topics/user-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/user-data/</guid><description>&lt;p&gt;You can see the Aurora data by navigating to &lt;code&gt;%APPDATA%\Aurora&lt;/code&gt; in File Explorer.
+This user data includes all your settings as well as all your lighting profiles and recent logs that Aurora has created.&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;Sensitive.json&amp;rsquo; contains encrypted data contains location data (possible tokens in the future) and it is encrypted.
+It can only be opened by Aurora and on the current Windows user.&lt;/p&gt;
+&lt;h1 id="importing-profiles"&gt;Importing Profiles&lt;/h1&gt;
+&lt;p&gt;Profiles that others have made can be imported easily into Aurora using the import button on the &amp;ldquo;Profiles&amp;rdquo; section. Pressing this button will open a dialog asking you to choose a file to import.
+JSON files that have been exported from Aurora (see &lt;a href="#exporting-profiles"&gt;exporting profiles&lt;/a&gt;) are fully supported through import.&lt;/p&gt;</description></item></channel></rss>

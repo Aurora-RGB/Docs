@@ -1,162 +1,162 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>State Variables on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/state-variables/</link><description>Recent content in State Variables on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/state-variables/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio</title><link>https://www.project-aurora.com/Docs/state-variables/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/audio/</guid><description>&lt;p>Data provided by NAudio&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>PlaybackDevice&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>PlaybackDeviceName&lt;/strong> &lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/li>
-&lt;li>&lt;strong>SpeakerLevel&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>SystemVolume&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>SystemVolumeIsMuted&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>RecordingDevice&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>MicLevelIfNotMuted&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>MicrophoneIsMuted&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>MicrophoneLevel&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>MicrophoneVolume&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RecordingDeviceName&lt;/strong> &lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>CelestialData</title><link>https://www.project-aurora.com/Docs/state-variables/celestialdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/celestialdata/</guid><description>&lt;p>Provides the solar noon percentage, which indicates how close the sun is to the zenith.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>SolarNoonPercentage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Desktop</title><link>https://www.project-aurora.com/Docs/state-variables/desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/desktop/</guid><description>&lt;ul>
-&lt;li>&lt;strong>AccentColorA&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>AccentColorB&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>AccentColorG&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>AccentColorR&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>CursorPosition&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>X&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Y&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>IsLocked&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Devices</title><link>https://www.project-aurora.com/Docs/state-variables/devices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/devices/</guid><description>&lt;ul>
-&lt;li>&lt;strong>Controllers&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Controller1&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>IsConnected&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Controller2&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>IsConnected&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Controller3&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>IsConnected&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Controller4&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Battery&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>IsConnected&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>LeftTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbX&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightThumbY&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>RightTrigger&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>RazerDevices&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Mouse&lt;/strong>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>State Variables on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/state-variables/</link><description>Recent content in State Variables on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/state-variables/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio</title><link>https://www.project-aurora.com/Docs/state-variables/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/audio/</guid><description>&lt;p&gt;Data provided by NAudio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PlaybackDevice&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PlaybackDeviceName&lt;/strong&gt; &lt;span title="This expression can output a string" class="typetag string"&gt;string&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SpeakerLevel&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SystemVolume&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SystemVolumeIsMuted&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RecordingDevice&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MicLevelIfNotMuted&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MicrophoneIsMuted&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MicrophoneLevel&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MicrophoneVolume&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RecordingDeviceName&lt;/strong&gt; &lt;span title="This expression can output a string" class="typetag string"&gt;string&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>CelestialData</title><link>https://www.project-aurora.com/Docs/state-variables/celestialdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/celestialdata/</guid><description>&lt;p&gt;Provides the solar noon percentage, which indicates how close the sun is to the zenith.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SolarNoonPercentage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Desktop</title><link>https://www.project-aurora.com/Docs/state-variables/desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/desktop/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AccentColorA&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AccentColorB&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AccentColorG&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AccentColorR&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CursorPosition&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;X&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Y&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IsLocked&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Devices</title><link>https://www.project-aurora.com/Docs/state-variables/devices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/devices/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Controllers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Controller1&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IsConnected&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller2&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IsConnected&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller3&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IsConnected&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller4&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IsConnected&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LeftTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbX&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightThumbY&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RightTrigger&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RazerDevices&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mouse&lt;/strong&gt;
 : Not compatible with running in tandem with Synapse.
 Compatible with OpenRGB 2025 and later builds
-&lt;ul>
-&lt;li>&lt;strong>BatteryCharging&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>BatteryPercentage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>LocalPCInfo</title><link>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</guid><description>&lt;p>Information is mostly provided by LibreHardwareMonitor&lt;/p>
-&lt;p>On AMD Systems, CPU and GPU data is not available by default because of insecure driver used by LibreHardwareMonitor.
-Go to Aurora Settings -&amp;gt; Plugin Management to enable it&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Battery&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>ChargeStatus&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>LifePercent&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>PluggedIn&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>SecondsRemaining&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>CPU&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>PowerUsage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Temperature&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Usage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>GPU&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>FanRPM&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>PowerUsage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Temperature&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Usage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>NET&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>DownloadSpeed&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>UploadSpeed&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Usage&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>NetworkAdapters&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>RAM&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Free&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Total&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>Used&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Time&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>CurrentDay&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>CurrentHour&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>CurrentMillisecond&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>CurrentMinute&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>CurrentMonth&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>CurrentSecond&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;li>&lt;strong>MillisecondsSinceEpoch&lt;/strong> &lt;span title="This expression can output a number" class="typetag number">number&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>Media</title><link>https://www.project-aurora.com/Docs/state-variables/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/media/</guid><description>&lt;p>Data is provided by Dubya.WindowsMediaController&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>HasMedia&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>HasNextMedia&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>HasPreviousMedia&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;li>&lt;strong>MediaPlaying&lt;/strong> &lt;span title="This expression can output a boolean" class="typetag boolean">boolean&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Processes</title><link>https://www.project-aurora.com/Docs/state-variables/processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/processes/</guid><description>&lt;ul>
-&lt;li>&lt;strong>ActiveProcess&lt;/strong> &lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/li>
-&lt;li>&lt;strong>ActiveWindowName&lt;/strong> &lt;span title="This expression can output a string" class="typetag string">string&lt;/span>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BatteryCharging&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BatteryPercentage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>LocalPCInfo</title><link>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/localpcinfo/</guid><description>&lt;p&gt;Information is mostly provided by LibreHardwareMonitor&lt;/p&gt;
+&lt;p&gt;On AMD Systems, CPU and GPU data is not available by default because of insecure driver used by LibreHardwareMonitor.
+Go to Aurora Settings -&amp;gt; Plugin Management to enable it&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ChargeStatus&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LifePercent&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PluggedIn&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SecondsRemaining&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CPU&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PowerUsage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temperature&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FanRPM&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PowerUsage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temperature&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NET&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DownloadSpeed&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UploadSpeed&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usage&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NetworkAdapters&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RAM&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Free&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Used&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CurrentDay&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CurrentHour&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CurrentMillisecond&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CurrentMinute&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CurrentMonth&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CurrentSecond&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MillisecondsSinceEpoch&lt;/strong&gt; &lt;span title="This expression can output a number" class="typetag number"&gt;number&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Media</title><link>https://www.project-aurora.com/Docs/state-variables/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/media/</guid><description>&lt;p&gt;Data is provided by Dubya.WindowsMediaController&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HasMedia&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HasNextMedia&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HasPreviousMedia&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MediaPlaying&lt;/strong&gt; &lt;span title="This expression can output a boolean" class="typetag boolean"&gt;boolean&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Processes</title><link>https://www.project-aurora.com/Docs/state-variables/processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/state-variables/processes/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ActiveProcess&lt;/strong&gt; &lt;span title="This expression can output a string" class="typetag string"&gt;string&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ActiveWindowName&lt;/strong&gt; &lt;span title="This expression can output a string" class="typetag string"&gt;string&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

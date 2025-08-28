@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brand Specific Game Integrations on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/integrations/</link><description>Recent content in Brand Specific Game Integrations on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/integrations/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Integrations</title><link>https://www.project-aurora.com/Docs/integrations/integrations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/integrations/</guid><description>&lt;p>Some of the brand specific game integrations are reverse-engineered to work with Aurora.
-See their pages to see how they are configured.&lt;/p>
-&lt;h2 id="game-integrations-aurora-supports">Game Integrations Aurora Supports&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/">Chroma&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/">Lightsync&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/">LightFX&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.pcgamingwiki.com/wiki/RGB_lighting_middleware">PCGamingWiki page about integrations&lt;/a>&lt;/p></description></item><item><title>Alienware LightFX</title><link>https://www.project-aurora.com/Docs/integrations/lightfx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightfx/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brand Specific Game Integrations on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/integrations/</link><description>Recent content in Brand Specific Game Integrations on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/integrations/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Integrations</title><link>https://www.project-aurora.com/Docs/integrations/integrations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/integrations/</guid><description>&lt;p&gt;Some of the brand specific game integrations are reverse-engineered to work with Aurora.
+See their pages to see how they are configured.&lt;/p&gt;
+&lt;h2 id="game-integrations-aurora-supports"&gt;Game Integrations Aurora Supports&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/"&gt;Chroma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/"&gt;Lightsync&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/"&gt;LightFX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.pcgamingwiki.com/wiki/RGB_lighting_middleware"&gt;PCGamingWiki page about integrations&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Alienware LightFX</title><link>https://www.project-aurora.com/Docs/integrations/lightfx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightfx/</guid><description>&lt;p&gt;
 
 
 
@@ -28,17 +28,17 @@ See their pages to see how they are configured.&lt;/p>
  
  
  
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=140c41a0d19d391319215e3934f9a3cb" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" />
-&lt;/picture>
-&lt;/p>
-&lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
-&lt;p>You must install LightFX wrapper dll to the game directory from Aurora settings.&lt;/p>
-&lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
-&lt;p>In case game integration doesn&amp;rsquo;t work,
-use &lt;a href="https://www.logitechg.com/sdk/LED_SDK_9.00.zip">LightFX Sample Application&lt;/a>
-to test if the integration is working properly.&lt;/p></description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p>
+ &lt;picture &gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+&lt;p&gt;You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;all supported devices&lt;/a&gt; using Aurora&lt;/p&gt;
+&lt;p&gt;You must install LightFX wrapper dll to the game directory from Aurora settings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note that this is reverse engineered and may not work as the original.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;In case game integration doesn&amp;rsquo;t work,
+use &lt;a href="https://www.logitechg.com/sdk/LED_SDK_9.00.zip"&gt;LightFX Sample Application&lt;/a&gt;
+to test if the integration is working properly.&lt;/p&gt;</description></item><item><title>Logitech Lightsync</title><link>https://www.project-aurora.com/Docs/integrations/lightsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/lightsync/</guid><description>&lt;p&gt;
 
 
 
@@ -60,18 +60,18 @@ to test if the integration is working properly.&lt;/p></description></item><item
  
  
  
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=140c41a0d19d391319215e3934f9a3cb" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" />
-&lt;/picture>
-&lt;/p>
-&lt;p>You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
-&lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
-&lt;p>You can have LGS installed and Aurora will automatically apply game effects to your devices.&lt;/p>
-&lt;p>LGS must be fully closed before Aurora is launched.&lt;/p>
-&lt;p>In case a specific game integration doesn&amp;rsquo;t work,
-use &lt;a href="https://www.logitechg.com/sdk/LED_SDK_9.00.zip">Lightsync Sample Application&lt;/a>
-to test if the integration is working properly.&lt;/p></description></item><item><title>Razer Chroma</title><link>https://www.project-aurora.com/Docs/integrations/chroma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/chroma/</guid><description>&lt;p>
+ &lt;picture &gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+&lt;p&gt;You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;all supported devices&lt;/a&gt; using Aurora&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note that this is reverse engineered and may not work as the original.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;You can have LGS installed and Aurora will automatically apply game effects to your devices.&lt;/p&gt;
+&lt;p&gt;LGS must be fully closed before Aurora is launched.&lt;/p&gt;
+&lt;p&gt;In case a specific game integration doesn&amp;rsquo;t work,
+use &lt;a href="https://www.logitechg.com/sdk/LED_SDK_9.00.zip"&gt;Lightsync Sample Application&lt;/a&gt;
+to test if the integration is working properly.&lt;/p&gt;</description></item><item><title>Razer Chroma</title><link>https://www.project-aurora.com/Docs/integrations/chroma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/integrations/chroma/</guid><description>&lt;p&gt;
 
 
 
@@ -93,16 +93,16 @@ to test if the integration is working properly.&lt;/p></description></item><item
  
  
  
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=140c41a0d19d391319215e3934f9a3cb" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" />
-&lt;/picture>
-&lt;/p>
-&lt;p>You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/">all supported devices&lt;/a> using Aurora&lt;/p>
-&lt;blockquote>
-&lt;p>Note that this is reverse engineered and may not work as the original.&lt;/p>&lt;/blockquote>
-&lt;p>You can have Synapse installed and Aurora will automatically apply game effects to your devices.
-Then, &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; needs to be running for the integration to work.&lt;/p>
-&lt;p>&lt;a href="https://www.razer.com/chroma-workshop#--games">Chrome Enabled Games List on www.razer.com&lt;/a>&lt;/p>
-&lt;p>In case game integration doesn&amp;rsquo;t work,
-use &lt;a href="https://discord.com/channels/427609830073696258/428606882064629761/1393688715611738242">Chroma Sample Application&lt;/a>
-to test if the integration is working properly.&lt;/p></description></item></channel></rss>
+ &lt;picture &gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+&lt;p&gt;You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;all supported devices&lt;/a&gt; using Aurora&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note that this is reverse engineered and may not work as the original.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;You can have Synapse installed and Aurora will automatically apply game effects to your devices.
+Then, &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; needs to be running for the integration to work.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.razer.com/chroma-workshop#--games"&gt;Chrome Enabled Games List on www.razer.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In case game integration doesn&amp;rsquo;t work,
+use &lt;a href="https://discord.com/channels/427609830073696258/428606882064629761/1393688715611738242"&gt;Chroma Sample Application&lt;/a&gt;
+to test if the integration is working properly.&lt;/p&gt;</description></item></channel></rss>

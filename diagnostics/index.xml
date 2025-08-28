@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Aurora Logs</title><link>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</guid><description>&lt;p>Short answer:&lt;/p>
-&lt;blockquote>
-&lt;p>%appdata%\Aurora\Logs&lt;/p>&lt;/blockquote>
-&lt;p>If you want to know which file to share:&lt;/p>
-&lt;ol>
-&lt;li>Device related; log files starting with &lt;strong>Devices-&lt;/strong> then a date&lt;/li>
-&lt;li>UI, Layers, Game Integrations; files that are just dates&lt;/li>
-&lt;/ol>
-&lt;h2 id="event-viewer-logs">Event Viewer Logs&lt;/h2>
-&lt;p>In case Aurora cannot handle the crash, Windows logs the error in &lt;strong>Event Viewer&lt;/strong>&lt;/p>
-&lt;p>If asked, you can find them by searching Windows with keyword &lt;strong>Event Viewer&lt;/strong>.
-Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
-&lt;p>Below image shows an example log
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diagnostics on Aurora User Docs</title><link>https://www.project-aurora.com/Docs/diagnostics/</link><description>Recent content in Diagnostics on Aurora User Docs</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://www.project-aurora.com/Docs/diagnostics/index.xml" rel="self" type="application/rss+xml"/><item><title>Aurora Logs</title><link>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/aurora-logs/</guid><description>&lt;p&gt;Short answer:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;%appdata%\Aurora\Logs&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;If you want to know which file to share:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Device related; log files starting with &lt;strong&gt;Devices-&lt;/strong&gt; then a date&lt;/li&gt;
+&lt;li&gt;UI, Layers, Game Integrations; files that are just dates&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="event-viewer-logs"&gt;Event Viewer Logs&lt;/h2&gt;
+&lt;p&gt;In case Aurora cannot handle the crash, Windows logs the error in &lt;strong&gt;Event Viewer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If asked, you can find them by searching Windows with keyword &lt;strong&gt;Event Viewer&lt;/strong&gt;.
+Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Below image shows an example log
 
 
 
@@ -33,58 +33,58 @@ Useful ones have the source &amp;ldquo;.NET Runtime&amp;rdquo;&lt;/p>
  
  
  
- &lt;picture >
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=140c41a0d19d391319215e3934f9a3cb" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" />
-&lt;/picture>
-&lt;/p></description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p>Some proprietary software services can be disabled if they are not necessary for your use case,
-reducing resource consumption and improving performance&lt;/p>
-&lt;p>&lt;span class="alert success">You can also set the services to &amp;quot;Manual&amp;quot; so that they don't run unless they are needed&lt;/span>&lt;/p>
-&lt;h3 id="services-to-consider-disabling-or-setting-to-manual">Services to Consider Disabling or Setting to &amp;ldquo;Manual&amp;rdquo;&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>For Asus users:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>LightingService&lt;/code>
-&lt;ul>
-&lt;li>Manages RGB lighting for Asus components. Disable if Asus lighting control is not needed.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>For Razer users:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Razer Chroma SDK Server&lt;/code>&lt;/li>
-&lt;li>&lt;code>Razer Chroma SDK Service*&lt;/code>&lt;/li>
-&lt;li>&lt;code>Razer Chroma StreamServer&lt;/code>&lt;/li>
-&lt;li>&lt;code>Razer Game Manager Service&lt;/code>&lt;/li>
-&lt;li>&lt;code>Razer Synapse Service&lt;/code>
-&lt;span class="alert ">
+ &lt;picture &gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/EventViewrAurora.webp?v=62171d0fd0e894eff1f6aa9beeaa6d36" alt="SCreenshot showing Aurora&amp;rsquo;s crash log on EventViewer" loading="lazy" height="610" width="1099" /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;</description></item><item><title>Disabling Windows Services</title><link>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/disabling-windows-services/</guid><description>&lt;p&gt;Some proprietary software services can be disabled if they are not necessary for your use case,
+reducing resource consumption and improving performance&lt;/p&gt;
+&lt;p&gt;&lt;span class="alert success"&gt;You can also set the services to &amp;quot;Manual&amp;quot; so that they don't run unless they are needed&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id="services-to-consider-disabling-or-setting-to-manual"&gt;Services to Consider Disabling or Setting to &amp;ldquo;Manual&amp;rdquo;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;For Asus users:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;LightingService&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Manages RGB lighting for Asus components. Disable if Asus lighting control is not needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;For Razer users:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Razer Chroma SDK Server&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Razer Chroma SDK Service*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Razer Chroma StreamServer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Razer Game Manager Service&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Razer Synapse Service&lt;/code&gt;
+&lt;span class="alert "&gt;
 *Only keep &amp;ldquo;Razer Chroma SDK Service&amp;rdquo; enabled if you want to use Razer software for controlling Razer devices or
-&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/">Chroma Integration with Aurora&lt;/a>
-&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="steps-to-disable-or-set-services-to-manual">Steps to Disable or Set Services to &amp;ldquo;Manual&amp;rdquo;&lt;/h3>
-&lt;ol>
-&lt;li>
-&lt;p>Open &lt;strong>Services Manager&lt;/strong>:&lt;/p></description></item><item><title>Repair WMI</title><link>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</guid><description>&lt;p>If this page opened automatically for you, you need to take action to repair your Windows.&lt;/p>
-&lt;p>AuroraRGB, and possibly other software, needs Win32_Process class in WMI to work properly.
-Here you can follow the steps to fix it.&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Open a terminal (as Admin):&lt;/p>
-&lt;ul>
-&lt;li>In the start menu type &amp;ldquo;cmd&amp;rdquo; OR&lt;/li>
-&lt;li>Right click &amp;ldquo;Start&amp;rdquo; button and choose Terminal&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Enter following command:&lt;/p>
-&lt;blockquote>
-&lt;p>net stop winmgmt&lt;/p>&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>Open a Windows Explorer and locate the path to &lt;code>C:\Windows\System32\WBEM\&lt;/code> folder
-and rename the &lt;strong>Repository&lt;/strong> folder to something else like RepositoryOLD.&lt;/p></description></item></channel></rss>
+&lt;a href="https://www.project-aurora.com/Docs/integrations/chroma/"&gt;Chroma Integration with Aurora&lt;/a&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="steps-to-disable-or-set-services-to-manual"&gt;Steps to Disable or Set Services to &amp;ldquo;Manual&amp;rdquo;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open &lt;strong&gt;Services Manager&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Repair WMI</title><link>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/diagnostics/repair-wmi/</guid><description>&lt;p&gt;If this page opened automatically for you, you need to take action to repair your Windows.&lt;/p&gt;
+&lt;p&gt;AuroraRGB, and possibly other software, needs Win32_Process class in WMI to work properly.
+Here you can follow the steps to fix it.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open a terminal (as Admin):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In the start menu type &amp;ldquo;cmd&amp;rdquo; OR&lt;/li&gt;
+&lt;li&gt;Right click &amp;ldquo;Start&amp;rdquo; button and choose Terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter following command:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;net stop winmgmt&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open a Windows Explorer and locate the path to &lt;code&gt;C:\Windows\System32\WBEM\&lt;/code&gt; folder
+and rename the &lt;strong&gt;Repository&lt;/strong&gt; folder to something else like RepositoryOLD.&lt;/p&gt;</description></item></channel></rss>
