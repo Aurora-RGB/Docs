@@ -28,8 +28,14 @@ See their pages to see how they are configured.&lt;/p&gt;
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lfx_diagram.png?v=8913fd1e74ed71ea9ac0d3d66c26059a" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/integrations/lightfx/lfx_diagram_hu_f721926c130eacdd.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/integrations/lightfx/lfx_diagram.35a98dc59d1cbd92cd8964782f8d4f36.png" alt="Diagram showing Aurora &amp;amp; LightFX integration" loading="lazy" height="280" width="711" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;all supported devices&lt;/a&gt; using Aurora&lt;/p&gt;
@@ -60,8 +66,14 @@ to test if the integration is working properly.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/lightsync_diagram.png?v=8913fd1e74ed71ea9ac0d3d66c26059a" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/integrations/lightsync/lightsync_diagram_hu_3783b67c2f497ec8.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/integrations/lightsync/lightsync_diagram.ca99193e7faa45caaf7bf21aa13e1c86.png" alt="Diagram showing Aurora &amp;amp; Lightsync integration" loading="lazy" height="280" width="721" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;You can use Lightsync integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;all supported devices&lt;/a&gt; using Aurora&lt;/p&gt;
@@ -93,8 +105,14 @@ to test if the integration is working properly.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/diagrams/chroma_diagram.png?v=8913fd1e74ed71ea9ac0d3d66c26059a" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/integrations/chroma/chroma_diagram_hu_f321336053c67cef.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/integrations/chroma/chroma_diagram.af8a66a6db6ad665da647a67942f2373.png" alt="Diagram showing Aurora Chroma integration" loading="lazy" height="350" width="691" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;You can use Chroma integration with &lt;a href="https://www.project-aurora.com/Docs/devices/alldevices/"&gt;all supported devices&lt;/a&gt; using Aurora&lt;/p&gt;
