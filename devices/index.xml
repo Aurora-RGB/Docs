@@ -71,8 +71,14 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=f227a533938c4464acd95639da82a026" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/devices/corsair/icue-enable-sdk_hu_a0659ce37bf43b50.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/devices/corsair/icue-enable-sdk.b0277f038ef50ea05baa28c865ef85f4.png" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;blockquote&gt;
@@ -129,8 +135,14 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=f227a533938c4464acd95639da82a026" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/devices/openrgb/openrgb-setup_hu_2bad33155577c546.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/devices/openrgb/openrgb-setup.f317baddd8669b3b15d6dd9d0abb60b9.png" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" /&gt;
 &lt;/picture&gt;
 
 You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li&gt;
@@ -206,8 +218,14 @@ If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong&gt;Chr
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=f227a533938c4464acd95639da82a026" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/devices/steelseries/enable-sse-app_hu_fd3ee8414e68ce1e.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/devices/steelseries/enable-sse-app.d1caee271fcf97428c253d888cef040d.png" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p&gt;</description></item><item><title>Wooting</title><link>https://www.project-aurora.com/Docs/devices/wooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/wooting/</guid><description>&lt;h2 id="required-software"&gt;Required Software&lt;/h2&gt;
