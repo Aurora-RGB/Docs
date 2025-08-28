@@ -19,11 +19,11 @@ One of:
 
 The SDK should be enabled by default, but in case it's not, make sure the 'Project Aurora' custom application is enabled.
 
-![Enabling custom app in SSE3](img/docs/enable-sse-app.png)
+![Enabling custom app in SSE3](enable-sse-app.png)
 
 If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.
 
-![Color Special Event in Aurora applet](img/docs/sse-special-event.png)
+![Color Special Event in Aurora applet](sse-special-event.png)
 
 ## Known Issues
 
