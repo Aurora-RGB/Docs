@@ -72,7 +72,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=cca625c21d7743bebd98aca6ec8c3299" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/icue-enable-sdk.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="Turning on the SDK in Corsair iCUE" loading="lazy" height="811" width="1280" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;blockquote&gt;
@@ -130,7 +130,7 @@ Color updating is recommended to be disabled with supported games by setting a s
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=cca625c21d7743bebd98aca6ec8c3299" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/openrgb-setup.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="OpenRGB Setup screenshot" loading="lazy" height="487" width="1809" /&gt;
 &lt;/picture&gt;
 
 You can also make OpenRGB start at boot and enable SDK Server automatically from it&amp;rsquo;s settings.&lt;/li&gt;
@@ -207,7 +207,7 @@ If you did, click &amp;ldquo;&amp;hellip;&amp;rdquo; button in &lt;strong&gt;Chr
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=cca625c21d7743bebd98aca6ec8c3299" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/enable-sse-app.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="Enabling custom app in SSE3" loading="lazy" height="1040" width="1920" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;If you still cannot control your keyboard or mouse illumination, check if Color Special Event is enabled in Aurora applet in SSE.&lt;/p&gt;</description></item><item><title>Wooting</title><link>https://www.project-aurora.com/Docs/devices/wooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/devices/wooting/</guid><description>&lt;h1 id="required-software"&gt;Required Software&lt;/h1&gt;
