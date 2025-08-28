@@ -1,6 +1,10 @@
 ---
 searchTitle: "How to Use Aurora with Logitech Devices"
 title: Logitech
+description:
+  Using Aurora with Logitech devices using Logitech Gaming Software, G HUB or OpenRGB.
+  Usage tips.
+  List of supported Devices.
 authors:
   - diogotr7
   - Mikowmer
@@ -75,3 +79,7 @@ All mice are supposed to work, these are confirmed mice:
 ### Mousepads
 
 {{% alert "Most other Logitech LIGHTSYNC devices should work fine, even if they don't have a layout available in Aurora. Simply choose a keyboard with the same layout!" "info" %}}
+
+### Adding Support for New Devices
+If the device you want it to be supporte is not G502X, please open an issue on [RGB.NET GitHub](https://github.com/DarthAffe/RGB.NET/issues).
+
