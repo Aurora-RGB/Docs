@@ -23,7 +23,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-ambilight.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other" loading="lazy" height="241" width="725" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-ambilight.png?v=8d9f262ac890c6293de2941f418f7108" alt="Ambilight Layer in use on a dual-monitor setup with a white background on one and blue on the other" loading="lazy" height="241" width="725" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Animation Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/animation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/animation/</guid><description>&lt;p&gt;The animation layer is another very powerful but very complex and hard-to-use layer. It allows for you to create custom animations using shapes and by creating key-frames in the animation editor. There is a basic guide on how to create animations &lt;a href="https://www.project-aurora.com/Docs/advanced-topics/animation-editor/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This layer can also be triggered when certain events happen. You can select it for when a game-state value changes or when you press/release a key. When in a key-mode, the animation can optionally be translated to the location of the pressed key. This basically provides a means of creating a custom interactive layer if you don’t like that layer’s default effects.&lt;/p&gt;</description></item><item><title>Audio Visualizer Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/audio-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/audio-visualizer/</guid><description>&lt;p&gt;This layer takes in audio data from your computer and visualizes the volume at various frequencies. There are many different customization options for this layer including which frequencies should be detected. Which frequencies are best depends on the type of audio you expect to be playing (rock will be different from classical) but the default frequencies provide a good starting point.&lt;/p&gt;
@@ -50,7 +50,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-equalizer.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="An equalizer layer in gradient mode while playing a music track" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-equalizer.gif?v=8d9f262ac890c6293de2941f418f7108" alt="An equalizer layer in gradient mode while playing a music track" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Blinking Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/blinking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/blinking/</guid><description>&lt;p&gt;The blinking layer sets the colors of the specified keys to flash between two alternatives, with no fading between the colors. Like to the breathing layer, it allows either or both of these colors to be randomized if you wish.&lt;/p&gt;
 &lt;p&gt;
@@ -76,7 +76,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-blinking.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A blinking layer with cyan and a random secondary color" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-blinking.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A blinking layer with cyan and a random secondary color" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -137,7 +137,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-breathing.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A breathing layer with two random colors" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-breathing.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A breathing layer with two random colors" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -200,7 +200,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-glitch.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-glitch.gif?v=8d9f262ac890c6293de2941f418f7108" alt="" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -245,7 +245,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient-fill.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient-fill.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A rainbow Gradient Fill Layer on the alphabetical keys of the keyboard" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Gradient Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/gradient/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/gradient/</guid><description>&lt;p&gt;The Gradient Layer shows a gradient effect on the specified keys. The gradient can also be animated to move across the keyboard to give a wave effect. If it helps to understand how it works, you can imagine the gradient to be displayed on a (possibly moving) rectangle, and each key acts as a “window” onto that rectangle.&lt;/p&gt;
 &lt;p&gt;
@@ -271,7 +271,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A rainbow Gradient Layer on the alphabetical keys" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-gradient.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A rainbow Gradient Layer on the alphabetical keys" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -338,7 +338,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-image.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="An image layer displaying a picture of a landscape" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-image.png?v=8d9f262ac890c6293de2941f418f7108" alt="An image layer displaying a picture of a landscape" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -383,7 +383,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-interactive.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="Pressing keys on an interactive layer with key wave mode" loading="lazy" height="290" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-interactive.gif?v=8d9f262ac890c6293de2941f418f7108" alt="Pressing keys on an interactive layer with key wave mode" loading="lazy" height="290" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -466,7 +466,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-fire.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A particle layer with the fire preset" loading="lazy" height="240" width="724" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-fire.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A particle layer with the fire preset" loading="lazy" height="240" width="724" /&gt;
 &lt;/picture&gt;
 
 
@@ -492,7 +492,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-matrix.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A particle layer with the matrix preset" loading="lazy" height="239" width="724" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-particle-matrix.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A particle layer with the matrix preset" loading="lazy" height="239" width="724" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Percent (Gradient) Effect Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/percent-gradient-effect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/percent-gradient-effect/</guid><description>&lt;p&gt;This layer is very similar to the Percent Effect Layer, but makes use of a gradient instead of a progress/background color. This layer does not have a background.&lt;/p&gt;
 &lt;p&gt;
@@ -518,7 +518,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-gradient-effect.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-gradient-effect.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A gradient layer in progressive mode, with a red-green gradient assigned to the current millisecond" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -590,7 +590,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-effect.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A percent layer with current value set to the current time&amp;rsquo;s milliseconds" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-percent-effect.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A percent layer with current value set to the current time&amp;rsquo;s milliseconds" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -667,7 +667,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-radial.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A rainbow radial layer" loading="lazy" height="240" width="724" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-radial.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A rainbow radial layer" loading="lazy" height="240" width="724" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;Note that this gradient is generated using discrete pie-shaped segments of colour. This color is determined by the median color at a particular point on the gradient. For example, if there were 4 segments, each would have a 90 degree arc. The first would use the color at 45 degrees (90 / 2) the second at 135 degrees, etc. If you do not get the colors you expect when using small numbers of segments, this is likely the reason.&lt;/p&gt;</description></item><item><title>Script Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/script/</guid><description>&lt;p&gt;The script layer on its own will do nothing, however it is one of the most powerful, advanced layers. It provides an interface for users to create custom effects using the Aurora API in either C# or Python. More details can be found on the project&amp;rsquo;s &lt;a href="https://github.com/antonpup/Aurora/wiki/Profile-Scripting"&gt;Old-Wiki&lt;/a&gt; and example scripts can be found in the &lt;a href="https://github.com/antonpup/Aurora/tree/master/Script%20Examples"&gt;Script Examples&lt;/a&gt; folder on GitHub. The limits of what this layer can do really are up to you.&lt;/p&gt;</description></item><item><title>Shortcut Assistant Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/shortcut-assistant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/shortcut-assistant/</guid><description>&lt;p&gt;The Shortcut Assistant layer shows possible key presses when a modifier key is pressed. The defined shortcuts will set the keyboard lights when they are partially pressed. For example, if you had a shortcut defined for Ctrl + C and Ctrl + V, whenever you press control, the other layers below are dimmed and the C and V letter light up in whichever color is specified.&lt;/p&gt;
@@ -694,7 +694,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-shortcut.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-shortcut.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A shortcut layer with common Ctrl and Ctrl + Shift shortcuts on top of a gradient layer" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Solid Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/solid-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/solid-color/</guid><description>&lt;p&gt;The Solid Color Layer is for setting static colors for specific keys. The keys will constantly be lit in the given color (providing they aren’t overridden by a higher-up layer). This is one of the most simple layers in Aurora, but can be useful for things such as highlighting controls such as WASD in video games.&lt;/p&gt;
 &lt;p&gt;
@@ -720,7 +720,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-color.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="A Solid Color Layer lighting common video game control keys" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-color.png?v=8d9f262ac890c6293de2941f418f7108" alt="A Solid Color Layer lighting common video game control keys" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;If you want to set the color of the entire (or most) of the keyboard, consider using the &lt;a href="https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/"&gt;Solid Fill Color&lt;/a&gt; Layer instead.&lt;/p&gt;</description></item><item><title>Solid Fill Color Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/solid-fill-color/</guid><description>&lt;p&gt;Similar to the Solid Color layer, however it does not have fine control over which keys are lit and so fills the entire canvas (keyboard, mouse and any other peripherals) with the given color. This layer is useful for setting static backgrounds, saving you from having to manually add each key.&lt;/p&gt;
@@ -747,7 +747,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-fill-color.png?v=8fe3b8460a7472627ad4a2c05a430288" alt="A Solid Fill Layer setting the entire keyboard to cyan" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-solid-fill-color.png?v=8d9f262ac890c6293de2941f418f7108" alt="A Solid Fill Layer setting the entire keyboard to cyan" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;h2 id="properties"&gt;Properties&lt;/h2&gt;
@@ -788,7 +788,7 @@
  
  
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-timer.gif?v=8fe3b8460a7472627ad4a2c05a430288" alt="A timer layer on the alphabetical keys" loading="lazy" height="288" width="866" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/layer-timer.gif?v=8d9f262ac890c6293de2941f418f7108" alt="A timer layer on the alphabetical keys" loading="lazy" height="288" width="866" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;</description></item><item><title>Toggle Key Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/toggle-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/toggle-key/</guid><description>&lt;p&gt;The toggle key layer allows for the turning on or off some lights based on the key press of another specific key. This layer can be useful for things such as indicators for whether something is toggled on/off in a game.&lt;/p&gt;
 &lt;p&gt;&lt;span class="alert info"&gt;If you are using caps lock, num lock or scroll lock as a trigger key it is probably better to use the Lock Layer to ensure the key light state stays synced with the lock state properly.&lt;/span&gt;&lt;/p&gt;</description></item><item><title>Toolbar Layer</title><link>https://www.project-aurora.com/Docs/reference-layers/toolbar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/reference-layers/toolbar/</guid><description>&lt;p&gt;The toolbar layer is a layer that shows one key as “active” and all others assigned to it as “inactive”. When a different key is pressed, the pressed key becomes the active one instead. This works similarly to how toolbars/item bars work in video games such as Factorio or Minecraft.&lt;/p&gt;
