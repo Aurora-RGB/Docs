@@ -1,6 +1,8 @@
 ---
 title: Installation
 weight: 1
+description:
+  How to install Aurora on your computer.
 authors:
   - Wibble199
   - Aytackydln

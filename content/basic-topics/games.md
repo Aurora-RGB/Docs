@@ -1,11 +1,13 @@
 ---
 title: "Natively Supported Games"
 order: 3
+description:
+  Games and software that Aurora supports natively or via mods.
 authors:
   - Aytackydln
 ---
 
-# Aurora supports these games/softwares natively:
+## Aurora supports these games/softwares natively:
 - CS2
 - Dota 2
 - League of Legends
@@ -14,7 +16,7 @@ authors:
 - [Lightsync enabled games]({{< relref "/integrations/lightsync.md" >}})
 - [LightFX enabled games]({{< relref "/integrations/lightfx.md" >}})
 
-# Aurora supports these games/softwares via mods:
+## Aurora supports these games/softwares via mods:
 - Discord (via BetterDiscord)
 - Minecraft (with version specific mods)
 - OSU

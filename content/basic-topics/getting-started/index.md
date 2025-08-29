@@ -1,12 +1,14 @@
 ---
 title: Getting Started
 weight: 2
+description:
+  A quick guide to get you started with Aurora.
 authors:
   - Aytackydln
 ---
 
 When you first open Aurora, you will be presented with a window that looks like the following.
-![Annotated picture of the main Aurora UI](img/docs/overview.png)
+![Annotated picture of the main Aurora UI](overview.png)
 
 1. **Enable device integrations**
 
