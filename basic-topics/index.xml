@@ -27,8 +27,14 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=46ca6375882713aba4b5b94e8be8908e" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/basic-topics/getting-started/overview_hu_daae6f3dfa53a305.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/basic-topics/getting-started/overview.4564a38f075dfa40961eaaa058546a0b.png" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;ol&gt;
@@ -75,12 +81,21 @@ Aurora currently has one developer and I would really appreciate more people tes
  
  
  
+ 
+ 
+ 
+ 
+ 
  &lt;picture &gt;
- &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/img/docs/overview.png?v=46ca6375882713aba4b5b94e8be8908e" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" /&gt;
+ &lt;source srcset="https://www.project-aurora.com/Docs/basic-topics/profiles/overview2_hu_daae6f3dfa53a305.webp" type="image/webp" /&gt;
+ &lt;img class="img-fluid" src="https://www.project-aurora.com/Docs/basic-topics/profiles/overview2.4564a38f075dfa40961eaaa058546a0b.png" alt="Annotated picture of the main Aurora UI" loading="lazy" height="714" width="1000" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
-&lt;h1 id="applications"&gt;Applications&lt;/h1&gt;
-&lt;p&gt;On the far left is the &lt;strong&gt;application&lt;/strong&gt; list, with each application shown as an icon. All the applications and games you will see here by default have some sort of integration or preset profile. You are not limited to just these ones however; by scrolling to the bottom of the list and clicking the plus icon you will be able to specify new applications either by selecting from the running process list or by browsing to the exe. You can disable applications if you don’t want your lighting changing when you open that app by going onto the overview and un-checking the “Enable Aurora to provide lighting effects…” box. You can also right-click on the application icons to hide them if you do not have that game and don’t want it cluttering up the list.&lt;/p&gt;</description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h1 id="aurora-supports-these-gamessoftwares-natively"&gt;Aurora supports these games/softwares natively:&lt;/h1&gt;
+&lt;h2 id="applications"&gt;Applications&lt;/h2&gt;
+&lt;p&gt;On the far left is the &lt;strong&gt;application&lt;/strong&gt; list, with each application shown as an icon.
+All the applications and games you will see here by default have some sort of integration or preset profile.
+You are not limited to just these ones however;
+by scrolling to the bottom of the list and clicking the plus icon you can create new applications.&lt;/p&gt;</description></item><item><title>Natively Supported Games</title><link>https://www.project-aurora.com/Docs/basic-topics/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.project-aurora.com/Docs/basic-topics/games/</guid><description>&lt;h2 id="aurora-supports-these-gamessoftwares-natively"&gt;Aurora supports these games/softwares natively:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;CS2&lt;/li&gt;
 &lt;li&gt;Dota 2&lt;/li&gt;
@@ -90,7 +105,7 @@ Aurora currently has one developer and I would really appreciate more people tes
 &lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/lightsync/"&gt;Lightsync enabled games&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.project-aurora.com/Docs/integrations/lightfx/"&gt;LightFX enabled games&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id="aurora-supports-these-gamessoftwares-via-mods"&gt;Aurora supports these games/softwares via mods:&lt;/h1&gt;
+&lt;h2 id="aurora-supports-these-gamessoftwares-via-mods"&gt;Aurora supports these games/softwares via mods:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Discord (via BetterDiscord)&lt;/li&gt;
 &lt;li&gt;Minecraft (with version specific mods)&lt;/li&gt;
@@ -103,6 +118,6 @@ Aurora currently has one developer and I would really appreciate more people tes
 This user data includes all your settings as well as all your lighting profiles and recent logs that Aurora has created.&lt;/p&gt;
 &lt;p&gt;&amp;lsquo;Sensitive.json&amp;rsquo; contains encrypted data contains location data (possible tokens in the future) and it is encrypted.
 It can only be opened by Aurora and on the current Windows user.&lt;/p&gt;
-&lt;h1 id="importing-profiles"&gt;Importing Profiles&lt;/h1&gt;
+&lt;h2 id="importing-profiles"&gt;Importing Profiles&lt;/h2&gt;
 &lt;p&gt;Profiles that others have made can be imported easily into Aurora using the import button on the &amp;ldquo;Profiles&amp;rdquo; section. Pressing this button will open a dialog asking you to choose a file to import.
 JSON files that have been exported from Aurora (see &lt;a href="#exporting-profiles"&gt;exporting profiles&lt;/a&gt;) are fully supported through import.&lt;/p&gt;</description></item></channel></rss>
