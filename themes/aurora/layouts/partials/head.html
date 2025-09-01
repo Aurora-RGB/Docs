@@ -12,6 +12,9 @@
 {{ end }}
 <meta property="og:image" content="https://www.project-aurora.com/images/card.webp">
 <meta property="og:locale" content="en_US" />
+{{ with .OutputFormats.Get "rss" }}
+    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
 
 {{ if .Params.description }}
 <meta name="description" content="{{ default $.Params.description }}">

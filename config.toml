@@ -7,6 +7,15 @@ disableKinds = ["taxonomy"]
 canonifyURLs = true
 enableGitInfo = true
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-74PP2Q060B'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
+
 [markup]
   [markup.tableOfContents]
     endLevel = 3
