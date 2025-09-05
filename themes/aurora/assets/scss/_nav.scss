@@ -30,31 +30,31 @@ nav#main-nav {
 		padding: 0 0 0 8px;
 		list-style: none;
 		font-size: .85rem;
-
-		a {
-			display: block;
-			padding: 6px;
-			text-decoration: none;
-			color: $text-primary;
-			border: 1px solid transparent;
-			border-right: none;
-		}
-
-		:not(.active) a:hover {
-			background: rgba($text-primary, .1);
-		}
-
-		.active a {
-			color: $accent-primary;
-			border: 1px solid rgba($text-primary, .15);
-			border-right: none;
-			background: $background-primary;
-		}
 	}
 
 	.inner-nav > div {
 		height: 100%;
 	}
+
+  a {
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: $text-primary;
+    border: 1px solid transparent;
+    border-right: none;
+  }
+
+  :not(.active) a:hover {
+    background: rgba($text-primary, .1);
+  }
+
+  .active a {
+    color: $accent-primary;
+    border: 1px solid rgba($text-primary, .15);
+    border-right: none;
+    background: $background-primary;
+  }
 }
 
 .nav-background {

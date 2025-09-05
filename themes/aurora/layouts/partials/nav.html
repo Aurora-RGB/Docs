@@ -18,7 +18,9 @@
             {{ $cur := . }}
             {{ range $.Site.Sections }}
                 <div class="nav-section">
-                    <span class="nav-title">{{ .Title }}</span>
+                    <span class="nav-title{{ if eq $cur.Permalink .Permalink }} active{{ end }}">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </span>
                     <ul class="nav-list">
                         {{ range .Pages }}
                             <li class="{{ if eq $cur.Permalink .Permalink }}active{{ end }}">
