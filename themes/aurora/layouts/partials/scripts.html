@@ -2,7 +2,8 @@
 {{ $tabs := resources.Get "js/tabs-script.js" }}
 {{ $mobile := resources.Get "js/mobile.js" }}
 {{ $scroll := resources.Get "js/scroll-offset.js" }}
-{{ $scripts := slice $externalLink $tabs $mobile $scroll | resources.Concat "app.js" | minify | fingerprint }}
+{{ $scrollActiveLink := resources.Get "js/scroll-active-link.js" }}
+{{ $scripts := slice $externalLink $tabs $mobile $scroll $scrollActiveLink | resources.Concat "app.js" | minify | fingerprint }}
 {{ with $scripts }}
     <script>{{ .Content | safeJS }}</script>
 {{ end }}

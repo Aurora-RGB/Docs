@@ -19,12 +19,12 @@
             {{ range $.Site.Sections }}
                 <div class="nav-section">
                     <span class="nav-title{{ if eq $cur.Permalink .Permalink }} active{{ end }}">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        <a href="{{ .Permalink }}"{{ if eq $cur.Permalink .Permalink }} id="active-link"{{ end }}>{{ .Title }}</a>
                     </span>
                     <ul class="nav-list">
                         {{ range .Pages }}
                             <li class="{{ if eq $cur.Permalink .Permalink }}active{{ end }}">
-                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                <a href="{{ .Permalink }}"{{ if eq $cur.Permalink .Permalink }} id="active-link"{{ end }}>{{ .Title }}</a>
                             </li>
                         {{ end }}
                     </ul>

@@ -1,0 +1,1 @@
+document.getElementById("active-link")?.scrollIntoView({behavior: "instant", block: "center"});

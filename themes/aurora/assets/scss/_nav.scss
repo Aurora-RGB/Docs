@@ -1,5 +1,12 @@
+$header-height: 64px;
+
 nav#main-nav {
 	flex: 1 1 $nav-width;
+  position: sticky;
+  top: 64px;
+  max-height: calc(100vh - 64px);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.95) transparent;
 	overflow-y: auto;
 	overflow-x: hidden;
 	border-right: 1px solid rgba($text-primary, .15);
@@ -92,7 +99,7 @@ nav#main-nav {
 	div::after {
 		top: 8px;
 	}
-	
+
 	div::before {
 		top: 16px;
 	}
