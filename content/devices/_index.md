@@ -1,6 +1,10 @@
 ---
 title: "Devices"
+searchTitle:
+  Supported Devices by Aurora-RGB
 weight: 4
+description:
+  List of supported devices by Aurora-RGB and page links on how to set them up.
 ---
 
 ## You can use Aurora with these Brands:
