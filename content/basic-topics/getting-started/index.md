@@ -13,7 +13,7 @@ When you first open Aurora, you will be presented with a window that looks like 
 1. **Enable device integrations**
 
     **Settings** -> Devices -> Enable all devices you want to use with Aurora.
-    - See [Supported Devices]({{< relref "/devices/alldevices.md" >}}) for specifics.
+    - See [Supported Devices]({{< relref "/devices/index.md" >}}) for specifics.
 
 2. **Select device layouts**
 

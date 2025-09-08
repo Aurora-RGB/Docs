@@ -9,7 +9,7 @@ authors:
 
 ![Diagram showing Aurora Chroma integration](chroma_diagram.png)
 
-You can use Chroma integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
+You can use Chroma integration with [all supported devices]({{< relref "/devices/index.md" >}}) using Aurora
 
 > Note that this is reverse engineered and may not work as the original.
 

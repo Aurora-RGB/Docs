@@ -9,7 +9,7 @@ authors:
 
 ![Diagram showing Aurora & Lightsync integration](lightsync_diagram.png)
 
-You can use Lightsync integration with [all supported devices]({{< relref "/devices/alldevices.md" >}}) using Aurora
+You can use Lightsync integration with [all supported devices]({{< relref "/devices/index.md" >}}) using Aurora
 
 > Note that this is reverse engineered and may not work as the original.
 
