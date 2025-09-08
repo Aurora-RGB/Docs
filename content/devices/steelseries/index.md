@@ -1,8 +1,8 @@
 ---
-searchTitle: "How to Use Aurora with Razer Devices"
+searchTitle: "How to Use Aurora with Steelseries Devices"
 title: SteelSeries
 description:
-  Using Aurora with SteelSeries Devices
+  Aurora can be used with SteelSeries Devices. This page explains how to set it up.
 authors:
   - th3an7
 ---
