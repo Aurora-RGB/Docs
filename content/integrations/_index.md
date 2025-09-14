@@ -10,6 +10,7 @@ See their pages to see how they are configured.
 
 ## Game Integrations Aurora Supports
 - [Chroma]({{< relref "/integrations/chroma.md" >}})
+- [iCUE]({{< relref "/integrations/icue/index.md" >}})
 - [Lightsync]({{< relref "/integrations/lightsync.md" >}})
 - [LightFX]({{< relref "/integrations/lightfx.md" >}})
 
