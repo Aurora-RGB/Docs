@@ -31,12 +31,17 @@ Please let us know if there are more games supporting SDK mode.
 ## Game State Mode
 In Game State mode, the game sends **state** and **event** information to the iCUE service.
 
-Aurora intercepts these and the **state** information can be used in overrides with **iCUE** functions.
-**Events** are not yet supported. Animations will have iCUE events as triggers in the future.
+Aurora intercepts these and the **state** and **event** information can be used in [layer overrides]({{< relref "/advanced-topics/overrides-system.md" >}}) with **iCUE functions**.
+Animation Layer will have iCUE events as triggers in the future.
 
-This mode requires new profiles for each game, which is a lot of work. Currently we don't have a profile for any game.
+This mode requires new profiles for each game, which is a lot of work.
 Help us by creating profiles for your favorite games
 and share it in our [Discord](https://discord.gg/YAuBmg9) and we can add it as a default profile!
+
+### Currently Supported Games
+- Call of Duty: Black Ops 6
+- Call of Duty: Black Ops 7
+- Ghostrunner
 
 You can find a game's state and event information from iCUE's files in:
 
