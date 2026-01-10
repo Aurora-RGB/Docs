@@ -22,8 +22,9 @@ In SDK mode, iCUE service sends available device information to the game.
 The game then sends lighting effects to the iCUE service.
 A special profile with iCUE Layer is enabled in Aurora once a game is connected with SDK mode.
 
-### Supported Games
+### Supported Games/Software
 - Diablo IV
+- Wallpaper Engine
 
 Please let us know if there are more games supporting SDK mode.
 
@@ -36,6 +37,10 @@ Aurora intercepts these and the **state** information can be used in overrides w
 This mode requires new profiles for each game, which is a lot of work. Currently we don't have a profile for any game.
 Help us by creating profiles for your favorite games
 and share it in our [Discord](https://discord.gg/YAuBmg9) and we can add it as a default profile!
+
+You can find a game's state and event information from iCUE's files in:
+
+`C:\ProgramData\Corsair\CUE5\GameSDKEffects`
 
 ### Supported Games
 - AgainstTheStorm
