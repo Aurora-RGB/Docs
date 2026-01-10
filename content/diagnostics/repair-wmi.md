@@ -7,7 +7,7 @@ authors:
   - Aytackydln
 ---
 
-If this page opened automatically for you, you need to take action to repair your Windows.
+{{% alert "If this page opened automatically for you, you need to take action to repair your Windows." "warning" %}}
 
 AuroraRGB, and possibly other software, needs Win32_Process class in WMI to work properly.
 Here you can follow the steps to fix it.
