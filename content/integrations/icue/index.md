@@ -50,7 +50,6 @@ In case you would like to create a profile, you can find a game's state and even
 ### iCUE GSI Supported Games
 - AgainstTheStorm
 - BeyondContact
-- BlackOps6
 - BlairWitch
 - Breakpoint
 - Chernobylite
@@ -64,7 +63,6 @@ In case you would like to create a profile, you can find a game's state and even
 - Flintlock
 - FreshlyFrosted
 - Gamedec
-- Ghostrunner
 - GridForce
 - HelloNeighbor2
 - Hyperscape
