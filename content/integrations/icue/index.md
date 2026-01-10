@@ -38,16 +38,16 @@ This mode requires new profiles for each game, which is a lot of work.
 Help us by creating profiles for your favorite games
 and share it in our [Discord](https://discord.gg/YAuBmg9) and we can add it as a default profile!
 
-### Currently Supported Games
+### Implemented Profiles
 - Call of Duty: Black Ops 6
 - Call of Duty: Black Ops 7
 - Ghostrunner
 
-You can find a game's state and event information from iCUE's files in:
+In case you would like to create a profile, you can find a game's state and event information from iCUE's files in:
 
 `C:\ProgramData\Corsair\CUE5\GameSDKEffects`
 
-### Supported Games
+### iCUE GSI Supported Games
 - AgainstTheStorm
 - BeyondContact
 - BlackOps6
