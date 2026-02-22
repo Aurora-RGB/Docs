@@ -10,7 +10,7 @@ They are mainly used for developers to easily integrate Aurora with applications
 
 ## Updating Values
 
-Variables can by updated by **POST**ing a **JSON** object to http://localhost:9088/variables
+Variables can be updated by **POST**ing a **JSON** object to http://localhost:9088/variables
 
 ```json
 {
