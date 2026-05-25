@@ -11,7 +11,7 @@
 {{ else }}
     <meta property="og:title" content="{{ default $.Site.Title .Title }} •{{ if .Section }}{{ printf " %s •" .Section }}{{ end }} Aurora Docs">
 {{ end }}
-<meta property="og:image" content="https://www.project-aurora.com/images/card.webp">
+<meta property="og:image" content="https://project-aurora.com/images/card.webp">
 <meta property="og:locale" content="en_US" />
 {{ with .OutputFormats.Get "rss" }}
     {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}

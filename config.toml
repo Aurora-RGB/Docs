@@ -1,5 +1,5 @@
-baseURL = "https://www.project-aurora.com/Docs/"
-authority = "www.project-aurora.com/Docs/"
+baseURL = "https://project-aurora.com/Docs/"
+authority = "project-aurora.com/Docs/"
 languageCode = "en-US"
 title = "Aurora User Docs"
 theme = "aurora"
