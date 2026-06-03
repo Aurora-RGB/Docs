@@ -12,6 +12,7 @@ authors:
 - Dota 2
 - League of Legends
 - OBS Studio (Recording/Streaming status)
+- Rocket League
 - [Chroma enabled games]({{< relref "/integrations/chroma.md" >}})
 - [Lightsync enabled games]({{< relref "/integrations/lightsync.md" >}})
 - [LightFX enabled games]({{< relref "/integrations/lightfx.md" >}})
@@ -22,6 +23,5 @@ authors:
 - OSU
 - Witcher 3
 - Terraria
-- Rocket League
 
 See [Wiki](https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices) for details, as some models can be incompatible.
