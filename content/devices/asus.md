@@ -13,7 +13,8 @@ You can use Aurora profiles and brand specific integrations (like Chroma and Lig
 ## Required Software
 One of:
 
-* Asus Aura Sync 1.01.79_V2.1 or later - [Download from Asus](https://www.asus.com/campaign/aura/us/download.html)
+* Asus Aura Sync 1.01.79_V2.1 or later -
+[https://dlcdnets.asus.com/pub/ASUS/mb/14Utilities/Lighting_Control_1.07.84_v2.zip](https://dlcdnets.asus.com/pub/ASUS/mb/14Utilities/Lighting_Control_1.07.84_v2.zip)
 * Asus Armory Crate
 * OpenRGB
 
