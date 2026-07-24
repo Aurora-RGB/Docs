@@ -1,6 +1,6 @@
 baseURL = "https://project-aurora.com/Docs/"
 authority = "project-aurora.com/Docs/"
-languageCode = "en-US"
+defaultContentLanguage = "en"
 title = "Aurora User Docs"
 theme = "aurora"
 disableKinds = ["taxonomy"]
