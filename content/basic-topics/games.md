@@ -16,6 +16,7 @@ authors:
 - [Chroma enabled games]({{< relref "/integrations/chroma.md" >}})
 - [Lightsync enabled games]({{< relref "/integrations/lightsync.md" >}})
 - [LightFX enabled games]({{< relref "/integrations/lightfx.md" >}})
+- [iCUE enabled games (some require profiles)]({{< relref "/integrations/icue.md" >}})
 
 ## Aurora supports these games/softwares via mods:
 - Discord (via BetterDiscord)
