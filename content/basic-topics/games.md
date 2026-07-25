@@ -24,5 +24,3 @@ authors:
 - OSU
 - Witcher 3
 - Terraria
-
-See [Wiki](https://github.com/Aurora-RGB/Aurora/wiki/Supported-Devices) for details, as some models can be incompatible.
